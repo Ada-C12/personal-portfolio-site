@@ -22,6 +22,10 @@ nav a {
   width: 8rem;
 }
 
+nav a::before {
+  content: "/"
+}
+
 nav a:nth-child(2) {
   margin-left: auto;
 }
