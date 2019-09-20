@@ -13,12 +13,12 @@
   - [x] put wireframe images into `wireframes/` folder
   - [ ] add a placeholder image or images
 - [ ] write the HTML
-  - [ ] index.html
+  - [x] index.html
   - [ ] about.html
   - [ ] portfolio.html
   - [ ] code-journal.html
-- [ ] Add normalize.css
-    - [ ] link: https://necolas.github.io/normalize.css/, click the red download button, copy and paste the code into a new file called normalize.css.
+- [x] Add normalize.css
+    - [x] link: https://necolas.github.io/normalize.css/, click the red download button, copy and paste the code into a new file called normalize.css.
 
 #### Wave 2: Basic CSS
 - [ ] write the CSS for each page, with the simplest formatting possible (no padding, no margins or spacing or anything, just basic positioning, any use of flexbox or grid necessary, etc).
