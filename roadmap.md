@@ -9,7 +9,7 @@
 - [x] make `.html` pages for each page
 - [ ] make a `stylesheets/` folder
 - [ ] make an `images/` folder
-- [ ] create a `wireframes/` folder
+- [x] create a `wireframes/` folder
   - [ ] put wireframe images into `wireframes/` folder
   - [ ] add a placeholder image or images
 - [ ] write the HTML
