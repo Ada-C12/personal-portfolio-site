@@ -21,14 +21,14 @@
     - [x] link: https://necolas.github.io/normalize.css/, click the red download button, copy and paste the code into a new file called normalize.css.
 
 #### Wave 2: Basic CSS
-- [ ] write the CSS for each page, with the simplest formatting possible (no padding, no margins or spacing or anything, just basic positioning, any use of flexbox or grid necessary, etc).
-  - [ ] index.css
+- [ ] write the CSS for each page, with the simplest formatting possible (no padding, no margins or spacing or anything, just basic positioning, fonts, any use of flexbox or grid necessary, etc).
+  - [x] index.css
   - [ ] about.css
   - [ ] portfolio.css
   - [ ] code-journal.css
 
 #### Wave 3: Second-Run-Through of CSS
-- [ ] for each page's CSS, add fonts, colors, backgrounds, pseudo-selectors. 
+- [ ] for each page's CSS, add colors, backgrounds, pseudo-selectors. 
   - [ ] index.css
   - [ ] about.css
   - [ ] portfolio.css
