@@ -6,7 +6,7 @@
   - [x] about.html
   - [x] portfolio.html
   - [x] code-journal.html
-- [ ] make `.html` pages for each page
+- [x] make `.html` pages for each page
 - [ ] make a `stylesheets/` folder
 - [ ] make an `images/` folder
 - [ ] create a `wireframes/` folder
