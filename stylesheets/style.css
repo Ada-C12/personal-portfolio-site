@@ -1,5 +1,29 @@
-.anchor {
+/* style.css */
+
+a {
   text-decoration: none;
+  color: inherit;
+}
+
+
+/* NAV */
+
+nav {
+  height: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+nav a {
+  width: 8rem;
+}
+
+nav a:nth-child(2) {
+  margin-left: auto;
 }
 
 .anchor img {
