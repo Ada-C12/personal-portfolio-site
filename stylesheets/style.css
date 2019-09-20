@@ -26,6 +26,23 @@ nav a:nth-child(2) {
   margin-left: auto;
 }
 
+
+/* SPLASH */
+
+.splash {
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+}
+
+.splash h1 {
+  width: 20rem;
+  margin: auto;
+  margin-top: 30vh;
+  border-bottom: 0.04em solid black;
+}
+
+
 .anchor img {
   height: 3rem;
 }
