@@ -1,5 +1,38 @@
 /* portfolio.css */
 
+/* keyframes code */
+@keyframes fadeIn {
+  /* start at transparent */
+  from { opacity: 0; }
+  /* end at opaque */
+  to { opacity: 1; }
+}
+
+main {
+  position: relative;
+  margin: 0;
+}
+
+/* source: https://www.quora.com/How-can-I-draw-a-vertical-line-in-HTML5-and-CSS */
+main::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 95%;
+  margin-left: 0;
+
+  z-index: -1;
+
+  width: 1rem;
+  border: 0.08rem solid black;
+  /* background: gray; */
+}
+
+body > * {
+  background-color: white;
+}
+
 main {
   width: 90vw;
   margin: auto;
@@ -10,7 +43,7 @@ main {
 
 .splash {
   text-align: right;
-  height: 40vh;
+  height: 20vh;
 }
 
 .splash h1 {
@@ -18,28 +51,25 @@ main {
   margin-right: 0;
   padding-bottom: 3rem;
   width: 100%;
-  margin-top: 20vh;
+  margin-top: 0;
+  padding-top: 10vh;
 }
 
 
 /* PROJECTS CONTAINER */
 
 .projects-container {
-  border: 1px solid orange;
-  margin-bottom: 4rem;
+  margin-top: 8rem;
+  padding-bottom: 2rem;
 }
 
 
 /* PROJECTS */
 
 article {
-  border: 1px solid blue;
+  margin: 5rem 0 5rem 0;
   display: flex;
   flex-direction: column;
-}
-
-article > * {
-  border: 1px solid yellowgreen;
 }
 
 
@@ -49,8 +79,26 @@ article label {
   justify-content: flex-start;
 }
 
+article label h2::before {
+  content: '';
+  display: inline-block;
+  border-top: 0.08rem solid black;
+  border-bottom: 0.08rem solid black;
+  border-right: 0.08rem solid black;
+  border-radius: 0 2rem 2rem 0;
+  height: 0.6rem;
+  width: 4rem;
+  margin-left: 0;
+  margin-right: 1em;
+}
+
 article label img {
   margin-left: auto;
+  height: 2.5rem;
+  border: 0.08rem solid black;
+  border-radius: 50%;
+  float: right;
+  cursor: pointer;
 }
 
 /* "checkbox hack" info from: https://css-tricks.com/the-checkbox-hack/
@@ -59,12 +107,6 @@ and Teneff's response to the thread: https://stackoverflow.com/questions/4034495
 input[type=checkbox] {
   position: absolute;
   display: none;
-}
-
-article label img {
-  height: 3rem;
-  float: right;
-  cursor: pointer;
 }
 
 /* Default State */
@@ -101,12 +143,19 @@ input[type=checkbox]:checked ~ label > img {
 }
 
 input[type=checkbox]:checked ~ div {
+  /* 1.5s => fade in should last 1.5 seconds */
+  /* ease-in => gradually transition */
+  /* 0s => don't delay running the code */
+  /* 1 => only run the code once */
+  animation: 1.5s ease-in 0s 1 fadeIn;
+
   display: grid;
 }
 
 
 .body-container {
   margin-top: 2rem;
+  margin-left: 4.5rem;
   display: grid;
   grid-template-columns: 80% 20%;
 }
@@ -117,7 +166,6 @@ input[type=checkbox]:checked ~ div {
 }
 
 .content > img {
-  border: 1px solid pink;
   float: left;
   margin-right: 2rem;
   margin-bottom: 2rem;
