@@ -16,6 +16,10 @@
   padding-right: 60px;
 }
 
+#sticky a {
+  text-decoration: none;
+}
+
 
 #splash-section {
   display: flex;
