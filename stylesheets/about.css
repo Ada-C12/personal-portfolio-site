@@ -107,7 +107,6 @@ p.first-line {
   border-top: 0.07rem solid black;
   border-bottom: 0.07rem solid black;
   margin-top: 5rem;
-  margin-bottom: 5rem;
   padding: 1.2rem 0 2rem 0;
   display: flex;
   flex-flow: row wrap;
@@ -130,4 +129,32 @@ p.first-line {
 
 .skills > div img {
   height: 3.8rem;
+}
+
+
+/* DETAILS */
+
+.details-container {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+  margin: 3rem 4rem 2rem 4rem;
+}
+
+.details-container > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.details-container > section > section {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  align-items: center;
+}
+
+.details-container > section > section * {
+  padding: 1rem;
 }
