@@ -8,6 +8,7 @@ img {
 /* SPLASH */
 
 .splash {
+  border: 1px solid blue;
   height: 36vh;
   margin: auto;
   margin-top: 4rem;
