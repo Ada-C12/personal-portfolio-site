@@ -10,10 +10,12 @@ img {
 .splash {
   height: 36vh;
   margin: auto;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   min-width: 700px;
 }
+
 #rule {
   padding: 0;
   width: 0;
@@ -96,4 +98,36 @@ h1.first-line {
 
 p.first-line {
   padding-top: 2.5rem;
+}
+
+
+/* SKILLS */
+
+.skills {
+  border-top: 0.07rem solid black;
+  border-bottom: 0.07rem solid black;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 1.2rem 0 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.skills > div {
+  padding: 0 2rem 0 2rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills > div *:last-child {
+  font-size: 3rem;
+  align-self: center;
+}
+
+.skills > div img {
+  height: 3.8rem;
 }
