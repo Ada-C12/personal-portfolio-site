@@ -43,18 +43,36 @@ article > * {
 }
 
 
-.intro-container {
+article label {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.open-close {
+article label img {
   margin-left: auto;
 }
 
-.open-close img {
+/* "checkbox hack" info from: https://css-tricks.com/the-checkbox-hack/ */
+input[type=checkbox] {
+  position: absolute;
+  display: none;
+}
+
+article label img {
   height: 3rem;
+  float: right;
+  cursor: pointer;
+}
+
+/* Default State */
+input[type=checkbox]:checked + div {
+  display: none;
+}
+
+/* Toggled State */
+input[type=checkbox]:checked + div {
+  background: visible;
 }
 
 
