@@ -53,7 +53,9 @@ article label img {
   margin-left: auto;
 }
 
-/* "checkbox hack" info from: https://css-tricks.com/the-checkbox-hack/ */
+/* "checkbox hack" info from: https://css-tricks.com/the-checkbox-hack/
+and Teneff's response to the thread: https://stackoverflow.com/questions/40344958/css-show-element-by-clicking-button */
+
 input[type=checkbox] {
   position: absolute;
   display: none;
@@ -66,13 +68,40 @@ article label img {
 }
 
 /* Default State */
-input[type=checkbox]:checked + div {
+/* transform rotate syntax from: https://www.w3schools.com/css/css3_2dtransforms.asp */
+input[type=checkbox] ~ label > img {
+  transition: transform 0.6s;
+
+  /* IE 9 */
+  -ms-transform: rotate(45deg);
+  /* Safari prior 9.0 */
+  -webkit-transform: rotate(45deg);
+  /* Standard */
+  transform: rotate(45deg);
+}
+
+input[type=checkbox] ~ div {
   display: none;
 }
 
 /* Toggled State */
-input[type=checkbox]:checked + div {
-  background: visible;
+/* transform rotate syntax from: https://www.w3schools.com/css/css3_2dtransforms.asp */
+input[type=checkbox]:checked ~ label > img {
+  /* IE 9 */
+  -ms-transform: rotate(90deg);
+  /* Safari prior 9.0 */
+  -webkit-transform: rotate(90deg);
+  /* Standard */
+  transition: transform 0.6s;
+
+  /* Safari */
+  -webkit-transform: rotate(180deg);
+  /* Standard */
+  transform: rotate(180deg);
+}
+
+input[type=checkbox]:checked ~ div {
+  display: grid;
 }
 
 
