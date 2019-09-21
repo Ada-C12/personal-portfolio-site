@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  grid-template:auto 1fr auto / repeat(4, 25%);
+  font-family: 'Inconsolata', monospace;
+  padding-left: 5vw;
+  height: 100%
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav {
+  display: inline;
+  grid: 1;
+  height: 100%;
+  width: 23vw; 
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color:white;
+  overflow-x: hidden; 
+  padding-top: 20vw;
+  padding-left: 2vw;
+  background-color: rgb(242, 248, 250);
+}
+
+nav h2{
+  font-size: 4vw;
+}
+nav a {
+  text-decoration: none;
+  font-size: 2.3vw;
+  color: #818181;
+  display: block;
+  margin: 0;
+}
+
+nav a:hover {
+  color: #f1f1f1;
+}
+
+nav img {
+  padding-top: 1.5vh;
+}
