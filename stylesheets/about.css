@@ -1,0 +1,99 @@
+img {
+  height: 3rem;
+}
+
+/* about.css */
+
+
+/* SPLASH */
+
+.splash {
+  height: 36vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  min-width: 700px;
+}
+#rule {
+  padding: 0;
+  width: 0;
+  height: 36vh;
+  margin: 0;
+  border: 0.02rem solid black;
+  transform: rotate(28deg);
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.intro {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-right: 5vw;
+}
+
+.bio {
+  text-align: left;
+  grid-column-start: 6;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-left: 5vw;
+}
+
+.splash h1 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-bottom: none;
+  text-align: right;
+
+  font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
+  font-size: 3em;
+  line-height: 5rem;
+}
+
+.bio h1 {
+  text-align: left;
+}
+
+.splash p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  line-height: 2.3rem;
+}
+
+.intro:before {
+  content: '';
+  width: 0;
+    height: 0;
+    border-bottom: 36vh solid transparent;
+    border-left: 20vh solid transparent;
+    opacity: 0.5;
+  float: right;
+  shape-outside: polygon(100% 100%, 100% 0, 0 100%);
+}
+
+.bio:before {
+  content: '';
+  width: 0;
+    height: 0;
+    border-bottom: 36vh solid transparent;
+    border-left: 20vh solid transparent;
+    opacity: 0.5;
+  float: left;
+  shape-outside: polygon(0 0, 0 100%, 100% 0);
+}
+
+h1.first-line {
+  padding-top: 3rem;
+}
+
+p.first-line {
+  padding-top: 2.5rem;
+}
