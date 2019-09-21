@@ -20,6 +20,9 @@
   text-decoration: none;
 }
 
+#sticky a:hover {
+  color: green;
+}
 
 #splash-section {
   display: flex;
