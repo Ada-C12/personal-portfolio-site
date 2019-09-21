@@ -6,6 +6,9 @@
   justify-content: center;
   background-color: lightblue;
   border: 2px solid white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #sticky li {
@@ -35,4 +38,8 @@
   font-size: 3rem;
   letter-spacing: 20px;
   background-color: lavenderblush;
+}
+
+#splash-section sub {
+  font-size: 1.5rem;
 }
