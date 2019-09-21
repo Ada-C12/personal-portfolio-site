@@ -1,14 +1,8 @@
-img {
-  height: 3rem;
-}
-
 /* about.css */
-
 
 /* SPLASH */
 
 .splash {
-  border: 1px solid blue;
   height: 36vh;
   margin: auto;
   margin-top: 4rem;
@@ -103,6 +97,10 @@ p.first-line {
 
 
 /* SKILLS */
+
+img {
+  height: 3rem;
+}
 
 .skills {
   border-top: 0.07rem solid black;
