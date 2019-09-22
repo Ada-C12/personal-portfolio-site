@@ -1,0 +1,41 @@
+#sticky {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffe9ec;
+  border: 2px solid white;
+  position: fixed;
+  top: 0;
+  width: 98.7%;
+}
+
+#sticky li {
+  display: inline;
+  padding-right: 60px;
+}
+
+#sticky a {
+  text-decoration: none;
+}
+
+#sticky a:hover {
+  color: green;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rosybrown
+}
+
+.projects img {
+  float: left;
+  width: 50%;
+  height: auto
+}
+
+.project-container {
+  padding-top: 10%;
+  border: 2px solid black;
+}
