@@ -7,6 +7,10 @@ body * {
   list-style-type: none;
 }
 
+h1 {
+  margin-top: 1em;
+}
+
 a:link {
   color: black;
 }
