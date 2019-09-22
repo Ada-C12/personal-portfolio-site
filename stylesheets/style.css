@@ -1,5 +1,15 @@
 /* style.css */
 
+/* keyframes code */
+@keyframes drawUnderline {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 /* source: https://css-tricks.com/having-fun-with-link-hover-effects/ */
 a {
   color: inherit;
@@ -25,6 +35,11 @@ footer a, main a {
 
 footer a:hover, main a:hover {
   background-size: 1em 1.2em;
+}
+
+footer a:active, main a:active {
+  transform: translate(0.1em, 0.1em);
+  text-shadow: 5px 3px #84e3e3;
 }
 
 nav, footer {
@@ -64,11 +79,10 @@ nav a:nth-child(2) {
 }
 
 
-/* draw-line-across effect based on: https://codepen.io/tsimenis/pen/BKdENX */
-
-nav span {
+nav a {
   /* makes the line relative to the span, not the whole page */
   position: relative;
+  text-decoration: none;
 }
 
 nav a:active {
@@ -76,40 +90,22 @@ nav a:active {
   text-shadow: 5px 3px #84e3e3;
 }
 
-nav span:before, nav span:after {
+/* based on: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+nav a:before {
   content: "";
   position: absolute;
-  width: 0%;
+  width: 100%;
   height: 0.5rem;
-  top: 40%;
   z-index: -1;
-}
-
-nav span:before {
-  /* makes the line start off the left edge */
-  left: 0rem;
-  margin-left: -0.5rem;
-  transition: width 0.5s;
-}
-
-nav span:after {
-  right: 0rem;
+  top: 40%;
+  left: 0;
   background-color: #99FFFF;
-  transition: width 0.5s;
+  visibility: hidden;
 }
 
-/* create a colored bar across an element when hovering */
-nav span:hover:before {
-  background-color: #99FFFF;
-  width: 110%;
-  transition: width 0.5s;
-}
-
-/* create a transparent bar across an element when hovering */
-nav span:hover:after {
-  background-color: transparent;
-  width: 110%;
-  transition: width 0.5s;
+nav a:hover:before {
+  visibility: visible;
+  animation: 0.5s ease-in-out 0s 1 drawUnderline;
 }
 
 
@@ -159,11 +155,17 @@ footer {
 .anchor {
   margin-left: auto;
   margin-right: 1em;
+  background: transparent;
 }
 
 .anchor img {
   height: 3rem;
   margin-bottom: 0.5em;
+}
+
+.anchor img:hover {
+  background-color: rgba(153, 255, 255, 0.9);
+  border-radius: 50%;
 }
 
 footer aside {
