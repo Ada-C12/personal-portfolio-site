@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
-* {
+body {
   /* font-family: 'Josefin Slab', serif; */
   font-family: 'Special Elite', cursive;
+  text-align: center;
 }
 
 .nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: lightgray;
-  margin: 0;
-  height: 7vh;
+  background-color: silver;
+  height: 6vh;
   font-size: x-large;
+  margin: 0
 }
 
 ul {
@@ -23,15 +24,11 @@ ul {
 .top-photo {
   /* display: flex; */
   position: relative;
+  font-size: 0
 }
 
 #globe {
   width: 100%
-}
-
-.top-text {
-  position: absolute;
-  font-size: 5em;
 }
 
 #hello-world {
@@ -39,7 +36,6 @@ ul {
   top: 1vh;
   left: 12vh;
   font-size: 8vh;
-  /* font-size: 5em; */
 }
 
 #dianna {
@@ -47,5 +43,33 @@ ul {
   bottom: 1vh;
   right: 12vh;
   font-size: 8vh;
-  /* font-size: 5em; */
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+
+.bottom-photos {
+
+}
+
+.buttons > li {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons > li img {
+  border: 1px solid silver;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  border-width: 10px;
+  margin-bottom: 1em;
+}
+
+footer {
+  margin: 5vh;
 }
