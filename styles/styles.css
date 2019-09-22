@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps&display=swap');
 
+body {
+  background-image: linear-gradient(peachpuff, white);
+}
+
 #sticky {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: lightblue;
+  background-color: mistyrose;
   border: 2px solid white;
   position: fixed;
   top: 0;
@@ -33,7 +37,7 @@
   justify-content: center;
   border: 2px solid white;
   
-  background-image: url("../images/clouds.jpg");
+  background-image: url("../images/blank-composition-data-373076.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -44,7 +48,8 @@
   font-family: "Delius Swash Caps";
   font-size: 3rem;
   letter-spacing: 20px;
-  background-color: lavenderblush;
+  background-color: papayawhip;
+  border: 1px solid black;
 }
 
 #splash-section sub {
