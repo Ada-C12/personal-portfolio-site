@@ -1,0 +1,45 @@
+.top-photo {
+  position: relative;
+  font-size: 0
+}
+
+#globe {
+  width: 100%
+}
+
+#hello-world {
+  position: absolute;
+  top: 2vmin;
+  left: 15vmin;
+  font-size: 6vmin;
+}
+
+#dianna {
+  position: absolute;
+  bottom: 2vmin;
+  right: 15vmin;
+  font-size: 6vmin;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5vmin;
+}
+
+.buttons > li {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vmin;
+}
+
+.buttons > li img {
+  border: 1px solid silver;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  border-width: 10px;
+  margin-bottom: 1vmin;
+}

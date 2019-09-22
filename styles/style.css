@@ -1,75 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
-body {
-  /* font-family: 'Josefin Slab', serif; */
+body * {
   font-family: 'Special Elite', cursive;
   text-align: center;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-color: silver;
-  height: 6vh;
-  font-size: x-large;
+  height: 6vmin;
+  font-size: 2.5vmin;
   margin: 0
 }
 
-ul {
-  list-style-type: none
-}
-
-.top-photo {
-  /* display: flex; */
-  position: relative;
-  font-size: 0
-}
-
-#globe {
-  width: 100%
-}
-
-#hello-world {
-  position: absolute;
-  top: 1vh;
-  left: 12vh;
-  font-size: 8vh;
-}
-
-#dianna {
-  position: absolute;
-  bottom: 1vh;
-  right: 12vh;
-  font-size: 8vh;
-}
-
-.buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 5vh;
-}
-
-.bottom-photos {
-
-}
-
-.buttons > li {
-  display: flex;
-  flex-direction: column;
-}
-
-.buttons > li img {
-  border: 1px solid silver;
-  width: 15em;
-  height: 15em;
-  border-radius: 50%;
-  border-width: 10px;
-  margin-bottom: 1em;
-}
-
 footer {
-  margin: 5vh;
+  margin: 5vmin;
 }
