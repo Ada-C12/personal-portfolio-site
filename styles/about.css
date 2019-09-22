@@ -5,13 +5,48 @@
 }
 
 #profile-text {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
   text-align: justify;
   margin-right: 5vmin;
   font-size: 2vmin;
 }
 
+#profile-text p {
+  text-align: justify;
+}
+
+#ada-link {
+  text-decoration: underline
+}
+#linkedin {
+  border-style: solid;
+  border-color: gray;
+  background-color: silver;
+
+  border-width: .5vmin;
+  border-radius: 2vmin;
+  padding: 1.5vmin;
+  margin-top: 2vmin;
+  margin-left: 20vmin;
+  margin-right: 20vmin;
+}
+
+#profile-picture {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vmin;
+}
+
 
 #computer {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1vmin;
+}
+
+#living-computers-link {
+  text-decoration: underline
 }

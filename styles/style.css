@@ -7,6 +7,18 @@ body * {
   list-style-type: none;
 }
 
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: green;
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
