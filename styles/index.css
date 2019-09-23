@@ -1,4 +1,5 @@
 .top-photo {
+  margin-top: 5vmin;
   position: relative;
   font-size: 0
 }
@@ -52,13 +53,14 @@
 /* Image Hover Overlay Tutorial https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .overlay {
   position: absolute;
-  padding: 1px;
+  padding: .3px;
   height: 25vmin;
   width: 25vmin;
   border-radius: 50%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #257349;
+  background-color: silver;
+  /* background-color: #257349; */
   margin-top: 1vmin;
   margin-left: 1vmin;
   /* font-size: 5vmin; */
