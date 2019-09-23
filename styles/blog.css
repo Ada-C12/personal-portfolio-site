@@ -36,9 +36,11 @@ img {
   margin-top: 5vmin;
 }
 
-div.review-text {
-  /* margin-top: 0; */
+.category {
+  text-align: left;
+  margin-bottom: 1vmin;
 }
+
 
 .review-text > * {
   /* display: flex; */
@@ -52,3 +54,4 @@ h2 {
   text-align: left;
   margin-top: 0
 }
+
