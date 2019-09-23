@@ -54,11 +54,10 @@ h3 {
   text-align: center;
 }
 
-.crappy-poem {
-  font-style: italic;
-  margin-bottom: 2em;
-}
 
+.real-talk {
+  margin-top: 5em;
+}
 
 footer > * {
   font-family: 'VT323', monospace;
@@ -67,4 +66,24 @@ footer > * {
 
 footer a img {
   height: 3em;
+}
+
+.edu-table {
+  border: 3px solid black;
+  width: 100%;
+  background-color: #a6a6a8;
+}
+
+.edu-table > * {
+  margin: 1.5em;
+}
+
+.github-grid {
+  display: grid;
+  background-color: yellow;
+  grid-template-columns: 1fr 1fr 4fr;
+}
+
+.github-grid-header {
+  background-color: red;
 }
