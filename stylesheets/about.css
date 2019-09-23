@@ -165,24 +165,40 @@ img {
 }
 
 .details-container > section {
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+}
+
+.details-container > section > h2 {
+  text-align: right;
+  margin-right: 4em;
+  font-weight: normal;
+  font-style: italic;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.content {
+  grid-row-start: 2;
+  grid-row-end: 3;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.details-container > section > section {
+.content > div {
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 4.5fr;
   align-items: center;
 }
 
-.details-container > section > section * {
+.content > div * {
   padding: 1rem;
 }
 
-.details-container > section > section p {
-  /* background-color: #cfffff; */
+.content > div p {
   background-image: linear-gradient(45deg, #ffd9df , #cfffff);
   border-radius: 2rem;
 }
