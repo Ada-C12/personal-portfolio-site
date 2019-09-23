@@ -79,6 +79,11 @@ article {
   flex-direction: column;
 }
 
+article h2 {
+  /* keep from appearing on the webpage */
+  /* the label will be the h2 for visual users */
+  display: none;
+}
 
 article label {
   display: flex;
