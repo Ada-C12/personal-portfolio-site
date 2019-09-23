@@ -52,7 +52,20 @@
 .overlay a:hover {
   color: white;
 }
-
+#startrly:hover .overlay, 
+#slack:hover .overlay, 
+#hotel:hover .overlay, 
+#ride-share:hover .overlay, 
+#grocery-store:hover .overlay, 
+#adagrams:hover .overlay, 
+#mashup:hover .overlay, 
+#calculator:hover .overlay, 
+#furniture-store:hover .overlay, 
+#mailroom:hover .overlay, 
+#twitter-bot:hover .overlay, 
+#horoscope:hover .overlay, 
+#library:hover .overlay, 
+#state-capitals:hover .overlay, 
 #football:hover .overlay {
   opacity: 1;
 }
