@@ -1,11 +1,70 @@
-
-/* This sets up the border-box for everything on page */
 html {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgb(223, 143, 164);
+
   box-sizing: border-box;
-  /* Following 2 lines are for backwards compat */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.top-n-bottom {
+  display: flex;
+  padding: 1em;
+  margin: 0px;
+  background-color: rgb(40, 46, 114);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  margin: 0.6em 1em;  
+}
+.nav-flex a {
+  text-decoration: none;
+  color:#a6a6a8;
+  font-weight: bold;
+  font-size: 2em;
+  align-items: center;  
+}
+
+.center-panel {
+  margin-top: 7em;
+  margin-bottom: 7em;
+  text-align: center;
+}
+
+.rounded-pic {
+  border-radius: 40%;
+  border: 20px solid #1F2041;
+}
+
+
+h1 {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 5em;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Fascinate Inline', cursive; 
+  font-size: 2em;
+  text-align: center;
+}
+
+.crappy-poem {
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+
+footer > * {
+  font-family: 'VT323', monospace;
+  justify-content: center;
+}
+
+footer a img {
+  height: 3em;
 }
