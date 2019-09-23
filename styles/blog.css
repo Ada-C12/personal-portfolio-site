@@ -7,8 +7,10 @@ a {
 }
 
 img {
-  width: min-content;
-  height: min-content;
+  /* width: min-content; */
+  /* height: min-content; */
+  width: 40vmin;
+  height: 40vmin;
   margin-top: 5vmin;
 }
 
@@ -25,6 +27,7 @@ img {
   display: flex;
   border-top: 2px solid black;
   /* margin-top: 5vmin; */
+  margin-bottom: 5vmin;
 }
 
 .review-photo {
@@ -36,11 +39,9 @@ img {
   margin-top: 5vmin;
 }
 
-.category {
-  text-align: left;
-  margin-bottom: 1vmin;
+.review-text header {
+  font-weight: bold
 }
-
 
 .review-text > * {
   /* display: flex; */
@@ -50,7 +51,7 @@ img {
 }
 
 h2 {
-  font-size: 2vmin;
+  font-size: 1.5vw;
   text-align: left;
   margin-top: 0
 }
