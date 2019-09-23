@@ -1,0 +1,54 @@
+a:hover {
+  color: green;
+}
+
+a {
+  text-decoration: underline
+}
+
+img {
+  width: min-content;
+  height: min-content;
+  margin-top: 5vmin;
+}
+
+.all-posts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap */
+}
+
+.post {
+  display: flex;
+  border-top: 2px solid black;
+  /* margin-top: 5vmin; */
+}
+
+.review-photo {
+  display: flex;
+  /* margin-top: 5vmin; */
+}
+
+.review-text {
+  margin-top: 5vmin;
+}
+
+div.review-text {
+  /* margin-top: 0; */
+}
+
+.review-text > * {
+  /* display: flex; */
+  text-align: left;
+  margin-left: 3vmin;
+  /* margin-top: 0 */
+}
+
+h2 {
+  font-size: 2vmin;
+  text-align: left;
+  margin-top: 0
+}
