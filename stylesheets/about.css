@@ -11,6 +11,10 @@
   min-width: 700px;
 }
 
+.splash span {
+  display: block;
+}
+
 #rule {
   padding: 0;
   width: 0;
@@ -87,8 +91,8 @@
   shape-outside: polygon(0 0, 0 100%, 100% 0);
 }
 
-h1.first-line {
-  padding-top: 3rem;
+span.first-line {
+  padding-top: 2.5rem;
 }
 
 p.first-line {
