@@ -161,7 +161,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 4rem;
-  margin: 3rem 4rem 2rem 4rem;
+  margin: 3rem 4rem 3rem 4rem;
 }
 
 .details-container > section {
