@@ -17,7 +17,7 @@
   text-align: justify;
 }
 
-#ada-link {
+#ada-link, #yelp-link, #living-computers-link {
   text-decoration: underline;
 }
 
@@ -25,7 +25,6 @@
   border-style: solid;
   border-color: gray;
   background-color: silver;
-
   border-width: .5vmin;
   border-radius: 2vmin;
   padding: 1.5vmin;
@@ -47,10 +46,6 @@
   margin-bottom: 1vmin;
 }
 
-#living-computers-link {
-  text-decoration: underline
-}
-
-#ada-link:hover, #living-computers-link:hover {
+#ada-link:hover, #yelp-link:hover, #living-computers-link:hover{
   color: green;
 }

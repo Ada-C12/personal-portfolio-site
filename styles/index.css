@@ -31,17 +31,12 @@
 }
 
 .buttons > li {
-  /* position: relative; */
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   font-size: 2vmin;
 }
 
 .buttons > li img {
-  /* display: block; */
-  /* width: 100%; */
-  /* height: auto; */
   border: 1px solid silver;
   width: 25vmin;
   height: 25vmin;
@@ -53,31 +48,18 @@
 /* Image Hover Overlay Tutorial https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .overlay {
   position: absolute;
-  padding: .3px;
-  height: 25vmin;
-  width: 25vmin;
+  height: 27vmin;
+  width: 27vmin;
   border-radius: 50%;
   opacity: 0;
   transition: .5s ease;
   background-color: silver;
-  /* background-color: #257349; */
-  margin-top: 1vmin;
-  margin-left: 1vmin;
-  /* font-size: 5vmin; */
 }
 
 .overlay a:hover {
   color: white;
 }
-#about:hover .overlay {
-  opacity: 1;
-}
-
-#portfolio:hover .overlay {
-  opacity: 1;
-}
-
-#blog:hover .overlay {
+#about:hover .overlay , #portfolio:hover .overlay, #blog:hover .overlay {
   opacity: 1;
 }
 
