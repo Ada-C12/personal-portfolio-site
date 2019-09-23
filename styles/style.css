@@ -23,7 +23,7 @@ ul {
 }
 
 nav {
-  padding: 2px;
+  padding: 1px;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,6 +35,8 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
 }
 
 nav li {
@@ -48,6 +50,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* this needs to change */
   background-color: aquamarine;
+}
+
+a {
+  text-decoration: none;
 }
