@@ -48,3 +48,25 @@ body {
 img {
   width: 30%;
 }
+
+.icon-links img{
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: auto
+}
+
+.icon-links {
+  text-align: center;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 45px;
+}
