@@ -68,21 +68,17 @@ nav {
 nav a {
   padding: 0 2rem 0 2rem;
   margin: 0.5rem;
+  /* makes the line relative to the span, not the whole page */
+  position: relative;
+  text-decoration: none;
 }
 
 nav a:first-child {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 nav a:nth-child(2) {
   margin-left: auto;
-}
-
-
-nav a {
-  /* makes the line relative to the span, not the whole page */
-  position: relative;
-  text-decoration: none;
 }
 
 nav a:active {
@@ -91,6 +87,7 @@ nav a:active {
 }
 
 /* based on: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+
 nav a:before {
   content: "";
   position: absolute;

@@ -5,7 +5,7 @@
 .splash {
   height: 36vh;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 6rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   min-width: 700px;
@@ -98,6 +98,14 @@ p.first-line {
 
 /* SKILLS */
 
+#skills-heading {
+  margin-top: 10rem;
+  margin-left: 3em;
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+}
+
 img {
   height: 3rem;
 }
@@ -105,7 +113,6 @@ img {
 .skills {
   border-top: 0.07rem solid black;
   border-bottom: 0.07rem solid black;
-  margin-top: 5rem;
   padding: 1.2rem 0 2rem 0;
   display: flex;
   flex-flow: row wrap;
@@ -113,12 +120,24 @@ img {
 }
 
 .skills > div {
-  padding: 0 2rem 0 2rem;
+  padding: 3rem 2rem 3rem 2rem;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.skills > div:before {
+  content: '';
+  position: absolute;
+  width: 0;
+    height: 0;
+    border-bottom: 4em solid transparent;
+    border-left: 6em solid PaleTurquoise;
+    opacity: 0.5;
+  float: left;
+  z-index: -1;
 }
 
 .skills > div *:last-child {
@@ -156,4 +175,10 @@ img {
 
 .details-container > section > section * {
   padding: 1rem;
+}
+
+.details-container > section > section p {
+  /* background-color: #cfffff; */
+  background-image: linear-gradient(45deg, #ffd9df , #cfffff);
+  border-radius: 2rem;
 }

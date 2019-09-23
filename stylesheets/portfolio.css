@@ -10,10 +10,11 @@
 
 main {
   position: relative;
-  margin: 0;
+  width: 90vw;
+  margin: auto;
 }
 
-/* source: https://www.quora.com/How-can-I-draw-a-vertical-line-in-HTML5-and-CSS */
+/* reference for vertical line: Shaun O'Connell's response on https://www.quora.com/How-can-I-draw-a-vertical-line-in-HTML5-and-CSS */
 main::before {
   content: '';
   position: fixed;
@@ -25,17 +26,11 @@ main::before {
   z-index: -1;
 
   width: 1rem;
-  /* border: 0.08rem solid black; */
-  background-image: linear-gradient(to right, pink, lightblue);
+  background-image: linear-gradient(to right, pink, #c0d9ed);
 }
 
-body > * {
+footer {
   background-color: white;
-}
-
-main {
-  width: 90vw;
-  margin: auto;
 }
 
 h2 {
@@ -48,7 +43,9 @@ h2 {
 .splash {
   text-align: right;
   height: 40vh;
+  padding-right: 1em;
 
+  /* image from https://www.pexels.com/photo/sakura-tree-2033997/ */
   background-image: url(../assets/images/blossoms-transparent.png);
   
   background-attachment: fixed;
@@ -64,7 +61,8 @@ h2 {
   margin-top: 0;
   padding-top: 18vh;
   border: none;
-  color: #204766;
+  font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
+  color: #183954;
 }
 
 
@@ -95,16 +93,13 @@ article label {
 article label h2::before {
   content: '';
   display: inline-block;
-  /* border-top: 0.08rem solid black; */
-  /* border-bottom: 0.08rem solid black; */
-  /* border-right: 0.08rem solid black; */
   border-radius: 0 2rem 2rem 0;
   height: 0.6rem;
   width: 4rem;
   margin-left: 0;
   margin-right: 1em;
 
-  background-image: linear-gradient(45deg, lightblue, pink);
+  background-image: linear-gradient(45deg, #c0d9ed, pink);
 }
 
 article label img {
@@ -172,7 +167,6 @@ input[type=checkbox]:checked ~ div {
 
   display: grid;
 }
-
 
 .body-container {
   margin-top: 2rem;
