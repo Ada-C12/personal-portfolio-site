@@ -59,6 +59,7 @@
 .overlay a:hover {
   color: white;
 }
+
 #about:hover .overlay , #portfolio:hover .overlay, #blog:hover .overlay {
   opacity: 1;
 }

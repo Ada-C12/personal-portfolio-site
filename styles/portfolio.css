@@ -52,6 +52,7 @@
 .overlay a:hover {
   color: white;
 }
+
 #startrly:hover .overlay, 
 #slack:hover .overlay, 
 #hotel:hover .overlay, 
