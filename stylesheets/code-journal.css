@@ -50,7 +50,7 @@ article::after {
   z-index: 2;
 }
 
-article div {
+article > div {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -83,7 +83,7 @@ article aside {
   align-self: flex-end;
 }
 
-article section {
+.content {
   text-align: left;
 
   margin: 0 4rem 0 4rem;
