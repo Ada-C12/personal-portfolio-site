@@ -56,6 +56,10 @@ body {
   font-size: 1.5rem;
 }
 
+#intro {
+  text-align: center;
+}
+
 .icon-links img{
   display: inline-block;
   margin: 0 auto;
@@ -67,4 +71,13 @@ body {
 
 .icon-links {
   text-align: center;
+}
+
+footer {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 15px;
 }
