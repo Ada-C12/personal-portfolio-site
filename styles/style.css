@@ -1,23 +1,39 @@
+
 html {
   font-family: Helvetica, sans-serif;
 }
 
+header {
+  font-family: 'Ultra', serif;
+  font-weight: bold;
+  font-size: 2.75em;
+}
+
+header p {
+  border: 3px solid #84DCCF;
+  display: inline-block;
+  padding: 10px;  
+  margin: 0;
+  border-radius: 50%;
+}
+
+header p:hover {
+  content: Hallie Johnson;
+  border: 3px solid #84DCCF;
+  color: #787d79;
+  display: inline-block;
+  padding: 10px;  
+  margin: 0;
+  border-radius: 50%;
+}
+
 .container {
-  margin: 5%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
 }
 
 ul {
   list-style: none;
-}
-
-img {
-  border-radius: 50%;
-  padding: 5%;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
 }
 
 .intro {
@@ -25,30 +41,53 @@ nav ul {
   flex-direction: row;
   align-items: center;
   background-color: #F2E2BA;
+  margin-top: 1em;
 }
 
 .intro p {
-  padding-right: 5%;
+  padding-left: 5%;
   font-size: 1.25em;
 }
 
-main ul {
+.intro img {
+  border-radius: 25%;
+  padding: 5%;
+}
+
+nav ul {
   align-self: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 3px;
+  justify-content: space-around;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 0;
 }
 
-main ul {
-  border: blue 2px dotted;
-  max-height: 500px;
-}
-
-main ul>li {
+nav ul>li {
   min-width: 20em;
   min-height: 20em;
+  margin: 10px;
   border: lightblue 2px solid;
-  background-color: red;
+  background-color: #84DCCF;
+}
+
+nav img {
+  display: flex;
+  height: 15em;
+  margin-top: 10%;
+  margin-left: 12%;
+}
+
+span {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 2.5%;
+}
+
+footer {
+  margin-bottom: 2.5%;
 }
