@@ -1,0 +1,101 @@
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+
+body {
+  display: grid;
+  grid-template-rows: .5fr .5fr 3fr .5fr;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  padding-inline-start: 5%;
+  padding-inline-end: 5%; 
+  
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 90%;
+  padding-inline-start: 0%;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container a:hover {
+  color: rgb(228, 22, 22);
+}
+
+#home {
+  width: 40%;
+  font-size: 2rem;
+}
+
+
+#about {
+  width: 10%;
+  padding-inline-start: 5%;
+  
+}
+
+#hobbies {
+  width: 10%;
+  padding-inline-start: 5%;
+  
+}
+
+#portfolio {
+  padding-inline-start: 5%; 
+}
+
+#portfolio a {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  padding: 3%;
+  margin: 0%;
+  font-size: 4rem;
+}
+
+.contact {
+  padding-top: 3%;
+  display: flex;
+}
+
+.contact ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: slategray;
+}
+
+footer {
+  text-align: left;
+  font-size: .5rem;
+  align-self: center;
+}
