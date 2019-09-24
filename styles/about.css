@@ -17,10 +17,6 @@
   text-align: justify;
 }
 
-#ada-link, #yelp-link, #living-computers-link {
-  text-decoration: underline;
-}
-
 #linkedin {
   border-style: solid;
   border-color: gray;
@@ -43,13 +39,5 @@
 #computer {
   width: 100%;
   height: 100%;
-/* width: min-content; */
-  /* width: 100%; */
-  /* width: 50%; */
-  /* height: 50%; */
   margin-bottom: 1vmin;
-}
-
-#ada-link:hover, #yelp-link:hover, #living-computers-link:hover{
-  color: green;
 }

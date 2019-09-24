@@ -1,5 +1,5 @@
-.top-photo {
-  margin-top: 5vmin;
+#cover-photo {
+  margin-top: 6vmin;
   position: relative;
   font-size: 0
 }
@@ -13,7 +13,6 @@
   top: 3.5vmin;
   left: 12vmin;
   font-size: 6vmin;
-  /* margin-top: 0 */
 }
 
 #dianna {
@@ -21,7 +20,6 @@
   bottom: 3.5vmin;
   right: 12vmin;
   font-size: 6vmin;
-  /* margin-top: 0 */
 }
 
 .buttons{
@@ -58,16 +56,11 @@
   background-color: silver;
 }
 
-.overlay a:hover {
-  color: white;
-}
-
 #about:hover .overlay , #portfolio:hover .overlay, #blog:hover .overlay {
   opacity: 1;
 }
 
 .text {
-  color: white;
   font-size: 3vmin;
   position: absolute;
   top: 50%;
@@ -75,7 +68,6 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 h2 {
