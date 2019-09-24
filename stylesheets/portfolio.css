@@ -223,3 +223,51 @@ article aside > div {
   padding: 1em;
   margin: 0.5em;
 }
+
+@media only screen and (max-width: 900px) {
+
+  .body-container {
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 80%;
+  }
+
+  article aside {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .uses {
+    display: flex;
+    flex-flow: row wrap;
+
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .uses > div {
+    margin-right: 0;
+  }
+
+  article aside > a {
+    margin-right: 1rem;
+  }
+
+  .content {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+}
