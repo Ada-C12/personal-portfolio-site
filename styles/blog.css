@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(#FFD9F2, white);
+}
+
 #sticky {
   display: flex;
   flex-direction: row;
@@ -32,4 +36,8 @@ article {
   padding: 20px;
   margin: 0 auto;
   border: 2px solid black;
+}
+
+footer {
+  text-align: center;
 }
