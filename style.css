@@ -1,19 +1,178 @@
+/* html, body {
+  height: 100%;
+ } */
+
 ul {
   list-style: none;
   display:flex;
-  flex-direction: column ;
-  justify-content: space-between;
-  font-size: 300%
-}
+  flex-direction: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 200%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ }
 
+ ul.nav-journal {
+  list-style: none;
+  display:flex;
+  flex-direction: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 200%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+ }
+
+ 
 body {
 background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
 font-weight: bold;
+background-size: 1600px;
+  width: 1200px;
+  height: 1000px;
+}
+
+.welcome {
+  font-size: 100%;
+  padding: 0% 0% 20%
+}
+
+/* CSS animation from CSS-tricks.com */
+.index {
+  font-size: 300%;
+  padding: 0px 0px 30%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid black; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;    
+}
+
+.about-title, .portfolio {
+  font-size: 300%;
+  /* padding: 0px 0px 10%; */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid black; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;    
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  20% { border-color: black };
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: auto auto; */
+  font-size: 250%;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+}
+
+p{
+  grid-column-start: 1;
+  grid-column-end: 2
+}
+
+.container img {
+  border-radius: 50%;
+  padding: 5px;
+  width: 360px;
+  height: 400px;
+  grid-column-start: 2;
+  grid-column-end: 3
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  margin-top: 20px;
+  border: black 2px solid;
+  padding: 0px 0px 20px 0px
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 
+/* Footer */
+/* .footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+} */ */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+h2 {
+  font-size: 250%;
+  padding: 0px 0px 0px 50px;
 }
 
 p {
-  font-size: 300%;
-  padding: 0px 0px 350px;
+  padding: 0px 0px 0px 50px;
 }
 
+.list {
+  padding: 0px 0px 0px 75px;
+}
+
+section {
+  padding: 0px 0px 100px 0px
+}
