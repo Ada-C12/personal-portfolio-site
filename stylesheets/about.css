@@ -8,7 +8,7 @@
   margin-top: 6rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  min-width: 700px;
+  min-width: 720px;
 }
 
 .splash span {
@@ -197,4 +197,66 @@ img {
 .content > div p {
   background-image: linear-gradient(45deg, #ffd9df , #cfffff);
   border-radius: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+
+  body {
+    font-size: 0.8rem;
+  }
+
+  /* SPLASH */
+
+  .splash {
+    margin-top: 7rem;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #rule {
+    display: none;
+  }
+
+  .splash h1 {
+    font-size: 2.8rem;
+    width: 18rem;
+    padding-left: 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.08rem solid black;
+    text-align: center;
+  }
+
+  .intro {
+    padding-right: 0.5rem;
+  }
+
+  .bio {
+    font-size: 0.8rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .intro:before {
+    border: none;
+  }
+
+  .bio:before {
+    border: none;
+  }
+
+  /* DETAILS */
+
+  .details-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details-container > section > h2 {
+    text-align: right;
+    margin-right: 3em;
+  }
+
 }
