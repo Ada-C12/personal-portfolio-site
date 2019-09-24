@@ -41,6 +41,10 @@ nav a {
   border: 20px solid #1F2041;
 }
 
+#jumping {
+  width: 75%;
+}
+
 
 h1 {
   font-family: 'Fascinate Inline', cursive;
@@ -54,11 +58,6 @@ h3 {
   text-align: center;
 }
 
-
-.real-talk {
-  margin-top: 5em;
-}
-
 footer > * {
   font-family: 'VT323', monospace;
   justify-content: center;
@@ -66,6 +65,10 @@ footer > * {
 
 footer a img {
   height: 3em;
+}
+
+.real-talk {
+  margin-top: 5em;
 }
 
 .edu-table {
@@ -86,4 +89,8 @@ footer a img {
 
 .github-grid-header {
   background-color: red;
+}
+
+.pix > * {
+  width: 25%;
 }
