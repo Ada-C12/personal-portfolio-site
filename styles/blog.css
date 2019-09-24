@@ -1,0 +1,14 @@
+#map {
+  display: flex;
+  justify-content: center;
+}
+
+#intro {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+#intro h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
