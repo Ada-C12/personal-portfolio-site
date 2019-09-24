@@ -226,6 +226,11 @@ article aside > div {
 
 @media only screen and (max-width: 900px) {
 
+  .splash {
+    /* image from https://www.pexels.com/photo/sakura-tree-2033997/ */
+    background-image: url(../assets/images/blossoms-transparent-small.png);
+  }
+
   article label img {
     height: 2rem;
     border: 0.07rem solid black;
