@@ -26,7 +26,7 @@
 }
 
 h2 {
-  font-size: 3vmin;
+  font-size: x-large;
   margin-top: 1vmin;
   font-weight: bold;
   margin-left: .3vmin;
@@ -35,15 +35,13 @@ h2 {
 }
 
 .description {
-  /* text-align: left; */
-  font-size: 2.1vmin;
+  font-size: large;
   margin-left: .3vmin;
   margin-right: .3vmin;
-
 }
 
 .tags {
-  font-size: 1.8vmin;
+  font-size: medium;
   margin-left: .3vmin;
   margin-right: .3vmin;
 }

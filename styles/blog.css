@@ -6,24 +6,23 @@
 }
 
 .post {
-  display: flex;
   border-top: 2px solid black;
-  /* margin-bottom: 5vmin; */
 }
 
 .review-photo {
-  display: flex;
+  float: left;
 }
 
 img {
-  width: 40vmin;
-  height: 40vmin;
+  width: 38vmin;
+  height: 38vmin;
   margin-top: 5vmin;
+  margin-right: 1.5vmin;
 }
 
 .review-text {
   margin-top: 5vmin;
-  /* margin-bottom: 5vmin; */
+  text-align: justify;
 }
 
 .review-text header {
@@ -31,6 +30,7 @@ img {
 }
 
 .review-text > p {
+  margin-left: 0vmin;
   margin-bottom: 4vmin;
 }
 
