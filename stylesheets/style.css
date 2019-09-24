@@ -110,7 +110,7 @@ nav a:hover:before {
 
 .splash {
   width: 100%;
-  height: 60vh;
+  height: 75vh;
   text-align: center;
 }
 
@@ -172,6 +172,10 @@ footer aside {
 
 @media only screen and (max-width: 900px) {
 
+  .splash {
+    height: 76vh;
+  }
+
   nav {
     height: max-content;
   }
@@ -194,6 +198,8 @@ footer aside {
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
   }
 
   footer aside {
