@@ -1,0 +1,27 @@
+html {
+  font-size: 26px;
+  background: #EF7674;
+}
+
+#navigation {
+  list-style-type: none;
+  width: 200px;
+  position:fixed;
+}
+
+#navigation a {
+  text-decoration: none;
+  display:block;
+  padding:12px;
+  color: #DD1C1A
+}
+
+#navigation a:hover{
+  color:white;
+}
+
+.main-container {
+  text-align: center;
+  padding: 2em;
+  color: white;
+}
