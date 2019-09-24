@@ -14,12 +14,14 @@
   /* display: inline; */
 }
 
-.title {
+/* .title { */
+h2 {
   font-size: 3vmin;
   margin-top: 1vmin;
   font-weight: bold;
   margin-left: .3vmin;
   margin-right: .3vmin;
+  margin-bottom: 0
 }
 
 .description {
