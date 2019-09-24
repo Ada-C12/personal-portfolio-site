@@ -31,7 +31,7 @@ nav {
   left: 0;
   z-index: 9999;
   width: 100%;
-  background-color: aliceblue;
+  background-color: #3C3C3C;
 }
 
 nav ul {
@@ -46,14 +46,29 @@ nav li {
   padding-right: 1em;
 }
 
+nav a {
+  color: #f3f3f3;
+}
+
+nav a:visited {
+  color: #f3f3f3;
+}
+
 header {
   height: 15em;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: aquamarine;
+  background-color: #3C3C3C;
+  color: #f3f3f3;
 }
 
 a {
   text-decoration: none;
+}
+
+footer {
+  background-color: #3C3C3C;
+  color: #f3f3f3;
+  padding: 3px;
 }

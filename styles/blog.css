@@ -9,6 +9,51 @@
 }
 
 #intro h2 {
+  padding: 0.5em;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(488px, 1fr));
+  grid-auto-rows: auto;
+  padding: 0.5em;
+  /* border: 1px black solid; */
+}
+
+.entry img {
+  width: 488px;
+  height: 244px;
+  justify-self: center;
+}
+
+#container {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px blue solid; */
+}
+
+.words {
+  overflow-wrap: break-word;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-top: 1px solid #CDCDCD;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+.words * {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.subtitle, .date {
+  font-weight: lighter;
+}
+
+.subtitle {
+  font-size: 1.1em;
 }
