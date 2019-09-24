@@ -1,0 +1,9 @@
+#jan_pic {
+  max-width: 500px;
+  border-radius: 15%
+}
+
+div.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
