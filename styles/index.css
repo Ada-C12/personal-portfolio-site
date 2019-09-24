@@ -10,16 +10,18 @@
 
 #hello-world {
   position: absolute;
-  top: 2vmin;
-  left: 15vmin;
+  top: 3.5vmin;
+  left: 12vmin;
   font-size: 6vmin;
+  /* margin-top: 0 */
 }
 
 #dianna {
   position: absolute;
-  bottom: 2vmin;
-  right: 15vmin;
+  bottom: 3.5vmin;
+  right: 12vmin;
   font-size: 6vmin;
+  /* margin-top: 0 */
 }
 
 .buttons{
