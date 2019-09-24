@@ -7,8 +7,6 @@ a {
 }
 
 img {
-  /* width: min-content; */
-  /* height: min-content; */
   width: 40vmin;
   height: 40vmin;
   margin-top: 5vmin;
@@ -19,20 +17,16 @@ img {
   flex-direction: column;
   margin-left: 5vmin;
   margin-right: 5vmin;
-  /* flex-direction: column; */
-  /* flex-wrap: wrap */
 }
 
 .post {
   display: flex;
   border-top: 2px solid black;
-  /* margin-top: 5vmin; */
   margin-bottom: 5vmin;
 }
 
 .review-photo {
   display: flex;
-  /* margin-top: 5vmin; */
 }
 
 .review-text {
@@ -44,10 +38,8 @@ img {
 }
 
 .review-text > * {
-  /* display: flex; */
   text-align: left;
   margin-left: 3vmin;
-  /* margin-top: 0 */
 }
 
 h2 {

@@ -1,9 +1,21 @@
+.title {
+  display: block;
+}
+
 .all-projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+.articles {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly
 }
+
 
 .project {
   display: flex;
@@ -12,10 +24,8 @@
   border-color: gray;
   width: min-content;
   margin: 1.5vmin;
-  /* display: inline; */
 }
 
-/* .title { */
 h2 {
   font-size: 3vmin;
   margin-top: 1vmin;
