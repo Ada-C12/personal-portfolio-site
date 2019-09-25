@@ -7,7 +7,9 @@ body {
   background: url(../../lib/tree-in-front-of-ocean.jpg);
   background-size: cover;
   background-position: center;
-  /* opacity: 0.2; */
+  background-color: floralwhite;
+  /* opacity: 0.5; */
+  color: white;
 }
 
 header {
@@ -21,9 +23,9 @@ header {
   padding-left: 3rem;
 }
 
-a[href] {
+nav ul li a[href] {
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 a[href]:hover {
@@ -66,4 +68,9 @@ footer ul {
 
 footer ul>li {
   margin: 1.2em;
+}
+
+footer ul li a[href] {
+  text-decoration: none;
+  color: white;
 }
