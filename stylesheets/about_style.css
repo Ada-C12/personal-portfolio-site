@@ -27,6 +27,9 @@ p {
 #ada:link {
   color: black
 }
+#ada:visited {
+  color: black
+}
 #jan_pic {
   display: inline-block;
   max-width: 500px;
