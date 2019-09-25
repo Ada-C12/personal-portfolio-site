@@ -65,7 +65,6 @@ h3 {
 }
 
 footer > * {
-  font-family: 'VT323', monospace;
   justify-content: center;
   align-content: center;
 }
@@ -138,7 +137,6 @@ footer a img {
 
 .pix img {
   width: 33%;
-  object-fit: cover;
 }
 
 .hobbies article p {
