@@ -87,13 +87,14 @@ nav ul li:first-child {
 }
 
 .about-container h2, .visual-container h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   color: var(--third-color);
 }
 
 .about-container p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: .1em;
+  padding: 0 25px;
 }
 
 .visual-container ul {
@@ -116,7 +117,13 @@ nav ul li:first-child {
   border-radius: 5%;
 }
 
-.visual-container ul li a:hover {
+.visual-container ul li a {
+  color: var(--third-color);
+}
+
+.visual-container ul li:hover {
+  padding: 10px 20px;
+  border-radius: 5%;
   background-color: var(--third-color);
   color: var(--second-color);
 }
