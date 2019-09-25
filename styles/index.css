@@ -5,17 +5,23 @@
 
 main {
   display: grid;
-  grid-template-rows: 40vh 30vh;
+  grid-template-rows: 50vh 30vh;
 }
 
-.info {
-  background-color: #dbd3c9;
+.intro {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
 .intro p {
-  font-size: 2vw;
+  grid-column-start: 1;
+  font-size: larger;
   margin: 1em;
   padding: 1em;
+}
+
+.info {
+background-color: #dbd3c9;
 }
 
 .info {
@@ -42,4 +48,13 @@ main {
   max-height: 30px;
   padding-top: 10px;
   padding-left: 20px;
+}
+
+#profile-pic {
+  grid-column-start: 2;
+  grid-row: 1 / span 2;
+  max-height: 300px;
+  border-radius: 25px;
+  justify-self: center;
+  align-self: center;
 }
