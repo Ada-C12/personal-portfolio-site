@@ -46,5 +46,6 @@ a:hover {
 
 footer {
   font-size: small;
-  margin: 10vmin;
+  margin-top: 10vmin;
+  margin-bottom: 5vmin;
 }
