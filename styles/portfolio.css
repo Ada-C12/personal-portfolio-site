@@ -5,3 +5,21 @@
 /* #b4ceb3 */
 /* #88a0a8 */
 /* #546a76 */
+
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.individual, .pair {
+  margin: 1rem;
+}
+
+.individual h3, .pair h3 {
+  margin-bottom: 0px;
+}
+
+.individual p, .pair p {
+  margin-top: 0px;
+}

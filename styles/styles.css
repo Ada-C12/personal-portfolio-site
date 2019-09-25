@@ -12,6 +12,10 @@ body {
   background-color: #dbd3c9;
 }
 
+main {
+  background-color: #88a0a8;
+}
+
 .page-title {
   border: 5px double #546a76;
   display: flex;
@@ -42,11 +46,6 @@ nav ul {
 }
 
 
-
-main {
-  /* background-color: #b4ceb3; */
+footer p{
+  margin-bottom: 0px;
 }
-
-/* footer p {
-  color: #546a76;
-} */

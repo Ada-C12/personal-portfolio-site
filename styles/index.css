@@ -5,11 +5,11 @@
 
 main {
   display: grid;
-  grid-template-rows: 40vh 40vh;
+  grid-template-rows: 40vh 30vh;
 }
 
-.intro {
-  background-color: #b4ceb3;
+.info {
+  background-color: #dbd3c9;
 }
 
 .intro p {
