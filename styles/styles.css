@@ -1,7 +1,26 @@
 /* * {
   border: 2px solid red;
 } */
+/* #dbd3c9 */
+/* #b4ceb3 */
+/* #88a0a8 */
+/* #546a76 */
 
+body {
+  margin: 2rem;
+  margin-bottom: 0rem;
+  background-color: #dbd3c9;
+}
+
+.page-title {
+  border: 5px double #546a76;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
 ul li {
   list-style-type: none;
 }
@@ -15,3 +34,19 @@ a:hover {
   color: green;
 }
 
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+
+
+main {
+  /* background-color: #b4ceb3; */
+}
+
+/* footer p {
+  color: #546a76;
+} */

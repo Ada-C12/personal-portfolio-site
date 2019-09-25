@@ -1,0 +1,19 @@
+/* * {
+  border: 2px solid red;
+} */
+
+#road {
+  max-width: 200px;
+  border-radius: 100%;
+}
+
+#army {
+  max-height: 150px;
+}
+
+#resize {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+article {}

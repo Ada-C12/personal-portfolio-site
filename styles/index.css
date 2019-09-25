@@ -1,0 +1,45 @@
+/* #dbd3c9 */
+/* #b4ceb3 */
+/* #88a0a8 */
+/* #546a76 */
+
+main {
+  display: grid;
+  grid-template-rows: 40vh 40vh;
+}
+
+.intro {
+  background-color: #b4ceb3;
+}
+
+.intro p {
+  font-size: 2vw;
+  margin: 1em;
+  padding: 1em;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 5px;
+}
+
+.contact-info h2 {
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.contact-info ul {
+  display: flex;
+  margin-top: 0px
+}
+
+#linkedin {
+  max-height: 50px;
+}
+
+#gmail {
+  max-height: 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
