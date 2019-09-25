@@ -4,29 +4,23 @@ body {
 }
 header {
   height: 8rem;
+  width: 58rem;
   line-height: 8rem; 
   font-size: 4.5rem; 
   text-transform: uppercase;
-}
-nav {
-  /* border: 1px solid black; */
+  position: fixed;
 }
 
 .banner {
   background-color: yellow; 
-  transform: rotate(-15deg) translate(-25rem, 5rem);
+  transform: rotate(-15deg) translate(-10rem, 5rem);
   text-transform: uppercase;
   text-align: right;
-  padding-right: 2rem;  
+  padding-right: 2rem;
 }
 
-ul::before {
-  background-color: yellowgreen;
-  width: 200px;
-  height: 200px;
-}
-ul {
-  margin-top: 7rem;
+nav ul {
+  margin-top: 12rem;
   position: fixed;
 }
 li.banner {
@@ -43,4 +37,24 @@ li.banner {
 }
 li.banner:hover {
   transform: rotate(-15deg) translate(-6rem, 5rem);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  display: inline-block;
+}
+
+.content {
+  display: grid;
+  grid-template: 16rem 1fr / minmax(20rem, 30rem);
+  float: right;
+  width: 50%;
+}
+
+.content section {
+  border: 1px solid black;
+  padding: 2rem;
 }
