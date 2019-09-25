@@ -1,0 +1,154 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 6fr 1fr;
+}
+
+/* navigation menu */
+
+.fixed {
+  position: fixed;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li:first-child {
+  padding-right: 40vw;
+  font-size: 1.2em;
+}
+
+nav ul li:last-child {
+  padding-right: 4em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: pink;
+}
+
+/* header and footer */
+.vibrant {
+  background-color: #9F87AF;
+  margin: 0;
+  padding: 1em;
+  color: white;
+}
+
+/* title */
+#title {
+  padding: 0 0 2em 0
+}
+h1 {
+  font-size: 3em;
+  border-bottom: solid, gray, 1px;
+  padding: 1em 0 0.5em 0;
+  color: #9F87AF;
+  font-family: 'Mansalva', cursive;
+}
+
+#title h2{
+  font-size: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(102, 101, 101);
+  padding-bottom: 3em;
+  border-bottom: gray 0.25em solid;
+  margin: 0 8em 0 8em;
+  border-radius: 95%;
+}
+
+.portfolio-pics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-pics img {
+  width: 46vw;
+  height: auto;
+  padding: 1em 1em 1em 1em;
+}
+
+.portfolio-pics img:hover {
+  background-color: rgba(248, 247, 216);
+}
+
+.portfolio-pics a {
+  background-color: #9F87AF;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  border-radius: 99%;
+  margin: 1em 0 2em 0;
+}
+
+/* biography */
+.bio-pic {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  padding: 2em 0 2em 0
+}
+
+.bio-section {
+  margin: 0 12em 0 12em;
+  padding-bottom: 2em;
+}
+
+.bio-section p {
+  padding: 1em 0 1em 0;
+  line-height: 1.25;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+article h3 {
+  padding: 2em 0 0em 0;
+  color: #9F87AF;
+}
+
+main article p {
+  font-family: 'Mansalva', cursive;
+  padding: 1em 10em 2em 10em;
+}
+
+footer {
+  text-align: left;
+  font-size: 0.9em;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul li img:hover {
+  background-color: pink;
+  border-radius: 99%;
+}
+
+footer ul li:first-child {
+  padding-right: 50vw;
+}
