@@ -17,7 +17,7 @@ I clicked on the Source dropdown menu and chose Master branch. <br>
 Then the website refreshed and I see a light green section right above me, with a checkmark saying my page is published<br>
 Clicking on that site, brings me to the README.md, so I went up to the URL bar and added /lib/index.html<br>
 That worked.  But do I want to have to type it manually everytime? Nope! <br>
-So I rewrote README.md as an html file (but I kept the .md file extension), and added in a \<a href\> link with my correct URL!
+So I rewrote README.md as an html file (but I kept the .md file extension), and added in a link with my correct URL!
 </section>
 </body>
 </html>
