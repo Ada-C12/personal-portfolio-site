@@ -1,11 +1,7 @@
 .container {
   display: grid;
-  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-rows: 100px 5fr 1fr;
 }
-
-/*.item {
-  border: 1px solid black
-}*/
 nav {
   font-size: 3em;
   text-align: left
@@ -52,6 +48,9 @@ h1 > a:visited {
 }
 #portfolio:hover {
   color: fuchsia
+}
+#peggy_seeger:hover {
+  color: lightseagreen
 }
 h2 {
   font-size: 4em
