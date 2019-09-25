@@ -1,8 +1,14 @@
-header {
+main {
   height: 94vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
   background-color: black;
-  color: white;
+}
+
+h2 {
+  color: #e1a87a;
+  font-weight: lighter;
+  font-size: 0.95em;
 }

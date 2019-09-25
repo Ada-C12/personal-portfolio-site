@@ -8,11 +8,6 @@ section {
   grid-template-rows: repeat(2, 5.5em);
   grid-template-columns: 8em 1fr;
   border: 1px solid #C06014;
-  /* background-image: url(../images/startly.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5; */
 }
 
 .img-link {
