@@ -91,7 +91,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* background-color: #3C3C3C; */
   background-color: #000000;
   color: #f3f3f3;
 }
