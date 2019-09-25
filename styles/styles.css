@@ -22,6 +22,11 @@ html {
 nav a {
   margin: 0.6em 1em;  
 }
+
+nav a:hover {
+  color: rgba(255, 0, 0, 0.719);
+}
+
 .nav-flex a {
   text-decoration: none;
   color:#a6a6a8;
@@ -31,14 +36,15 @@ nav a {
 }
 
 .center-panel {
-  margin-top: 7em;
-  margin-bottom: 7em;
+  margin-top: 5em;
+  margin-bottom: 5em;
   text-align: center;
 }
 
 .rounded-pic {
   border-radius: 40%;
   border: 20px solid #1F2041;
+  width: 85%;
 }
 
 #jumping {
@@ -61,10 +67,11 @@ h3 {
 footer > * {
   font-family: 'VT323', monospace;
   justify-content: center;
+  align-content: center;
 }
 
 footer a img {
-  height: 3em;
+  height: 4em;
 }
 
 .real-talk {
@@ -74,23 +81,70 @@ footer a img {
 .edu-table {
   border: 3px solid black;
   width: 100%;
-  background-color: #a6a6a8;
 }
 
-.edu-table > * {
-  margin: 1.5em;
+.edu-table td {
+  background-color: #acc986;
+  padding: 2em 0.5em;
+}
+
+.edu-table th, .github-grid-header{
+  background-color: #72b021;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1.5em 0.5em;
+}
+
+.edu-table tr:nth-child(2n+3) td {
+  background-color: bisque;
 }
 
 .github-grid {
   display: grid;
-  background-color: yellow;
-  grid-template-columns: 1fr 1fr 4fr;
+  background-color: #acc986;
+  grid-template-columns: 1fr 4fr;
+  border: 3px solid rgba(255, 0, 0, 0.719);
+  margin-top: 5em;
 }
 
-.github-grid-header {
-  background-color: red;
+.github-grid section a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-.pix > * {
-  width: 25%;
+.github-grid section a:hover {
+  color: rgba(255, 0, 0, 0.719);
+  text-decoration: underline;
+}
+
+.github-grid section:not(.github-grid-header) {
+  text-align: left;
+  padding: 0.75em;
+  margin: 0em;
+}
+
+.github-grid section:nth-child(even):not(.github-grid-header) {
+  background-color: bisque;
+}
+
+.pix {
+  margin: 3em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pix img {
+  width: 33%;
+  object-fit: cover;
+}
+
+.hobbies article p {
+  text-align: left;
+}
+
+.bucket-list {
+  list-style-type: none;
 }
