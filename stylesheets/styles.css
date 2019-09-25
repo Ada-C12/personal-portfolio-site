@@ -1,11 +1,26 @@
 body {
   display: grid;
-  grid-template:auto 1fr auto / repeat(4, 25%);
+  grid-template-columns: 1fr 3fr;
   font-family: 'Inconsolata', monospace;
   padding-left: 5vw;
-  height: 100%
+  height: 100%;
+  color:grey;
+  -webkit-animation: fadein 2s;
 }
 
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 
 ul {
   list-style: none;
@@ -15,7 +30,7 @@ ul {
 nav {
   display: inline;
   grid: 1;
-  height: 100%;
+  height: 200%;
   width: 23vw; 
   position: fixed;
   z-index: 1;
@@ -25,24 +40,28 @@ nav {
   overflow-x: hidden; 
   padding-top: 20vw;
   padding-left: 2vw;
-  background-color: rgb(242, 248, 250);
 }
 
 nav h2{
-  font-size: 4vw;
+  font-size: 3vw;
+  color: rgb(112, 188, 255);
 }
 nav a {
   text-decoration: none;
-  font-size: 2.3vw;
-  color: #818181;
+  font-size: 2vw;
+  color: grey;
   display: block;
   margin: 0;
 }
 
 nav a:hover {
-  color: #f1f1f1;
+  color: rgb(112, 188, 255);
 }
 
 nav img {
   padding-top: 1.5vh;
+}
+
+section {
+  grid-column: 2;
 }
