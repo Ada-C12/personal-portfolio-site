@@ -21,14 +21,17 @@ p {
   grid-column: 1 / 2;
 }
 
-#ada:hover {
-  color: darkgreen;
+a#ada:hover {
+  color:green;
+  text-decoration: none;
 }
-#ada:link {
-  color: black
+a#ada:link {
+  color: black;
+  text-decoration: none;
 }
-#ada:visited {
-  color: black
+a#ada:visited {
+  color: black;
+  text-decoration: none;
 }
 #jan_pic {
   display: inline-block;
