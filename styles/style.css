@@ -14,7 +14,6 @@ h1, h2, h3, h4, nav {
 }
 
 h1 {
-  color: white;
   border: 1px solid #e1a87a;
   font-size: 3em;
   font-weight: lighter; 
@@ -31,7 +30,7 @@ ul {
 
 nav {
   overflow: hidden;
-  padding: 1px;
+  padding: 0.4px;
   position: fixed;
   top: 0;
   left: 0;
@@ -52,13 +51,13 @@ nav ul {
 }
 
 nav li {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
 }
 
 nav a {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
 }
 
 nav a:hover {
@@ -78,11 +77,7 @@ nav a:hover {
   position: relative;
 }
 
-nav a {
-  color: #f3f3f3;
-}
-
-nav a:visited {
+nav a, nav a:visited, header {
   color: #f3f3f3;
 }
 
@@ -92,7 +87,6 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   background-color: #000000;
-  color: #f3f3f3;
 }
 
 header > div {

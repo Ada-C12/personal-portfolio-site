@@ -18,11 +18,7 @@ h2 {
   margin-block-end: 2em;
 }
 
-#post {
-  padding: 2em;
-}
-
-#travel-pic {
+#pic-container {
   display: flex;
   justify-content: center;
 }
@@ -30,4 +26,8 @@ h2 {
 img {
   border: 1px solid #CDCDCD;
   max-width: 95%;
+}
+
+#post {
+  padding: 2em;
 }

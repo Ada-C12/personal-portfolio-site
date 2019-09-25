@@ -8,7 +8,7 @@ main {
 
 main::after {
   content: "";
-  background: url(../images/workspace-3.jpg);
+  background: url(../images/workspace.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,14 +21,14 @@ main::after {
   z-index: -1;   
 }
 
+h1 {
+  color: #4d4e4f;
+}
+
 h2 {
   color: #eea76d;
   font-weight: lighter;
   font-size: 0.95em;
-}
-
-h1 {
-  color: #4d4e4f;
 }
 
 
