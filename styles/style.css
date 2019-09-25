@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Lexend+Deca|Staatliches&display=swap');
+body {
+  font-family: 'Lexend Deca', sans-serif;
+}
+header {
+  height: 8rem;
+  line-height: 8rem; 
+  font-size: 4.5rem; 
+  text-transform: uppercase;
+}
+nav {
+  /* border: 1px solid black; */
+}
+
+.banner {
+  background-color: yellow; 
+  transform: rotate(-15deg) translate(-25rem, 5rem);
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 2rem;  
+}
+
+ul::before {
+  background-color: yellowgreen;
+  width: 200px;
+  height: 200px;
+}
+ul {
+  margin-top: 7rem;
+  position: fixed;
+}
+li.banner {
+  height: 5rem;
+  width: 30rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  list-style: none;
+  text-transform: uppercase;
+  transform: rotate(-15deg) translate(-10rem, 5rem);
+
+}
+li.banner:hover {
+  transform: rotate(-15deg) translate(-6rem, 5rem);
+}
