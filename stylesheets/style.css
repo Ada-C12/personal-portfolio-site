@@ -1,8 +1,18 @@
+/* 
+purple #83158f
+pink #cf346a 
+peach #e89a41
+ecru #fcead4
+ */
+
+
 *{
   border-style: solid 1px;
   border-color: black;
   font-family: 'Poiret One', cursive;
   text-align: center;
+  background-color: #fcead4;
+  color: #e89a41;
 }
 
 body {
@@ -10,8 +20,38 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
+  border-top: 30em;
+  border-right: 30em;
+  border-left: 30em;
+  border-bottom: 30em;
 }
 
+h1 {
+
+  
+  border-radius: 25%;
+  color: #83158f;
+}
+
+h2 {
+  color: #cf346a;
+}
+
+header h2 {
+  margin: 2em;
+  align-self: center;
+  border-style: solid;
+  border: 2px #e89a41;
+  background-color: #e89a41;
+  padding: .5em;
+  border-radius: 50%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h3 {
+  color: #e89a41;
+}
 header { 
   border-top: 20em;
 }
@@ -20,14 +60,19 @@ body header, section {
   border-color: pink;
 }
 
-ul::backdrop {
-  background: rgba(255,0,0,.25)
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  margin-left: 0;
 }
 
 li {
-  margin: 0em;
-  list-style: none;
-
+  border-style: solid;
+  border-color: black;
 }
 
 img {
