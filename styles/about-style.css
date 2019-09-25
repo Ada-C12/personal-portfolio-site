@@ -1,3 +1,32 @@
 #about {
   color: rgb(228, 22, 22);
 }
+
+.about-me {
+  display: grid;
+  width: 80%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-top: 3%;
+  padding-inline-start: 10%; 
+  padding-inline-end: 10%;
+}
+
+.about-me p {
+  margin: 0;
+  grid-column-start: 1;
+  padding-inline-end: 5%;
+  text-align: right;
+  font-size: 2vw;
+}
+
+.about-me img {
+  grid-column-start: 2;
+  text-align: right;
+  width: 100%;
+  height: auto;
+}
+
+
+
