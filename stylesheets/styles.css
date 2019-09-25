@@ -6,19 +6,19 @@ nav {
   font-size: 3em;
   text-align: left
 }
-nav > a:link {
+a:link {
   color: darkgrey;
   text-decoration: none;
 }
-nav > a:visited {
+a:visited {
   color: darkgrey;
   text-decoration: none;
 }
-nav > a:hover {
+a:hover {
   color: darkblue;
   text-decoration: underline
 }
-nav > a:active {
+a:active {
   color: darkgrey;
   text-decoration: none;
 }
