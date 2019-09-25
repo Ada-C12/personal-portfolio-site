@@ -16,7 +16,7 @@ h1, h2, h3, h4, nav {
 h1 {
   color: white;
   border: 1px solid #e1a87a;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: lighter; 
   display: inline-block;
   padding: 0.3em;
@@ -52,13 +52,13 @@ nav ul {
 }
 
 nav li {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 nav a {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 nav a:hover {
@@ -87,7 +87,7 @@ nav a:visited {
 }
 
 header {
-  height: 15em;
+  height: 17em;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
