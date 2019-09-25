@@ -20,6 +20,12 @@ That worked.  But do I want to have to type it manually everytime? Nope! <br>
 So I rewrote README.md as an html file (but I kept the .md file extension), and added in a link with my correct URL!
 </section>
 
+
+
+
+
+
+
 NOTE TO FUTURE SELF: site is NOT mobile friendly, need to go figure out CSS@media and rejigger things.
 1. nav bar uneven on mobile
 2. big fonts too big, scale it to 100% vw or something
