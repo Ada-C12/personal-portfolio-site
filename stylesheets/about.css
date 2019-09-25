@@ -16,3 +16,12 @@ img {
   border-radius: 50%;
 }
 
+.about-container ul {
+  list-style: circle;
+  display: normal;
+  grid-template-columns: 1fr ;
+  font-size: 1.1em;
+  letter-spacing: .1em;
+  padding: 0 32px;
+}
+

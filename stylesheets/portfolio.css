@@ -1,0 +1,37 @@
+:root {
+  --main-color: rgb(230, 165, 80);
+  --second-color: rgb(245, 245, 197);
+  --third-color: rgb(49, 49, 126);
+}
+
+.portfolio-container {
+  text-align: left;
+  width: 450px;
+}
+
+.portfolio-container h2 {
+  font-size: 1.8em;
+  color: var(--third-color);
+}
+
+.project {
+  padding: 2px 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: var(--third-color);
+}
+
+.portfolio-container p {
+  font-size: 1.1em;
+  letter-spacing: .1em;
+  padding: 0 25px;
+}
+
+.portfolio-container div:nth-child(even) {
+  background-color: var(--second-color);
+}
+
+.portfolio-container div:nth-child(even) h3, .portfolio-container div:nth-child(even) p {
+  color: var(--third-color);
+}
+
