@@ -1,0 +1,148 @@
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgb(223, 143, 164);
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.top-n-bottom {
+  display: flex;
+  padding: 1em;
+  margin: 0px;
+  background-color: rgb(40, 46, 114);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  margin: 0.6em 1em;  
+}
+
+nav a:hover {
+  color: rgba(255, 0, 0, 0.719);
+}
+
+.nav-flex a {
+  text-decoration: none;
+  color:#a6a6a8;
+  font-weight: bold;
+  font-size: 2em;
+  align-items: center;  
+}
+
+.center-panel {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.rounded-pic {
+  border-radius: 40%;
+  border: 20px solid #1F2041;
+  width: 85%;
+}
+
+#jumping {
+  width: 75%;
+}
+
+
+h1 {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 5em;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Fascinate Inline', cursive; 
+  font-size: 2em;
+  text-align: center;
+}
+
+footer > * {
+  justify-content: center;
+  align-content: center;
+}
+
+footer a img {
+  height: 4em;
+}
+
+.real-talk {
+  margin-top: 5em;
+}
+
+.edu-table {
+  border: 3px solid black;
+  width: 100%;
+}
+
+.edu-table td {
+  background-color: #acc986;
+  padding: 2em 0.5em;
+}
+
+.edu-table th, .github-grid-header{
+  background-color: #72b021;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1.5em 0.5em;
+}
+
+.edu-table tr:nth-child(2n+3) td {
+  background-color: bisque;
+}
+
+.github-grid {
+  display: grid;
+  background-color: #acc986;
+  grid-template-columns: 1fr 4fr;
+  border: 3px solid rgba(255, 0, 0, 0.719);
+  margin-top: 5em;
+}
+
+.github-grid section a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.github-grid section a:hover {
+  color: rgba(255, 0, 0, 0.719);
+  text-decoration: underline;
+}
+
+.github-grid section:not(.github-grid-header) {
+  text-align: left;
+  padding: 0.75em;
+  margin: 0em;
+}
+
+.github-grid section:nth-child(even):not(.github-grid-header) {
+  background-color: bisque;
+}
+
+.pix {
+  margin: 3em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pix img {
+  width: 33%;
+}
+
+.hobbies article p {
+  text-align: left;
+}
+
+.bucket-list {
+  list-style-type: none;
+}
