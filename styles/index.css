@@ -1,15 +1,35 @@
 main {
-  height: 94vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: black;
+}
+
+main::after {
+  content: "";
+  background: url(../images/workspace-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 h2 {
-  color: #e1a87a;
+  /* color: #e1a87a; */
+  color: #eea76d;
   font-weight: lighter;
   font-size: 0.95em;
 }
+
+h1 {
+  color: #4d4e4f;
+}
+
 
