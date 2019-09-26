@@ -1,0 +1,76 @@
+/* Tablet and Desktop Styles */
+@media only screen and (min-width: 451px) {
+  section {
+    width: 70%;
+  }
+}
+
+main, .projects {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin: 0.5em auto;
+  padding: 2em;
+  border: 1px solid #CDCDCD;
+}
+
+section h2, section p {
+  color: #f3f3f3;
+  text-shadow: 1px 1px #3C3C3C;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+}
+
+section h2 {
+  font-size: 1.2em;
+}
+
+section p {
+  font-size: 1.3em;
+}
+
+/* NOTE: Tried to group the following but did not seem to work
+.background-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#startrly {
+  background: url(../images/startrly.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slack {
+  background: url(../images/slack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hotel {
+  background: url(../images/hotel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rideshare {
+  background: url(../images/rideshare.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grocery {
+  background: url(../images/groceries.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

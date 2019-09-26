@@ -1,0 +1,113 @@
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+body, a, a:visited {
+  color: #3C3C3C;
+}
+
+h1, h2, h3, h4, nav {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  border: 1px solid #e1a87a;
+  font-size: 3em;
+  font-weight: lighter; 
+  display: inline-block;
+  padding: 0.3em;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+nav {
+  overflow: hidden;
+  padding: 0.4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #000000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+.subnav {
+  overflow: hidden;
+}
+
+nav li {
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+
+nav a {
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+
+nav a:hover {
+  background-color: #e1a87a;
+}
+
+.subnav ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav:hover ul {
+  display: block;
+  position: relative;
+}
+
+nav a, nav a:visited, header {
+  color: #f3f3f3;
+}
+
+header {
+  height: 17em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #000000;
+}
+
+header > div {
+  margin: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #000000;
+  padding: 1.5em;
+}
+
+footer * {
+  color: #f3f3f3;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: lighter;
+}

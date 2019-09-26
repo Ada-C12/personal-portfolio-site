@@ -1,0 +1,86 @@
+/* Tablet and Desktop Styles */
+@media only screen and (min-width: 488px) {
+  #map {
+    width: 75%;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(488px, 1fr));
+    grid-auto-rows: auto;
+    padding: 0.5em;
+  }
+
+  .entry img {
+    width: 488px;
+    height: 244px;
+    justify-self: center;
+  }
+}
+
+/* Phone Styles */
+@media only screen and (max-width: 487px) {
+  #map {
+    width: 95%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+  }
+
+  .entry img {
+    width: 95%;
+    height: auto;
+    justify-self: center;
+  }
+}
+
+#map-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#intro {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+#intro h2 {
+  padding: 0.5em;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+#container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.words {
+  overflow-wrap: break-word;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-top: 1px solid #CDCDCD;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+.words * {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.subtitle, .date {
+  font-weight: lighter;
+}
+
+.subtitle {
+  font-size: 1.1em;
+}
+
+
