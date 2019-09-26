@@ -4,7 +4,3 @@ section img {
   float: right;
   padding: 1.5vw;
 }
-
-section {
-  grid-column: 2;
-}
