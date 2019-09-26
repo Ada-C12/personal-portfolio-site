@@ -1,7 +1,6 @@
 article:nth-child(odd) {
     background-color: lightblue;
     width: 70%;
-    color: gray;
 
 
 }
