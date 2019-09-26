@@ -1,0 +1,55 @@
+.moreabout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.moreabout img {
+  width: 40%;
+  border: double;
+  border-radius: 20%;
+  margin-left: 45%;
+  grid-column-start: 1;
+  grid-row-end: span 2;
+}
+
+.moreabout p {
+  font-size: 90%;
+  text-align: center;
+  margin-right: 25%;
+}
+
+.aboutme-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  font-size: 90%;
+}
+
+.skills1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.skills2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+/* .skills3 img {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  margin-top: 10%;
+  width: 60%;
+  align-self: center;
+  border: double;
+  border-radius: 20%;
+  grid-column-start: 3; 
+} */

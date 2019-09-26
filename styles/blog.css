@@ -1,0 +1,24 @@
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* margin-bottom: 10%; */
+  /* border: 2px solid #431c5d; */
+}
+
+.hobbies img {
+  width: 100%;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.hobbies p {
+  font-size: 90%;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
