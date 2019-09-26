@@ -1,0 +1,32 @@
+article:nth-child(odd) {
+    background-color: lightblue;
+    width: 70%;
+
+
+}
+
+article:nth-child(even) {
+    background-color:lightcoral;
+    width: 70%;
+    
+
+
+}
+article {
+    margin-left: 15%;
+}
+h2 {
+    background-color: red;
+
+}
+h3 {
+    background-color:teal;
+
+}
+
+
+
+html {
+    text-align: center;
+
+}

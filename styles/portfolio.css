@@ -1,0 +1,39 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.startrly {
+    display: flex;
+    justify-self: space-between;
+}
+
+.other-projects img {
+    background-color: white;
+    border-radius: 10em;
+
+}
+h2 {
+    text-align: center;
+}
+
+.other-projects {
+    padding: 5px 20px 10px 5px;
+
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.other-projects > li:nth-child(odd) {
+    background-color: #ffd025;
+    border-radius: 5em;
+}
+
+.other-projects > li:nth-child(even) {
+    background-color:lightskyblue;
+    border-radius: 5em;
+}
+
+
+
