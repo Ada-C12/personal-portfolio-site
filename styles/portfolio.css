@@ -4,6 +4,10 @@ body {
   background-image: linear-gradient(#FFD9F2, white);
 }
 
+main {
+  font-family: "Playfair Display"
+}
+
 #sticky {
   display: flex;
   flex-direction: row;
@@ -29,7 +33,7 @@ body {
 }
 
 .projects {
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   justify-items: center;
 }
@@ -46,7 +50,6 @@ body {
   padding-top: 5%;
   border: 2px solid black;
   padding-bottom: 120px;
-  font-family: "Playfair Display"
 }
 
 footer {
