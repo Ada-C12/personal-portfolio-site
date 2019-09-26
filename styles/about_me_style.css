@@ -1,83 +1,44 @@
-html {
-  height: 100%
-}
-
-body {
-  height: 100%;
-  background-image: url("../images/sq-1.jpg");
-  padding: 0px;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  line-height: 1.5em
-}
-
-main {
-  margin: 0px;
-  padding: px;
-}
-
-div.big_box{
-  display: block;
-  height: 80%;
-  width: 90%;
-  background-color: rgba(151, 155, 141, 0.92);
-  padding: 100px;
-  margin: 0;
-}
-
-h1 {
-  display: block;
-  text-align: center
-  justify-content: space-between;
-  font-family: 'Abril Fatface', serif;
-  font-weight: 200;
-  color: #F4F9E9;
-}
-
-h2 {
-  font-family: 'Abril Fatface', serif;
-  font-weight: 200;
-  color: #F4F9E9;
-  line-height: 2.0em;
-  text-align: left;
-  padding-left: 400px;
-}
+@import "shared_style.css";
 
 .intro {
   display: block;
-  font-family: 'Roboto', sans-serif;
-  height: 50px;
 }
 
-.me_stuff {
-  font-weight: 300;
-  color: #F4F9E9;
+.bio {
   align-items: center;
   text-align: justify;
-  padding-left: 300px;
-  padding-right: 200px;
 }
 
 ul.random_facts {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #F4F9E9;
-  padding-left: 400px;
-  padding-right: 200px;
   text-align: justify;
+  padding-left: 0;
+  line-height: 2em; 
 }
 
-/* #increase line height on text blocks
-# increased left and right padding on body 
-# increase padding on pic and decrease padding left on text */
-img {
+/* # increased left and right padding on body  */
+/* # increase padding on pic and decrease padding left on text */
+img.me {
   float: left; 
   height: 300px;
-  width: auto; */
-  border-radius: 140px;
-  padding: 15px;
-  margin: 5px;
+  width: auto; 
+  border-radius: 15px;
+  margin-right: 25px;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid #F4F9E9;
+}
+
+a.home {
+  background-image: url("../images/home_pic.png");
+}
+
+a.portfolio {
+  background-image: url("../images/projects.png");
+}
+
+
+a.hobbies {
+  background-image: url("../images/library_blog_pic.png");
 }
