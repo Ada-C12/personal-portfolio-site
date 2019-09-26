@@ -44,6 +44,10 @@ a:hover {
   padding: 0;
 }
 
+ul {
+  padding-left: 0
+}
+
 footer {
   font-size: small;
   margin-top: 10vmin;
