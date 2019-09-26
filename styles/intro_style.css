@@ -29,15 +29,15 @@ h2 {
   font-size: 1.1em
 }
 
-a.me {
+a.me, a.projects_page {
   text-decoration: none;
 }
 
-a.me:hover {
+a.me:hover, a.projects_page:hover {
   font-weight: bold;
 }
 
-a.me:visited {
+a.me:visited, a.projects_page:visited {
   color: white;
 }
 
