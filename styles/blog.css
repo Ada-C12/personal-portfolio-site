@@ -27,7 +27,15 @@ body {
 }
 
 .blog-container {
-  padding-top: 90px;
+  padding-top: 60px;
+}
+
+.blog-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 
 article {
