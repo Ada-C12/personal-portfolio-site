@@ -15,7 +15,7 @@ body {
   display: grid;
   grid-template: 1fr 10fr 1fr / 1fr 1fr 1fr
   font-family: 'Roboto', sans-serif;
-  background-image: url("images/home.JPG");
+  background-image: url("../images/home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,18 +55,12 @@ main {
   margin-bottom: auto;
 }
 
-h1 {
-  grid-area: 6 / 2;
-  text-align: center;
-  font-size: 60px;
-  font-weight: bolder;
-  color: black;
-  padding: 30px;
-}
-
 footer {
   grid-row: 12;
   grid-column: 1 / 3;
+  background-color: rgb(161, 156, 156);
+  opacity: 0.5;
+  padding: 8px;
 }
 
 footer ul { 
@@ -79,8 +73,6 @@ footer ul {
 }
 
 footer ul li {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  background-color: rgb(161, 156, 156);
-  padding: 3px;
 }
