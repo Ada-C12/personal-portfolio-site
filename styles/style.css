@@ -1,5 +1,5 @@
 
-html, body {
+html, .body {
   font-family: Helvetica, sans-serif;
   height: 100%;
   position: relative;
@@ -15,7 +15,7 @@ header {
 
 header span {
   display: inline-block;
-  font-size: 2.75em;
+  font-size: 3.5em;
   align-self: center;
   justify-self: center;
   font-family: 'Ultra', serif;
@@ -25,32 +25,24 @@ header span {
   border-radius: 50%;
 }
 
-header a {
+header a, h2 a {
   text-decoration: none;
   color: black;
 }
 
-header a:visited {
+header a:visited, h2 a:visited {
   color: black; 
 }
 
-header a:hover {
+header a:hover, h2 a:hover {
   color:grey;
 }
-
-/* .container {
-  height: 100%;
-  position: relative;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
-} */
-
-.container {
-  min-height: 100vh; /* will cover the 100% of viewport */
+ .body {
+  min-height: 100vh; 
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 100px; /* height of your footer */
+  padding: 0% 2.5% 100px 2.5%; 
  }
 
 ul {
@@ -61,18 +53,36 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-items: center;  
   background-color: #F2E2BA;
-  margin-top: 1em;
+  margin: 2.5%;
 }
 
 .main p {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  margin-top: 5%;
   padding-left: 5%;
   font-size: 1.25em;
+  display: block;
 }
 
 .main img {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
   border-radius: 25%;
   padding: 5%;
+}
+
+.main a img {
+  grid-row-start: 2;
+  padding: 5%;
+  margin: 2.5% 5% 0% 5%;
+  display: inline-block;  
+  height: 40px; 
 }
 
 #index-nav ul {
@@ -147,19 +157,43 @@ h1 {
   font-size: 2em;
 }
 
-h2 {
-  float: left;
+h2, a {
+  font-size: 1em;
+  text-decoration: none;
+  margin-bottom: .25em;
+}
+
+h3 {
+  font-size: .75em;
+  margin: 0;
+  font-style: italic;
 }
 
 .main-pages {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #F2E2BA;
-  margin-top: 1em;
+  padding: 2.5% 5% 2.5% 5%;
+  margin: 2.5%;
+  margin-bottom: 5%;
+  font-size: 1.25em;
 }
 
-.main-pages p {
-  padding: 0% 5% 0% 5%;
-  font-size: 1.25em;
+.main-pages ul.a {
+  list-style: square;
+}
+
+.main-pages ul.b {
+  list-style: circle;
+}
+
+#beginning img {
+  float: left;
+  padding-right: 1em;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+  border: 0;
 }
