@@ -2,7 +2,18 @@
   section {
     width: 70vw;
   }
+
+  section img {
+    width: 7vw;
+  }
 }
+
+@media only screen and (max-width: 450px) {
+  section img {
+    max-width: 20vw;
+  }
+}
+
 
 section {
   margin: 1em auto;
@@ -39,10 +50,6 @@ section p {
   grid-column-end: span 1;
   align-self: start;
   margin-block-start: 0.1em;
-}
-
-section img {
-  width: 7em;
 }
 
 section img:hover {
