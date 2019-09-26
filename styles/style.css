@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer|Lexend+Deca|Staatliches&display=swap');
 body {
   font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
 }
 header {
   height: 8rem;
@@ -20,7 +21,7 @@ header {
 }
 
 nav ul {
-  margin-top: 12rem;
+  margin-top: 12.5rem;
   position: fixed;
 }
 li.banner {
@@ -43,13 +44,10 @@ a {
   text-decoration: none;
   color: black;
 }
-nav {
-  display: inline-block;
-}
 
 .content {
   display: grid;
-  grid-template: 16rem 1fr / minmax(20rem, 30rem);
+  grid-template: 16rem 1fr / minmax(20rem, 80%);
   float: right;
   width: 50%;
 }
@@ -57,4 +55,69 @@ nav {
 .content section {
   border: 1px solid black;
   padding: 2rem;
+}
+
+.headshot {
+  height: 500px;
+}
+.home-photo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 850px) {
+  body {
+    text-align: center;
+  }
+  .banner {
+    transform: none;
+    height: 3rem;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    top: 0;
+  }
+  .banner:hover {
+    background-color: pink
+  }
+  nav ul {
+    margin-top: 3.5rem;
+    width: 100vw;
+    padding: 0;
+  }
+  li.banner {
+    transform: none;
+    height: 2rem;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+  li.banner:hover {
+    transform: none;
+    background-color: pink;
+  }
+  .home-photo {
+    display: inline-block;
+    position: relative;
+    margin-top: 11rem;
+  }
+
+  .content {
+    float: none;
+    width: 80%;
+    margin-left: 15%;
+  }
 }
