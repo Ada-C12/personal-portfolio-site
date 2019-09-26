@@ -1,0 +1,15 @@
+.content {
+    display: grid;
+    grid-template: 1fr / 40% 50%;
+
+
+}
+.content > img {
+    border-radius: 10em;
+    background-color: lightgreen;
+    padding: 5px 25px 10px 5px;
+}
+
+h1 {
+    margin-left: 125px;
+}
