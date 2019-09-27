@@ -15,38 +15,41 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
   </head>
+
   <body>
     <nav>
       <ul>
         <li><a href="./about.html">About Me</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
         <li><a href="./resume.html">Resume</a></li>
-        <li><a href="./hobby-blog.html">hobby-blog</a></li>
+        <li><a href="./hobby-blog.html">Hobby-blog</a></li>
         <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
-      <section id="banner"></section>
-      <h1><i class="fas fa-address-book"></i> Contact Me</h1>
+      <section id="banner">
+        <h1>
+          <i class="fas fa-blog"></i>Hobby
+          <span id="contrast-text">Bolg</span>
+        </h1>
+      </section>
 
-
-      <form>
-        <fieldset>
-          <section>
-            <label for="email">E-Mail:</label>
-            <input name="email" type="text" placeholder="" />
-          </section>
-
-          <section>
-            <label for="message">Message:</label>
-            <input name="name" type="text" placeholder="" />
-          </section>
-
-          <section>
-            <input type="submit" value="Send Message!" />
-          </section>
-        </fieldset>
-      </form>
+      <section id="pages">
+        <ul id="blog-container">
+          <li class="blog-item">
+            <h1 class="page-title">Watching Tv</h1>
+            <img class="blog-img" src="../images/img.jpg" alt="picture" />
+          </li>
+          <li class="blog-item">
+            <h1 class="page-title">Watching Stars</h1>
+            <img class="blog-img" src="../images/star.jpg" alt="Stars" />
+          </li>
+          <li class="blog-item">
+            <h1 class="page-title">Trying different Food</h1>
+            <img class="blog-img" src="../images/food.jpg" alt="food" />
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
