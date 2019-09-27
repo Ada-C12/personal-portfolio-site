@@ -1,6 +1,24 @@
+.flex-container {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.row {
+flex-direction: row;
+}
+
+.column {
+flex-direction: column;
+}
+
+
+
+
+
 .main-container{
   display:grid;
-  grid-template-rows: 40vh 40vh 10vh;
+  grid-template-rows: 4vh 15vh 10vh;
 }
 
 .details-container{
@@ -11,7 +29,6 @@
 
 .skills-section {
 grid-row-end: 2;
-
 }
 
 .about-section{
