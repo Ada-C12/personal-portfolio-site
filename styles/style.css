@@ -1,0 +1,57 @@
+body, p, img {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  margin-right: 1.5em;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 8em;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  max-height: 30vh;
+}
+
+aside {
+  padding-right: 1em;
+  margin-right: 1em;
+  width: 45em
+}
+
+article {
+  padding-bottom: 2em;
+      margin-bottom: 1em;
+  }  
+
+h3 {
+  margin-top: 0;
+}
+
+footer {
+  margin-top: 20vh;
+}

@@ -1,0 +1,47 @@
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 16vh 10vh;
+  grid-template-areas: 
+    "my-name . nav"
+    "page-name . ."
+}
+
+h1 {
+  grid-area: my-name;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  grid-area: page-name;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+}
+
+
+main {
+  align-items: flex-start;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+figure img {
+  padding-bottom: .5em;
+  margin-right: 0;
+}
+
+figure img:nth-child(2) {
+  margin-left: 0;
+  padding-left:0;
+}
