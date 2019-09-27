@@ -1,0 +1,93 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../images/sq-1.jpg");
+  padding: 0px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  color: #F4F9E9;
+  font-weight: 300;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.big_box{
+  min-height: 100%;
+  width: 60%;
+  max-width: 700px;
+  background-color: rgba(151, 155, 141, 0.92);
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 200;
+  color: #F4F9E9;
+  line-height: 2.0em;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+
+nav.nav_buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav.nav_buttons a {
+  filter: grayscale();
+  background-size: cover;
+  display: block;
+  border: 2px solid blue;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  padding: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500px;
+  color: rgba(151, 155, 141, 0.92);
+}
+
+nav.nav_buttons a:hover {
+  filter: none;
+}
+
+a.home {
+  background-image: url("../images/home_pic.png");
+}
+
+a.portfolio {
+  background-image: url("../images/projects.png");
+}
+
+
+a.food {
+  background-image: url("../images/library_blog_pic.png");
+}
+
+a.me {
+  background-image: url("../images/about_me_pic.png")
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid #F4F9E9;
+  opacity: .5;
+}
+

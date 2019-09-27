@@ -1,0 +1,24 @@
+@import "shared_style.css";
+
+.intro {
+  display: block;
+}
+
+.bio {
+  align-items: center;
+  text-align: justify;
+}
+
+ul.random_facts {
+  text-align: justify;
+  padding-left: 0;
+  line-height: 2em; 
+}
+
+img.me {
+  float: left; 
+  height: 300px;
+  width: auto; 
+  border-radius: 15px;
+  margin-right: 25px;
+}
