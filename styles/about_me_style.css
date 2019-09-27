@@ -15,30 +15,10 @@ ul.random_facts {
   line-height: 2em; 
 }
 
-/* # increased left and right padding on body  */
-/* # increase padding on pic and decrease padding left on text */
 img.me {
   float: left; 
   height: 300px;
   width: auto; 
   border-radius: 15px;
   margin-right: 25px;
-}
-
-footer {
-  text-align: center;
-  border-top: 2px solid #F4F9E9;
-}
-
-a.home {
-  background-image: url("../images/home_pic.png");
-}
-
-a.portfolio {
-  background-image: url("../images/projects.png");
-}
-
-
-a.hobbies {
-  background-image: url("../images/library_blog_pic.png");
 }

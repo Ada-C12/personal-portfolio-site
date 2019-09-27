@@ -29,15 +29,15 @@ h2 {
   font-size: 1.1em
 }
 
-a.me, a.projects_page {
+a.me, a.portfolio_page, a.food_blog {
   text-decoration: none;
 }
 
-a.me:hover, a.projects_page:hover {
+a.me:hover, a.portfolio_page:hover, a.food_blog:hover {
   font-weight: bold;
 }
 
-a.me:visited, a.projects_page:visited {
+a.me:visited, a.portfolio_page:visited, a.food_blog:visited {
   color: white;
 }
 
@@ -48,7 +48,7 @@ main {
   width: 300px;
   color: #F4F9E9;
   display: block;
-  text-align: center
+  text-align: center;
 }
 
 .navigation{
@@ -57,12 +57,26 @@ main {
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  font-size: 1.0em
+  font-size: 1.0em;
 }
 
 p {
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  font-size: 1.0em
+  font-size: 1.0em;
+}
+
+#social_media img{
+  display: inline;
+  height: 50px;
+  width: auto;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+}
+
+#home_footer{
+  border-top: 1px solid;
+  opacity: .5;
 }
