@@ -1,0 +1,20 @@
+nav {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: cornflowerblue;
+}
+
+.link:hover {
+  color: coral;
+}
+
+ul {
+  list-style: none;
+}
