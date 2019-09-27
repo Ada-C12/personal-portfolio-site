@@ -1,0 +1,52 @@
+@media screen and (max-width: 850px) {
+  body {
+    text-align: center;
+  }
+
+  .banner {
+    transform: none;
+    height: 3rem;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    top: 0;
+  }
+
+  .banner:hover {
+    background-color: rgb(211, 205, 210)
+  }
+
+  nav ul {
+    margin-top: 3.5rem;
+    width: 100vw;
+    padding: 0;
+  }
+
+  li.banner {
+    transform: none;
+    height: 2rem;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+
+  li.banner:hover {
+    transform: none;
+  }
+
+  .home-photo-container {
+    display: none;
+  }
+
+  .home-intro section {
+    margin: 0;
+    border-radius: 15px;
+  }
+  
+  .content {
+    float: none;
+    width: 100%;
+  }
+}

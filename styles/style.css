@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Lexend+Deca|Staatliches&display=swap');
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 8rem;
+  width: 58rem;
+  line-height: 8rem; 
+  font-size: 4.5rem; 
+  text-transform: uppercase;
+  position: fixed;
+}
+
+.banner {
+  background-color: rgb(255, 218, 6); 
+  transform: rotate(-15deg) translate(-10rem, 5rem);
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+nav ul {
+  margin-top: 12.5rem;
+  position: fixed;
+}
+
+li.banner {
+  height: 5rem;
+  width: 35rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  list-style: none;
+  text-transform: uppercase;
+  transform: rotate(-15deg) translate(-10rem, 5rem);
+}
+
+li.banner:hover {
+  transform: rotate(-15deg) translate(-6rem, 5rem);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-intro section {
+  margin-left: 10rem;
+  padding: 1em;
+  border: 5px solid black;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+}
+
+.home-photo-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.headshot {
+  height: 550px;
+}
+
+.content {
+  display: grid;
+  grid-template: 12rem 1fr / 1fr;
+  float: right;
+  width: 50%;
+}
+
+.content > * {
+  padding: 0 5rem 0 5rem;
+}
+
+.content ul {
+  margin: 0;
+  list-style: none;
+}
+
+.content a:hover {
+  color:  rgb(123, 120, 122);
+}
+
+.blog-container {
+  padding: 2em;
+  height: 40vh;
+  overflow-y: scroll;
+  border-top: 2px dotted rgb(255, 218, 6);
+  border-left: 2px dotted rgb(255, 218, 6);
+  margin-bottom: 2em;
+}
+
+.blog-post {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 3em;
+  padding: 0 2em 0 2em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+}
+
+footer address {
+  display: inline-block;
+}
