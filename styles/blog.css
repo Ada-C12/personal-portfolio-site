@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 body {
   background-image: linear-gradient(#FFD9F2, white);
@@ -31,7 +31,7 @@ body {
 .blog-container {
   padding-top: 60px;
   text-align: center;
-  font-family: "Montserrat";
+  font-family: "Playfair Display";
 }
 
 .blog-container img {
