@@ -89,6 +89,21 @@ a {
   border-top-right-radius: 0px;
 }
 
+.blog {
+  padding: 2em;
+  height: 40vh;
+  overflow-y: scroll;
+  border-top: 2px dotted rgb(255, 218, 6);
+  border-left: 2px dotted rgb(255, 218, 6);
+  margin-bottom: 2em;
+}
+.blog-post {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 3em;
+  padding: 0 2em 0 2em;
+}
+
 footer {
   position: fixed;
   bottom: 0;
