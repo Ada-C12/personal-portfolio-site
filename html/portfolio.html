@@ -5,23 +5,74 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="../styles/main.css" rel="stylesheet"/>
+    <link href="../styles/portfolio.css" rel="stylesheet"/>
   </head>
 
   <body>
 
     <header>
       <nav>
-        
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="hobby-blog.html">Blog</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
-    <div>
-
-    </div>
+    <main>
+      <!-- https://codepen.io/panfilov/pen/GogJVy -->
+      <section id="slider">
+        <input type="radio" name="slider" id="s1">
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3" checked>
+        <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+        <!-- first slide -->
+        <label for="s1" id="slide1">
+          <img class="images" src="../images/hotel.jpg">
+          <a class="caption" href="https://github.com/rinostar/hotel">Hotel</a>
+        </label>
+        <!-- second slide -->
+        <label for="s2" id="slide2">
+          <img class="images" src="../images/rideshare.jpg">
+          <a class="caption" href="https://github.com/rinostar/oo-ride-share">Ride Share</a>
+        </label>
+        <!-- third slide -->
+        <label for="s3" id="slide3">
+          <img class="images" src="../images/slackbot.jpg">
+          <a class="caption" href="https://github.com/rinostar/slack-post-exercise">SlackBot</a>
+        </label>
+        <!-- fourth slide -->
+        <label for="s4" id="slide4">
+          <img class="images" src="../images/grocerystore.jpg">
+          <a class="caption" href="https://github.com/rinostar/grocery-store">Grocery Store</a>
+        </label>
+      </section>
+    </main>
 
     <footer>
-
+      <ul>
+        <li>
+          Contact: yitgop@gmail.com
+        </li>
+        <li>
+            All rights resvered ©2019
+          </li>
+        <li>
+          Follow: @yitgopontwitter
+        </li>
+      </ul>
     </footer>
     
   </body>
