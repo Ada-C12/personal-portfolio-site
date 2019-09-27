@@ -1,0 +1,74 @@
+#cover-photo {
+  margin-top: 6vmin;
+  position: relative;
+  font-size: 0
+}
+
+#globe {
+  width: 100%
+}
+
+#hello-world {
+  position: absolute;
+  top: 3vh;
+  left: 6vw;
+  font-size: 4vw;
+}
+
+#dianna {
+  position: absolute;
+  bottom: 3vh;
+  right: 6vw;
+  font-size: 4vw;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 7vmin;
+}
+
+.buttons > li {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vmin;
+}
+
+.buttons > li img {
+  border: 10px solid silver;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+}
+
+/* Image Hover Overlay Tutorial https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+.overlay {
+  border: 10px solid silver;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  background-color: silver;
+  opacity: 0;
+  position: absolute;
+  transition: .5s ease;
+}
+
+#about:hover .overlay , #portfolio:hover .overlay, #blog:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-size: 3vmin;
+}

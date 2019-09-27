@@ -1,0 +1,50 @@
+.all-posts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+.post {
+  border-top: 2px solid black;
+}
+
+.review-photo {
+  float: left;
+}
+
+img {
+  width: 38vmin;
+  height: 38vmin;
+  margin-top: 5vmin;
+  margin-right: 1.5vmin;
+}
+
+.review-text {
+  margin-top: 5vmin;
+  text-align: justify;
+}
+
+.review-text header {
+  font-weight: bold;
+}
+
+.review-text > p {
+  margin-left: 0vmin;
+  margin-bottom: 4vmin;
+}
+
+h2 {
+  font-size: x-large;
+  text-align: left;
+  margin-top: 0
+}
+
+.review-text > * {
+  text-align: left;
+  margin-left: 3vmin;
+}
+
+#end-line {
+  border-top: 2px solid black;
+}
