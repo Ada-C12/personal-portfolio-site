@@ -31,6 +31,7 @@ h2 {
 
 a.me, a.portfolio_page, a.food_blog {
   text-decoration: none;
+  color: #F4F9E9;
 }
 
 a.me:hover, a.portfolio_page:hover, a.food_blog:hover {
