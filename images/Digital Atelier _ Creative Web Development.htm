@@ -1,0 +1,1820 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://www.digitalatelier.ro/#/work -->
+<html class=" js flexbox flexboxlegacy canvas canvastext rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent -webkit- webkit chrome mac js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<meta name="keywords" content="web design, web development bucuresti, website design romania, aplicatii facebook, mobile applications">
+<meta name="description" content="Digital studio focused on web, mobile and facebook development">
+<meta name="viewport" content="width=device-width, inital-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Digital Atelier | Creative Web Development</title>
+<link rel="icon" type="image/png" href="http://www.digitalatelier.ro/images/favicon.png?v=1">
+<style media="" data-href="css/style.less.css">@import url("//fonts.googleapis.com/css?family=Arimo");
+@import url("//fonts.googleapis.com/css?family=Lato:700,400italic");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  list-style: none;
+  font-weight: normal;
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: 700;
+}
+.upper {
+  text-transform: uppercase;
+}
+.cover {
+  background-size: cover;
+}
+.red {
+  background-color: red;
+}
+.bot {
+  background-position: bottom;
+}
+.dark {
+  background: #333745;
+}
+.half {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.full {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Lato', Tahoma, Geneva, sans-serif;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.wrap {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("http://www.digitalatelier.ro/css/../images/dot.png") fixed;
+}
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.ie body,
+.-o- body {
+  background: #45738f;
+}
+a {
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2a2e3a;
+  text-decoration: none;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background: #333745;
+  z-index: 999;
+  text-align: center;
+  box-shadow: 0 1px 22px rgba(0,0,0,0.3);
+}
+ul.nav {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+ul.nav li {
+  float: left;
+  position: relative;
+  width: 115px;
+  height: 55px;
+  background: url("http://www.digitalatelier.ro/css/../images/divider.png") left no-repeat;
+  text-align: left;
+  transition: background-color 0.1s ease-out;
+}
+ul.nav li a {
+  font-family: 'Lato', Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: 700 !important;
+  line-height: 4;
+  text-align: center;
+  cursor: pointer;
+  width: 113px;
+  height: 55px;
+  left: 2px;
+  position: relative;
+  display: block;
+  color: white;
+  transition: background-color 0.2s ease-out;
+}
+ul.nav li span {
+  position: absolute;
+  display: block;
+  background: #05b9dc;
+  z-index: 22;
+  width: 113px;
+  left: 2px;
+  height: 5px;
+  bottom: 0;
+  display: none;
+}
+ul.nav li a.contact-btn {
+  background: url("http://www.digitalatelier.ro/css/../images/divider.png") top right no-repeat;
+  width: 115px;
+}
+ul.nav li a:hover {
+  background-color: #05b9dc;
+}
+nav div {
+  transition: background-color 0.1s ease-out;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  background: url("http://www.digitalatelier.ro/css/../images/divider.png") right no-repeat;
+}
+nav div a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: url("http://www.digitalatelier.ro/css/../images/da-on.png") no-repeat;
+  transition: opacity 0.1s ease-in-out;
+}
+.last:hover {
+  background: url("http://www.digitalatelier.ro/css/../images/divider.png") left no-repeat #05b9dc;
+}
+.first:hover {
+  background: url("http://www.digitalatelier.ro/css/../images/divider.png") right no-repeat #05b9dc;
+}
+.last a:hover {
+  opacity: 1;
+}
+.last {
+  background: url("http://www.digitalatelier.ro/css/../images/divider.png") left no-repeat;
+  right: 0;
+}
+.last a {
+  background: url("http://www.digitalatelier.ro/css/../images/f.png") center no-repeat;
+}
+header {
+  width: 100%;
+  height: 285px;
+  background: url("http://www.digitalatelier.ro/css/../images/ring.png") no-repeat top center;
+}
+.logo {
+  position: absolute;
+  width: 100%;
+  height: 230px;
+  top: 70px;
+  text-align: center;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.flip {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -90px;
+  perspective: 800;
+  margin-top: 25px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.ie .flip {
+  display: none !important;
+}
+.flipper {
+  transition: 0.7s ease-in-out;
+  transform-style: preserve-3d;
+  transform-origin: center;
+}
+.front,
+.back {
+  width: 180px;
+  height: 180px;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.front {
+  z-index: 2;
+}
+.back {
+  transform: rotateY(180deg);
+}
+.bar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 310px;
+  z-index: 100;
+  text-align: center;
+}
+.bar-text {
+  position: absolute;
+  width: 100%;
+  font-weight: 700;
+}
+.bar-text p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.2;
+  display: inline-block;
+  word-spacing: 2px;
+  background: #333745;
+  padding: 0 18px;
+  padding-bottom: 3px;
+  border-radius: 50px;
+}
+.pro p {
+  padding: 0 15px;
+  bottom: 18px;
+  position: relative;
+  font-style: normal;
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none;
+}
+.pro-p {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  background: #333745;
+  border-radius: 24px;
+  height: 50px;
+}
+section {
+  position: absolute;
+  top: 360px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 35px;
+  min-height: 330px;
+  z-index: 10;
+}
+.sub {
+  position: relative;
+  width: 100%;
+  height: 90px;
+}
+.work .sub {
+  background: url("http://www.digitalatelier.ro/css/../images/sub-home.png") center 18px no-repeat;
+}
+.work ul {
+  max-width: 1050px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+.work ul li {
+  float: left;
+  width: 180px;
+  height: 180px;
+  margin: 15px;
+  margin-top: 0;
+  margin-bottom: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.pic {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.serv {
+  width: 905px;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+.serv li {
+  width: 285px;
+  background: #f4f4f4;
+  float: left;
+  margin-right: 24px;
+  color: black;
+  border-radius: 20px;
+}
+.serv li.dev {
+  margin: 0;
+}
+.serv li ul li {
+  width: 285px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 2.6;
+  font-family: 'Arimo', sans-serif;
+  background: url("http://www.digitalatelier.ro/css/../images/divide.png") bottom repeat-x;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.serv li ul li.last {
+  background: none;
+}
+.serv li ul li.li {
+  width: 285px;
+  height: 115px;
+  background: #333745;
+}
+.serv li ul li.li p {
+  width: 100%;
+  height: 100%;
+  background: url("http://www.digitalatelier.ro/css/../images/ideas.png") center no-repeat;
+}
+.serv li.des ul li.li p {
+  background: url("http://www.digitalatelier.ro/css/../images/des.png") center no-repeat;
+}
+.serv li.dev ul li.li p {
+  background: url("http://www.digitalatelier.ro/css/../images/dev.png") center no-repeat;
+}
+.services .sub {
+  background: url("http://www.digitalatelier.ro/css/../images/sub-serv.png") center 18px no-repeat;
+}
+.contact .sub a {
+  display: block;
+  width: 678px;
+  height: 43px;
+  position: relative;
+  margin: 0 auto;
+  background: url("http://www.digitalatelier.ro/css/../images/sub-con.png") no-repeat;
+  top: 20px;
+}
+.contact .sub .over {
+  display: none;
+  width: 678px;
+  height: 43px;
+  position: absolute;
+  left: 50%;
+  margin-left: -339px;
+  background: url("http://www.digitalatelier.ro/css/../images/sub-con-over.png") no-repeat;
+  top: 0px;
+  z-index: 22;
+}
+.formular {
+  width: 450px;
+  height: 352px;
+  position: relative;
+  margin: 0 auto;
+  background: #333745;
+  border-radius: 20px;
+}
+input,
+textarea {
+  resize: none;
+  z-index: 1;
+  font-size: 15px;
+  color: #000;
+  display: inline-block;
+  line-height: 1.3;
+  width: 420px;
+  height: 35px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+textarea {
+  height: 120px;
+  padding-top: 5px;
+}
+#nume {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#mesaj {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+form div {
+  position: relative;
+}
+form label {
+  color: black;
+  font-size: 14px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 24px;
+  text-align: center;
+  width: 415px;
+}
+.ie form label {
+  width: 425px;
+  padding-left: 15px;
+}
+form div br {
+  display: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.register-btn,
+.ok {
+  width: 90px;
+  height: 42px;
+  background: url("http://www.digitalatelier.ro/css/../images/send.png") no-repeat;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  top: 9px;
+}
+.register-btn:hover {
+  background-position: 0 -42px;
+}
+.register-btn:active {
+  background-position: 0 -84px;
+}
+.sending {
+  background-position: bottom !important;
+}
+.note {
+  position: absolute;
+  top: 17px;
+  display: inline-block;
+  background: #f04e37;
+  border-radius: 6px;
+  padding: 8px;
+  padding-top: 6px;
+  left: 445px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 25px rgba(50,50,50,0.3);
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #f04e37;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  left: -8px;
+  top: 5px;
+}
+.form-flip {
+  perspective: 1000;
+  width: 450px;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.form-flipper {
+  transition: .5s ease-in-out;
+  transform-style: preserve-3d;
+}
+.form-front,
+.form-back {
+  width: 450px;
+  height: 350px;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-front {
+  z-index: 2;
+}
+.form-back {
+  background: #333745;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}
+.form-back div,
+.form-fade div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url("http://www.digitalatelier.ro/css/../images/thanks.png") center 50px no-repeat;
+}
+.form-back p,
+.form-fade p {
+  position: relative;
+  font-size: 21px;
+  font-style: italic;
+  top: 165px;
+  line-height: 1.3;
+}
+a.ok {
+  width: 90px;
+  height: 42px;
+  background: url("http://www.digitalatelier.ro/css/../images/ok.png") no-repeat;
+  position: relative;
+  top: 205px;
+  margin: 0 auto;
+}
+a.ok:hover {
+  background-position: 0 -42px;
+}
+a.ok:active {
+  background-position: 0 -84px;
+}
+.form-fade {
+  background: #333745;
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  position: absolute;
+  top: 90px;
+  display: none;
+}
+.ie .form-front,
+.opera .form-front {
+  position: relative;
+}
+.ie .form-back,
+.opera .form-back {
+  position: absolute;
+  left: 50%;
+  margin-left: -225px;
+  top: 20px;
+}
+.project {
+  z-index: 99;
+  padding-top: 0;
+}
+.project .images {
+  width: 930px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 35px;
+  position: relative;
+  overflow: hidden;
+}
+.project .name {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 23px;
+  height: 55px;
+  line-height: 2.2;
+}
+.project .image {
+  background: #333745;
+  padding: 0 15px 15px 15px;
+  min-height: 400px;
+  min-width: 520px;
+  display: inline-block;
+}
+.project .image img {
+  max-width: 100%;
+  min-width: 520px;
+  height: auto;
+  position: relative;
+  border-radius: 15px;
+}
+.ie .project .image img,
+.-moz- .project .image img,
+.-o- .project .image img {
+  max-width: 100%;
+  width: 100%;
+}
+.project .image:first-child {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 15px;
+}
+.project .image:last-child {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.bar .next,
+.bar .prev {
+  top: -10px;
+  background: #333745;
+  position: absolute;
+  z-index: 99;
+  padding: 5px;
+}
+.bar .next {
+  left: 100%;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.bar .next a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  background: url("http://www.digitalatelier.ro/css/../images/ar-l.png") center no-repeat #05b9dc;
+  border-radius: 50%;
+  transition: background-color 0.1s ease-in-out;
+}
+.bar .prev {
+  left: -65px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.bar .prev a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  background: url("http://www.digitalatelier.ro/css/../images/ar-r.png") center no-repeat #05b9dc;
+  border-radius: 50%;
+  transition: background-color 0.1s ease-in-out;
+}
+.back-btn {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  position: absolute;
+  background: #2a2e3a;
+  padding: 5px;
+  left: 100%;
+  top: 84px;
+  transition: background-color 0.1s ease-in-out;
+}
+.back-btn a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  border-radius: 50%;
+  background: url("http://www.digitalatelier.ro/css/../images/x.png") center #05b9dc no-repeat;
+  transition: background-color 0.1s ease-in-out;
+}
+.bar .next a:hover,
+.bar .prev a:hover,
+.back-btn a:hover {
+  background-color: #f04e37;
+}
+.back-top {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  background: #333745;
+}
+.back-top a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background: url("http://www.digitalatelier.ro/css/../images/ar-up.png") center no-repeat #05b9dc;
+  transition: all 0.1s ease-in-out;
+}
+.-moz- .back-top a,
+.-o- .back-top a {
+  background: url("http://www.digitalatelier.ro/css/../images/ar-up.png") 14px 13px no-repeat #05b9dc;
+}
+.back-top a:hover {
+  background-color: #f04e37;
+}
+.last-btn {
+  opacity: .2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  cursor: default;
+}
+.prev a.last-btn {
+  background: url("http://www.digitalatelier.ro/css/../images/ar-r.png") center no-repeat #05b9dc !important;
+}
+.next a.last-btn {
+  background: url("http://www.digitalatelier.ro/css/../images/ar-l.png") center no-repeat #05b9dc !important;
+}
+.tip {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  transition: background-color 0.2s ease-in-out;
+}
+.tip a {
+  width: 37px;
+  height: 37px;
+  margin: 7px;
+  display: block;
+}
+.pro-link {
+  background: url("http://www.digitalatelier.ro/css/../images/link.png") no-repeat;
+}
+.pro-link:hover {
+  background-position: bottom;
+}
+.tooltip {
+  display: none;
+  position: absolute;
+}
+.info-btn {
+  cursor: default;
+  background: url("http://www.digitalatelier.ro/css/../images/i.png") center no-repeat !important;
+}
+.info .tooltip {
+  width: 300px;
+  top: 85px;
+  left: -129px;
+  border-radius: 7px;
+  z-index: 3;
+}
+.visit .tooltip {
+  border-radius: 7px;
+  min-width: 240px;
+  top: 85px;
+  left: -95px;
+}
+.tooltip p {
+  font-family: 'Arimo';
+  line-height: 1;
+  font-size: 14px !important;
+  padding: 14px 15px;
+  padding-bottom: 10px;
+  text-transform: none;
+  background: none;
+  text-align: left;
+  background: #f04e37;
+  border-radius: 7px;
+  box-shadow: 0 0px 25px rgba(0,0,0,0.3);
+}
+.tooltip p span {
+  display: block;
+  margin-bottom: 5px;
+}
+.tooltip p span.desc {
+  border-top: 1px dotted #fcdcd7;
+  margin-top: 9px;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.tooltip p span strong {
+  padding-right: 5px;
+  font-style: normal;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 700;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #f04e37;
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  margin-left: -6px;
+  top: -27px;
+}
+.visit p {
+  padding-top: 10px;
+}
+.visit .tooltip p {
+  background: #f04e37;
+}
+.visit .tooltip .arrow-up {
+  border-bottom: 10px solid #f04e37;
+}
+.offline a {
+  cursor: default !important;
+  opacity: .3;
+}
+.offline .tooltip p {
+  background: #05b9dc;
+}
+.offline .tooltip .arrow-up {
+  border-bottom: 10px solid #05b9dc;
+}
+.offline .pro-link:hover {
+  background-position: top;
+}
+.animate-left {
+  transition: all .8s cubic-bezier(0.650,0.000,0.175,1.000);
+  transform: translateX(-100%);
+}
+.animate-right {
+  transition: all .8s cubic-bezier(0.650,0.000,0.175,1.000);
+  transform: translateX(100%);
+}
+.animate-center {
+  transition: all .8s cubic-bezier(0.650,0.000,0.175,1.000);
+  transform: translateX(0%);
+}
+.fade {
+  position: absolute;
+  left: 50%;
+  top: 25px !important;
+  margin-left: -90px;
+  display: none;
+  z-index: 2;
+}
+.ie .fade {
+  display: block;
+}
+.ie .form-back,
+.-o- .form-back {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #2a2e3a;
+}
+::-webkit-scrollbar-thumb {
+  background: #05b9dc;
+}
+#qLbar {
+  top: 0px !important;
+  margin: 0 !important;
+}
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("http://www.digitalatelier.ro/css/../images/loader.png") center no-repeat #333745;
+  z-index: 99999;
+}
+@media only screen and (max-width: 1050px) {
+  .work ul {
+    max-width: 840px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .work ul {
+    max-width: 640px;
+  }
+  body {
+    background: url("http://www.digitalatelier.ro/css/../images/bg5.jpg") center fixed no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  img.bg {
+    display: none;
+  }
+  .bar-text p {
+    font-style: italic;
+    font-size: 18px;
+  }
+  .pro p {
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .serv {
+    width: 720px;
+  }
+  .serv li {
+    width: 224px;
+  }
+  .serv li ul li {
+    width: 224px;
+    font-size: 13px;
+    line-height: 2.9;
+  }
+  .serv li ul li.li {
+    width: 224px;
+  }
+  .project .images {
+    width: 640px;
+  }
+  .project .image {
+    min-height: 200px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  section {
+    top: 370px;
+  }
+  .work ul {
+    max-width: 420px;
+  }
+  .bar {
+    width: 100%;
+  }
+  .bar-text p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 5px 15px;
+    padding-bottom: 9px;
+  }
+  .pro p {
+    font-size: 14px;
+    font-style: normal;
+    bottom: 21px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 700;
+  }
+  .serv {
+    width: 420px;
+  }
+  .serv > li {
+    width: 420px;
+    margin-bottom: 30px;
+  }
+  .serv li ul li {
+    width: 420px;
+    font-size: 14px;
+    line-height: 2.6;
+  }
+  .serv li ul li.li {
+    width: 420px;
+  }
+  .contact {
+    top: 350px;
+  }
+  .bar-contact p {
+    font-size: 15px;
+  }
+  .project .images {
+    width: 420px;
+  }
+  .project .image {
+    min-height: 100px;
+    min-width: 390px;
+  }
+  .project .image img {
+    min-width: 390px;
+  }
+  .bar .next {
+    left: 100%;
+  }
+  .bar .prev {
+    left: -65px;
+  }
+  .info .tooltip {
+    width: 260px;
+    top: 85px;
+    left: -110px;
+    border-radius: 7px;
+    z-index: 3;
+  }
+  .visit .tooltip {
+    left: -98px;
+  }
+  .tooltip p {
+    font-size: 13px !important;
+  }
+  .tooltip p span.desc {
+    font-size: 13px;
+  }
+  .contact .sub a {
+    left: 50%;
+    position: absolute;
+    margin-left: -339px;
+  }
+  .formular {
+    width: 350px;
+  }
+  input,
+  textarea {
+    width: 320px;
+  }
+  form label {
+    width: 320px;
+  }
+  .register-btn,
+  .ok {
+    margin-left: 10px;
+  }
+  .note {
+    left: 330px;
+  }
+  .form-flip {
+    width: 350px;
+  }
+  .form-front,
+  .form-back {
+    width: 350px;
+  }
+  .ie .form-back,
+  .opera .form-back {
+    margin-left: -175px;
+  }
+  ul.nav li {
+    width: 65px;
+    background: url("http://www.digitalatelier.ro/css/../images/divider.png") left no-repeat;
+  }
+  ul.nav li a {
+    width: 65px;
+    left: 0;
+    color: transparent;
+  }
+  ul.nav li span {
+    width: 65px;
+    left: 0px;
+  }
+  a.services-btn {
+    background: url("http://www.digitalatelier.ro/css/../images/serv-icon.png") center no-repeat;
+    background-size: 32px 22px;
+  }
+  a.work-btn {
+    background: url("http://www.digitalatelier.ro/css/../images/work-icon.png") center no-repeat;
+    background-size: 24px 23px;
+  }
+  ul.nav li a.contact-btn {
+    background: url("http://www.digitalatelier.ro/css/../images/con-icon.png") center no-repeat, url("http://www.digitalatelier.ro/css/../images/divider.png") top right no-repeat;
+    width: 65px;
+    background-size: 33px 23px, 2px 55px;
+  }
+  ul.nav li a.contact-btn:hover {
+    width: 65px;
+    background: url("http://www.digitalatelier.ro/css/../images/con-icon.png") center no-repeat #05b9dc, url("http://www.digitalatelier.ro/css/../images/divider.png") top right no-repeat #05b9dc;
+    background-size: 32px 23px, 2px 55px;
+  }
+  nav div {
+    width: 65px;
+  }
+  nav div a {
+    width: 65px;
+    background: url("http://www.digitalatelier.ro/css/../images/da-on.png") center no-repeat;
+  }
+  .animate-left {
+    transition: all .7s cubic-bezier(0.650,0.000,0.175,1.000);
+    transform: translateX(-140%);
+  }
+  .animate-right {
+    transition: all .7s cubic-bezier(0.650,0.000,0.175,1.000);
+    transform: translateX(140%);
+  }
+  .animate-center {
+    transition: all .7s cubic-bezier(0.650,0.000,0.175,1.000);
+    transform: translateX(0%);
+  }
+}
+@media only screen and (max-width: 420px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  section {
+    top: 365px;
+  }
+  .work ul {
+    max-width: 210px;
+  }
+  .bar {
+    border-radius: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .bar-text p {
+    font-style: italic;
+    font-size: 15px !important;
+    line-height: 1.3;
+    padding: 5px 5px;
+    padding-bottom: 9px;
+    border-radius: 0;
+    display: block;
+  }
+  .bar-contact p {
+    font-size: 12px;
+  }
+  .serv {
+    width: 280px;
+  }
+  .serv > li {
+    width: 280px;
+    margin-bottom: 30px;
+  }
+  .serv li ul li {
+    width: 280px;
+    font-size: 14px;
+    line-height: 2.6;
+  }
+  .serv li ul li.li {
+    width: 280px;
+  }
+  .contact {
+    top: 345px;
+  }
+  .pro p {
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 12px;
+    padding-right: 12px;
+    top: 12px;
+    font-weight: 700;
+  }
+  .project .images {
+    width: 320px;
+    background: none;
+    padding: 0;
+    padding-top: 10px;
+    border-radius: 0;
+  }
+  .project .image {
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    padding-bottom: 10px;
+    min-height: 100px;
+    min-width: 320px;
+  }
+  .project .image img {
+    border-radius: 0;
+    min-width: 320px;
+  }
+  .info .tooltip {
+    width: 250px;
+    top: 40px;
+    left: -97px;
+  }
+  .visit .tooltip {
+    top: 40px;
+    left: -25px;
+  }
+  .visit .tooltip p {
+    width: 75px;
+  }
+  .visit .tooltip .arrow-up {
+    left: 50px;
+  }
+  .tooltip p {
+    font-size: 11px;
+    padding-top: 10px;
+    border-radius: 8px;
+  }
+  .tooltip p span.desc {
+    font-size: 11px;
+  }
+  .tooltip p span strong {
+    font-size: 12px;
+  }
+  .arrow-up {
+    left: 50%;
+    margin-left: -10px;
+    top: 5px;
+  }
+  .offline a {
+    opacity: .6;
+  }
+  .bar .next {
+    top: -1px;
+    left: 103%;
+  }
+  .bar .next a {
+    width: 34px;
+    height: 34px;
+  }
+  .bar .prev {
+    left: -65px;
+    top: -1px;
+  }
+  .bar .prev a {
+    width: 35px;
+    height: 35px;
+  }
+  .back-btn {
+    padding: 3px;
+    left: 103%;
+  }
+  .back-btn a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 4px;
+  }
+  .info {
+    top: 58px;
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+  }
+  .visit {
+    top: 58px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+  }
+  .contact .sub a {
+    width: 280px;
+    background: url("http://www.digitalatelier.ro/css/../images/sub-con-320.png") center top no-repeat;
+  }
+  .sub {
+    height: 80px;
+  }
+  .formular {
+    width: 280px;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+  }
+  input,
+  textarea {
+    width: 250px;
+  }
+  form label {
+    width: 255px;
+  }
+  .register-btn,
+  .ok {
+    margin-left: 10px;
+  }
+  .note {
+    left: 210px;
+  }
+  .contact .sub a {
+    width: 274px;
+    height: 36px;
+    margin-left: -155px;
+    left: 50%;
+    position: absolute;
+  }
+  .contact .sub .over {
+    width: 274px;
+    height: 36px;
+    background: url("http://www.digitalatelier.ro/css/../images/sub-con-320-over.png") no-repeat;
+    margin-left: -137px;
+    left: 50%;
+  }
+  ul.nav li {
+    width: 65px;
+    background: none;
+  }
+  ul.nav li a.contact-btn {
+    background: url("http://www.digitalatelier.ro/css/../images/con-icon.png") center no-repeat;
+    background-size: 32px 23px;
+  }
+  nav div {
+    background: none;
+  }
+  .last {
+    background: none;
+  }
+  #qLbar {
+    display: none;
+  }
+  .flip {
+    margin-left: -93px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<aside class="loader" style="display: none;"></aside>
+
+<header>
+<nav id="nav" style="z-index: 100000;">
+ 	<div class="first"><a href="http://www.digitalatelier.ro/#/work" class="logo-btn"></a></div>
+	<ul class="nav">
+		<li style="display:none"><a class="port-btn"></a><span style="display: none;"></span></li>
+		<li><a href="http://www.digitalatelier.ro/#/work" class="work-btn">Work</a><span style="display: inline;"></span></li>
+		<li><a href="http://www.digitalatelier.ro/#/services" class="services-btn">Services</a><span style="display: none;"></span></li>
+		<li><a href="http://www.digitalatelier.ro/#/contact" class="contact-btn">Contact</a><span style="display: none;"></span></li>
+	</ul>
+ 	<div class="last"><a href="https://www.facebook.com/pages/Digital-Atelier/133153973462055" class="fb-btn" target="_blank"></a></div>
+</nav>
+
+<article class="logo">
+	<div class="flip">
+		<div class="flipper">
+			<div class="sides front current" style="background-image: url(&quot;images/hello.png&quot;);"></div>
+			<div class="sides back"></div>
+	  	</div>
+	</div>
+	
+	<div class="back-btn" style="margin-left: 0px; display: none;"><div><a href="http://www.digitalatelier.ro/#/work"></a></div></div>
+</article>
+</header>
+
+<article class="bar">
+    	<article class="bar-text pro bar-project-la-brasserie animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Website</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript, Ajax</span>
+						<span class="desc">Unique website for La Brasserie, an upscale restaurant &amp; terrace from Bucharest featuring minimal design and app-style development.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>La Brasserie</p>
+			
+			<div class="visit tip ">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Visit Project</p>
+				</div>
+				<a class="pro-link link-btn" href="http://www.labrasserie.ro/" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-issimowall animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Facebook Application</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript, PHP</span>
+						<span class="desc">We've created an image editing application where users could apply various effects to photographs. The edited images went on display on the virtual Illy Issimo Wall where other users could cast votes.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>Illy Issimo Wall</p>
+			
+			<div class="visit tip offline">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Campaign Offline</p>
+				</div>
+				<a class="pro-link link-btn" href="javascript:;" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-ultrayou animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Facebook Application</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript, PHP</span>
+						<span class="desc">We've designed and developed an engaging Facebook application where personality styles were matched with an Ultrabook laptop.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>UltraYOU</p>
+			
+			<div class="visit tip offline">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Campaign Offline</p>
+				</div>
+				<a class="pro-link link-btn" href="javascript:;" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-la-mircea-macelaru animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Website</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript</span>
+						<span class="desc">Trendy website for this favorite local restaurant.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>La Mircea Macelaru</p>
+			
+			<div class="visit tip ">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Visit Project</p>
+				</div>
+				<a class="pro-link link-btn" href="http://lamirceamacelaru.ro/" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-zoo animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Web App</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript</span>
+						<span class="desc">We’ve built an interactive map of the Bucharest ZOO where users can come and learn more about their favorite animals through photo galleries, short videos and live webcam streams.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>Digital ZOO</p>
+			
+			<div class="visit tip ">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Visit Project</p>
+				</div>
+				<a class="pro-link link-btn" href="http://digitalzoo.kappa.ro/zoo" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-sharkweek animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Microsite + Facebook Application</span>
+						<span><strong>Tech:</strong> Flash, HTML, CSS, Javascript</span>
+						<span class="desc">The Shark Week tradition continues for 2012 with a custom microsite and innovative game. Users had the unique opportunity to feed their Facebook friends to the sharks and win cool prizes.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>Shark Week</p>
+			
+			<div class="visit tip ">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Visit Project</p>
+				</div>
+				<a class="pro-link link-btn" href="http://sharkweek.discovery.ro/" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-thematic-channels animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Website</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript, PHP</span>
+						<span class="desc">Modern website for Thematic Channels, a multimedia sales house and marketing consultant.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>Thematic Channels</p>
+			
+			<div class="visit tip ">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Visit Project</p>
+				</div>
+				<a class="pro-link link-btn" href="http://thematicchannels.ro/" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-imworld animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Facebook Application</span>
+						<span><strong>Tech:</strong> HTML, CSS, Javascript, PHP</span>
+						<span class="desc">Statistical based application to promote the Internet &amp; Mobile World 2012 Conference.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>IM World Speed of Change</p>
+			
+			<div class="visit tip offline">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Campaign Offline</p>
+				</div>
+				<a class="pro-link link-btn" href="javascript:;" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-speed-connector animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Facebook Game</span>
+						<span><strong>Tech:</strong> Flash, Javascript, PHP</span>
+						<span class="desc">Puzzle based Facebook game in which users had to solve one of the 8 puzzles in 2 minutes or less. </span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>Fiber Speed Connector</p>
+			
+			<div class="visit tip offline">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Campaign Offline</p>
+				</div>
+				<a class="pro-link link-btn" href="javascript:;" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	<article class="bar-text pro bar-project-oameni-de-baza animate-left" style="display: none;">
+		<figure class="pro-p">
+			<div class="info tip">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>
+						<span><strong>Type:</strong> Facebook Game</span>
+						<span><strong>Tech:</strong> Flash, Javascript, PHP</span>
+						<span class="desc">Quiz based Facebook application where users were challenged to answear a series of questions in a limited amount of time.</span>
+					</p>
+				</div>
+				<a href="javascript:;" class="info-btn"></a>
+			</div>
+			
+			<p>Oameni de Bază</p>
+			
+			<div class="visit tip offline">
+				<div class="tooltip">
+					<div class="arrow-up"></div>
+					<p>Campaign Offline</p>
+				</div>
+				<a class="pro-link link-btn" href="javascript:;" target="_blank"></a>
+			</div>
+		</figure>
+    </article>
+    	
+    <article class="bar-text bar-work animate-center">
+        <p>We're Digital Atelier, a small interactive studio focused on making design-driven digital products.</p>
+    </article>
+    <article class="bar-text bar-services animate-right" style="display: none;">
+        <p>We use modern technologies to create impactful and engaging experiences for web and mobile.</p>
+    </article>	
+    <article class="bar-text bar-contact animate-right" style="display: none;">
+		<p>Crafting pixels and code from Bucharest, Romania.</p>
+    </article>
+    <div class="next" style="margin-left: 0px; display: none;"><div><a href="http://www.digitalatelier.ro/#" class="next-btn"></a></div></div>
+    <div class="prev" style="margin-left: 0px; display: none;"><div><a href="http://www.digitalatelier.ro/#" class="prev-btn"></a></div></div>
+</article><!--End Middle Bar -->
+
+<!--PROJECTS -->
+<section class="project project-la-brasserie animate-left" data-flipper="projects/la-brasserie/color.png" data-project-name="la-brasserie" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-issimowall animate-left" data-flipper="projects/issimowall/color.png" data-project-name="issimowall" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-ultrayou animate-left" data-flipper="projects/ultrayou/color.png" data-project-name="ultrayou" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-la-mircea-macelaru animate-left" data-flipper="projects/la-mircea-macelaru/color.png" data-project-name="la-mircea-macelaru" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-zoo animate-left" data-flipper="projects/zoo/color.png" data-project-name="zoo" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-sharkweek animate-left" data-flipper="projects/sharkweek/color.png" data-project-name="sharkweek" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-thematic-channels animate-left" data-flipper="projects/thematic-channels/color.png" data-project-name="thematic-channels" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-imworld animate-left" data-flipper="projects/imworld/color.png" data-project-name="imworld" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-speed-connector animate-left" data-flipper="projects/speed-connector/color.png" data-project-name="speed-connector" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+<section class="project project-oameni-de-baza animate-left" data-flipper="projects/oameni-de-baza/color.png" data-project-name="oameni-de-baza" style="visibility: visible; display: none;">
+	<div class="images"></div>
+</section>
+
+<!--WORK-->
+<section class="work animate-center" data-flipper="images/hello.png" style="visibility: visible;">
+	<article class="sub"></article>
+	<ul>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/la-brasserie">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw.png" class="_pic">
+                <img data-project-id="0" data-project-name="la-brasserie" src="./Digital Atelier _ Creative Web Development_files/color.png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/issimowall">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(1).png" class="_pic">
+                <img data-project-id="1" data-project-name="issimowall" src="./Digital Atelier _ Creative Web Development_files/color(1).png" class="pic" style="position: absolute; display: none;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/ultrayou">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(2).png" class="_pic">
+                <img data-project-id="2" data-project-name="ultrayou" src="./Digital Atelier _ Creative Web Development_files/color(2).png" class="pic" style="position: absolute; display: none;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/la-mircea-macelaru">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(3).png" class="_pic">
+                <img data-project-id="3" data-project-name="la-mircea-macelaru" src="./Digital Atelier _ Creative Web Development_files/color(3).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/zoo">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(4).png" class="_pic">
+                <img data-project-id="4" data-project-name="zoo" src="./Digital Atelier _ Creative Web Development_files/color(4).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/sharkweek">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(5).png" class="_pic">
+                <img data-project-id="5" data-project-name="sharkweek" src="./Digital Atelier _ Creative Web Development_files/color(5).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/thematic-channels">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(6).png" class="_pic">
+                <img data-project-id="6" data-project-name="thematic-channels" src="./Digital Atelier _ Creative Web Development_files/color(6).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/imworld">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(7).png" class="_pic">
+                <img data-project-id="7" data-project-name="imworld" src="./Digital Atelier _ Creative Web Development_files/color(7).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/speed-connector">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(8).png" class="_pic">
+                <img data-project-id="8" data-project-name="speed-connector" src="./Digital Atelier _ Creative Web Development_files/color(8).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+            <li>
+            <a href="http://www.digitalatelier.ro/#/project/oameni-de-baza">
+                <img src="./Digital Atelier _ Creative Web Development_files/bw(9).png" class="_pic">
+                <img data-project-id="9" data-project-name="oameni-de-baza" src="./Digital Atelier _ Creative Web Development_files/color(9).png" class="pic" style="position: absolute;">
+            </a>
+        </li>
+    	</ul>
+</section>
+	
+<!--SERVICES -->
+<section class="services animate-right" data-flipper="images/cd.png" style="visibility: visible; display: none;">
+	<article class="sub"></article>
+	<ul class="serv">
+		<li class="idea">
+			<ul>
+				<li class="li"><p></p></li>
+				<li>Ideation &amp; Conceptualization</li>
+				<li>Creative &amp; Art Direction</li>
+				<li>Creative Strategy</li>
+				<li>Branding &amp; Identity</li>
+				<li class="last">User Experience Analysis</li>
+			</ul>
+		</li>
+		<li class="des">
+			<ul>
+				<li class="li"><p></p></li>
+				<li>Web &amp; Mobile Design</li>
+				<li>User Interface Design</li>
+				<li>Responsive &amp; Cross-platform</li>
+				<li>Flash &amp; Game Design</li>
+				<li class="last">Motion Graphics &amp; Video Editing</li>
+			</ul>
+		</li>
+		<li class="dev">
+			<ul>
+				<li class="li"><p></p></li>
+				<li>HTML5, CSS3, Javascript</li>
+				<li>PHP, MySQL, Node, Backbone</li>
+				<li>Facebook App Development</li>
+				<li>E-Commerce &amp; CMS</li>
+				<li class="last">Flash &amp; Interactive Video</li>
+			</ul>
+		</li>
+	</ul>
+</section>
+
+
+<!--CONTACT -->
+<section class="contact animate-right" data-flipper="images/thx.png" style="visibility: visible; display: none;">	
+	<article class="sub"><a href="mailto:hello@digitalatelier.ro" target="_blank"><p class="over"></p></a></article>
+	<div class="form-flip">
+		<div class="form-flipper">
+			<div class="form-front">
+				<div class="formular">
+					<form method="post" accept-charset="utf-8" id="register-form" autocomplete="off">
+						<div>
+							<label for="nume">Name</label><br>
+							<input type="text" name="name" value="" id="nume" class="required" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                            <span for="name" class="note" style="display: none;"><span class="arrow-left"></span><span class="err-msg">Required</span></span>
+						</div>
+						<div>
+							<label for="email">Email</label><br>
+							<input type="text" name="email" value="" id="email" class="required email">
+							<span for="email" class="note" style="display: none;"><span class="arrow-left"></span><span class="err-msg">Required</span></span>
+						</div>
+						<div>
+							<label for="telefon">Phone</label><br>
+							<input type="text" name="phone" value="" id="telefon" class="required phone">
+							<span for="phone" class="note" style="display: none;"><span class="arrow-left"></span><span class="err-msg">Required</span></span>
+						</div>
+						<div>
+							<label for="mesaj">Comments</label><br>
+							<textarea name="message" id="mesaj" class="required mesaj"></textarea>
+							<span for="message" class="note" style="display: none;"> <span class="arrow-left"></span><span class="err-msg">Required</span></span>
+						</div>
+						<a href="javascript:;" class="register-btn"></a>
+					</form>	
+				</div>
+			</div>
+			<div class="form-back">
+				<div>
+					<p>We've got your inquiry, we'll get <br>back to you asap.</p>
+					<a href="javascript:;" class="ok"></a>
+				</div>
+			</div>
+			<div class="form-fade">
+				<div> 
+					<p>We've got your inquiry, we'll get <br>back to you asap.</p>
+					<a href="javascript:;" class="ok"></a>
+				</div> 
+			</div>
+	  	</div>
+	</div>
+</section>
+<style>
+.form-flip {
+  display: none !important;
+}
+</style>
+<div class="wrap"> </div>
+<img src="./Digital Atelier _ Creative Web Development_files/bg5.jpg" class="bg" alt="background">
+<script type="text/javascript" async="" src="./Digital Atelier _ Creative Web Development_files/ga.js"></script><script src="./Digital Atelier _ Creative Web Development_files/jquery.min.js"></script>
+<script src="./Digital Atelier _ Creative Web Development_files/jquery.address-1.5.min.js"></script>
+<script src="./Digital Atelier _ Creative Web Development_files/modernizr.custom.91267.js"></script>
+<script src="./Digital Atelier _ Creative Web Development_files/plugins.js"></script>
+<script src="./Digital Atelier _ Creative Web Development_files/da.js"></script>
+<script src="./Digital Atelier _ Creative Web Development_files/fastclick.js"></script>
+<script src="./Digital Atelier _ Creative Web Development_files/queryloader.js"></script>
+<script>
+window.addEventListener('load', function() {
+	new FastClick(document.body);
+}, false);
+$(document).ready(function(){	
+	$("body").queryLoader2({
+		barColor:"#05b9dc",
+		barHeight: 5,
+		minimumTime: 900
+	});
+});
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36174636-1']);
+  _gaq.push(['_setDomainName', 'digitalatelier.ro']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body></html>
