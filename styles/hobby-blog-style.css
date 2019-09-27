@@ -1,0 +1,31 @@
+#hobbies {
+  color: rgb(228, 22, 22);
+}
+
+
+div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr .8fr;
+  padding-inline-start: 5%;
+  padding-inline-end: 5%;
+}
+
+section img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+div section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 5%;
+  
+}
+
+div section p {
+  padding-inline-start: 5%;
+  margin: 0;
+  font-size: 2vw;
+  
+}
