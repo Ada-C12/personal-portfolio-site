@@ -1,92 +1,73 @@
-/* 
-purple #83158f
-pink #cf346a 
-peach #e89a41
-ecru #fcead4
- */
 
+ /* #f05348 red */
+ /* #ebd9ce beige*/
+ /* #1c2c4d navy */
 
 *{
-  border-style: solid 1px;
-  border-color: black;
   font-family: 'Poiret One', cursive;
+  font-weight: bolder;
   text-align: center;
-  background-color: #fcead4;
-  color: #e89a41;
 }
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 0rem;
+  position: fixed;
+} 
+
+li:before {
+  content: "⦿";
+  }
+
+li {
+  list-style-type: none;
+  text-align: center;
+  color: #f57b42;
+  width: 10rem;
+}
+
+li:hover, a:hover{
+color: navy
+}
+
 
 body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
-  border-top: 30em;
-  border-right: 30em;
-  border-left: 30em;
-  border-bottom: 30em;
+  justify-content: space-between;
+  align-items: flex-start;
+  background:  #ebd9ce;
 }
 
 h1 {
-
-  
+  font-size: 3.5rem;
   border-radius: 25%;
-  color: #83158f;
+  border-style: dotted;
+  border-width: .3rem;
+  border-color: #1c2c4d;
+  color: #f05348 ;
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  width: 30rem;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
 }
 
-h2 {
-  color: #cf346a;
-}
 
-header h2 {
-  margin: 2em;
-  align-self: center;
-  border-style: solid;
-  border: 2px #e89a41;
-  background-color: #e89a41;
-  padding: .5em;
-  border-radius: 50%;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-h3 {
-  color: #e89a41;
-}
-header { 
-  border-top: 20em;
-}
-body header, section {
-  border-style: solid;
-  border-color: pink;
-}
-
-ul {
+footer ul{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  list-style: none;
-  margin-left: 0;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;s
+  color:#f57b42;
+  padding: 0rem;
+  padding-bottom: 20rem;
 }
 
-li {
-  border-style: solid;
-  border-color: black;
-}
 
-img {
-  max-width: 2em;
-}
-
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  
-}
-
-footer p {
-  border-style: solid;
+a {
+  color: #f57b42;
+  font-style: normal;
 }

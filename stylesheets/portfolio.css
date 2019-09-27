@@ -1,0 +1,18 @@
+
+h3 {
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+}
+.container {
+  /* font-size: 3.5rem; */
+  border-radius: 25%;
+  border-style: dotted;
+  border-width: .3rem;
+  border-color: #1c2c4d;
+  color: #f05348 ;
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  width: 30rem;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+}
