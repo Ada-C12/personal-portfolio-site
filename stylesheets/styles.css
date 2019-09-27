@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  grid-template-rows: 100px 5fr 1fr;
+}
+nav {
+  font-size: 3em;
+  text-align: left
+}
+a:link {
+  color: darkgrey;
+  text-decoration: none;
+}
+a:visited {
+  color: darkgrey;
+  text-decoration: none;
+}
+a:hover {
+  color: darkblue;
+  text-decoration: underline
+}
+a:active {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  text-align: center
+}
+
+h1 {
+  font-size: 5em
+}
+h1 > a:link {
+  color: black
+}
+h1 > a:visited {
+  color: black
+}
+#email:hover {
+  color: lime
+}
+#interests:hover {
+  color: orange
+}
+#about:hover {
+  color: yellow
+}
+#portfolio:hover {
+  color: fuchsia
+}
+#peggy_seeger:hover {
+  color: lightseagreen
+}
+h2 {
+  font-size: 4em
+}
+h2 > a:link {
+  color: black
+}
+h2 >a:visited{
+  color: black
+}
+h2 > a:hover {
+  color: orange
+}
+
+footer {
+  font-size: 2em;
+  text-align: right;
+}
