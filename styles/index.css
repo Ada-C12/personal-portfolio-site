@@ -35,6 +35,10 @@ background-color: #dbd3c9;
   margin-top: 0px
 }
 
+.contact-info a:hover {
+  background-color: transparent;
+}
+
 #linkedin {
   max-height: 50px;
 }
