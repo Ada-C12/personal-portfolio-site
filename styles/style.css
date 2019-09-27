@@ -1,0 +1,23 @@
+.main-container{
+  display:grid;
+  grid-template-rows: 40vh 40vh 10vh;
+}
+
+.details-container{
+  display: grid;
+  grid-template-colums: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+}
+
+.skills-section {
+grid-row-end: 2;
+
+}
+
+.about-section{
+  grid-row-end: 2;
+  }
+
+  .contact-section{
+    grid-row-end: 2;
+    }
