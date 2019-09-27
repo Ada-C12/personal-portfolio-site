@@ -1,0 +1,35 @@
+h1 {
+    border-bottom: #c18c5d 2px solid
+}
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10em;
+    padding-right: 10em;
+    border-bottom: solid 2px #c18c5d;
+  
+}
+.about-text{
+    text-align: right;
+    top:50%
+}
+.profile-pic img {
+    width: 30%;
+    height: auto;
+    border-radius: 80px;
+    border: solid #c18c5d 2px
+    justify-items: left
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2em;
+}
+.contacts img{
+    width: 30%;
+    height: auto;
+    
+}
+
+
