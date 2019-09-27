@@ -1,0 +1,60 @@
+html {
+    border-color: #495867;
+    border-width: 1em;
+    border-style: double;
+}
+body {
+    background-color: #ecc8af;
+    color: #495867;
+    text-align: center
+   
+  }
+  li {
+    list-style-type: none;   
+  }
+  .nav {
+      border-bottom: solid 2px #ce796b
+  }
+  .nav-options {
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    }  
+    .nav-options li a{ 
+        color: #ce796b;
+        text-decoration: none;
+    }
+    .nav-options li a:hover {
+        color: #495867;
+    }
+    .introduction{
+
+    }
+    .introduction h2 {
+margin-right: 10em;
+    }
+    .introduction h1 {
+    }
+    .introduction p {
+    }
+    .accordion {
+        background-color: #e7ad99;
+        color: #495867;
+        cursor: ;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+      }
+      .active, .accordion:hover {
+        background-color: #ce796b;
+      }
+      .panel {
+        padding: 0 18px;
+        background-color: #e7ad99;
+        display: none;
+        overflow: hidden;
+      }      
