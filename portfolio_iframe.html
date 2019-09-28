@@ -1,0 +1,66 @@
+<head>
+    <meta charset="utf-8">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/portfolio-iframe-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  
+  <script>
+    function myFunction(panelid, buttonid) {
+      var panels = ["hotelpanel", "nimpanel", "ridesharepanel", "grocerystorepanel"]
+      var buttons = ["hotel", "nim", "ride-share", "grocery-store"]
+      var x = document.getElementById(panelid);
+      var y = document.getElementById(buttonid);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        x.style.outline = "none";
+        y.classList.add('clicked-accordion');
+      } else {
+        x.style.display = "none";
+        y.classList.remove('clicked-accordion');
+      }
+  
+      panels.forEach(function (id) {
+        if (id != panelid) {
+          document.getElementById(id).style.display = "none";
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+  
+      buttons.forEach(function (id) {
+        if (id != buttonid) {
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+    }
+  </script>
+  
+  <h1>Github Projects</h1>
+    <section class="accordion-menu">
+      <button class="accordion" id="hotel" onclick="myFunction('hotelpanel', 'hotel')">Hotel</button>
+      <section class="panel" id="hotelpanel">
+        <p>In Hotel, I build a booking system for a twenty-room hotel. It was great practice in focusing on
+          object-oriented design.</p>
+        <a href="https://github.com/mdove92/hotel"><img id="github" src="images/github.png" alt="Github Icon"></a>
+      </section>
+  
+      <button class="accordion" id="nim" onclick="myFunction('nimpanel', 'nim')">Nim</button>
+      <section class="panel" id="nimpanel">
+        <p>Nim description and link</p>
+        <a href="https://github.com/mdove92/nim"><img id="github" src="images/github.png" alt="Github Icon"></a>
+      </section>
+  
+      <button class="accordion" id="ride-share" onclick="myFunction('ridesharepanel', 'ride-share')"> Ride Share</button>
+      <section class="panel" id="ridesharepanel">
+        <p>Ride Share description and link</p>
+        <a href="https://github.com/mdove92/ride-share"><img id="github" src="images/github.png" alt="Github Icon"></a>
+      </section>
+  
+      <button class="accordion" id="grocery-store" onclick="myFunction('grocerystorepanel', 'grocery-store')"> Grocery Store</button>
+      <section class="panel" id="grocerystorepanel">
+        <p>Grocery Store description and link</p>
+        <a href="https://github.com/mdove92/grocery-store"><img id="github" src="images/github.png" alt="Github Icon"></a>
+      </section>
+    </section>
+  
