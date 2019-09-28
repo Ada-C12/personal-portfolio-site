@@ -1,6 +1,7 @@
 html {
   padding: 0;
   margin: 0;
+  font-family: 'Helvetica', sans-serif;
 }
 
 body {
@@ -9,11 +10,14 @@ body {
   background-color: slategray
 }
 
-header p {
+header {
   margin: 0;
+}
+
+header p {
   padding-top: 2em;
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 3em;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4em;
   text-align: center;
   color: slategray;
   background-color: white;
@@ -21,39 +25,76 @@ header p {
 
 div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat (3fr);
-    grid-template-areas: 
-    /* ". profile ." */
-    "about about about"
-    "portfolio portfolio portfolio"
-    "blog blog blog";
-    
+    grid-gap: .5em;
+    margin: 2em;
+    font-size: 1.5em;
+    justify-items: center;
+    text-align: center;
+}
+
+.R1 {
+  grid-area: 1 / 2 / 1 / 3;
+  color: white;
+}
+
+.R2 {
+  grid-area: 2 / 2 / 2 / 3;
+  color: white;
+}
+
+.R3 {
+  grid-area: 3/ 2 / 3 / 3;
+  color: white;
 }
 
 .about {
-  grid-area: about;
+  grid-area: 1 / 1 / 2 / 4;
+  align-self: center;
   color: white;
-  background-color: slategray;
 }
-
-.portfolio {
-  grid-area: portfolio;
-  color: white;
-  background-color: slategray;
-}
-
-.blog {
-  grid-area: blog;
-  color: white;
-  background-color: slategray;
-}
-
 .portrait {
-  grid-areas: portrait;
+  grid-area: 1 / 3 / 4 / 4;
   background-color: goldenrod;
 }
 
+.back {
+  text-decoration: none;
+  /* grid-area: 1 / 4 / 1 / 5;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  color: pink;
+  text-decoration: none;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1em;
+  text-align: right;  */
+}
 
-/* font-family: 'Bangers', cursive;
-font-family: 'Julius Sans One', sans-serif; */
+.title {
+  font-family: 'Cabin Sketch', cursive;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+font-family: 'Reenie Beanie', cursive;
+font-size: 1em;
+}
+
+a {
+color: pink;
+text-decoration: none;
+}
+
+a:hover {
+  color: plum;
+}
+/* font-family: 'Julius Sans One', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Cinzel Decorative', cursive; */
