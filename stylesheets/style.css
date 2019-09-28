@@ -1,9 +1,68 @@
-nav {
-  color: darkcyan;
-  text-decoration: none;
+html {
+  min-height: 100%;
+  position: relative;
 }
 
-.link {
+.nav-list {
+  display: grid;
+  grid-template: 100% / 60% 1fr 1fr 1fr 1fr;
+  color: cornflowerblue;
+  list-style: none;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 10%;
+  background-color: white;
+  margin: 0;
+}
+
+main {
+  margin-top: 10%;
+}
+
+.nav-list > li:first-child {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-list > li:nth-child(2) {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-list > li:nth-child(3) {
+  grid-column: 3 / 3;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-list > li:nth-child(4) {
+  grid-column: 4 / 4;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-list > li:nth-child(5) {
+  grid-column: 5 / 5;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.link, .title-link {
   text-decoration: none;
 }
 
@@ -11,10 +70,22 @@ nav {
   color: cornflowerblue;
 }
 
+.title-link {
+  color: darkcyan;
+}
+
 .link:hover {
   color: coral;
 }
 
-ul {
-  list-style: none;
+main {
+  margin-bottom: 7vh;
+}
+
+footer {
+  height: 2vh;
+  padding: 1vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
