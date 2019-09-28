@@ -6,6 +6,7 @@
 
 .bio-words > p {
   font-size: xx-large;
+  font-family: 'Josefin Slab', serif;
   border-style: double;
   border-radius: 50%;
   padding-top: 40%;

@@ -10,4 +10,5 @@ main > article, main > h2 {
   padding-bottom: 5%;
   border-bottom-style: groove;
   border-bottom-style: black;
+  font-family: 'Josefin Slab', serif;
 }

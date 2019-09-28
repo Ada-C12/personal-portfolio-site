@@ -7,6 +7,7 @@ and this site: https://css-tricks.com/almanac/properties/p/pointer-events/ */
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Josefin Slab', serif;
 }
 
 img {
@@ -46,8 +47,9 @@ img {
   opacity: 1;
 }
 
-.overlay > p:first-child {
+.overlay > p {
   color: white;
+  font-family: 'Josefin Slab', serif;
   position: absolute;
   top: 40%;
   left: 50%;

@@ -16,6 +16,8 @@ html {
   height: 10%;
   background-color: white;
   margin: 0;
+  font-family: 'Josefin Slab', serif;
+  font-size: larger;
 }
 
 main {
@@ -28,6 +30,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  font-family: 'Sacramento', cursive;
 }
 
 .nav-list > li:nth-child(2) {
@@ -88,4 +91,5 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  font-family: 'Josefin Slab', serif;
 }
