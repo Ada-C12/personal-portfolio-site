@@ -1,0 +1,68 @@
+.bio-words {
+  display: grid;
+  grid-template: 1fr 1fr / 10% 1fr 10% 1fr 10% 1fr 10%;
+  max-height: 35em;
+}
+
+.bio-words > p {
+  font-size: xx-large;
+  border-style: double;
+  border-radius: 50%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+.bio-words > p:first-child {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: paleturquoise;
+}
+
+.bio-words > p:nth-child(2) {
+  grid-column: 4 / 4;
+  grid-row: 2 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: peachpuff;
+}
+
+.bio-words > p:nth-child(3) {
+  grid-column: 6 / 6;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(189, 176, 228);
+}
+
+.bio-words > p:nth-child(4) {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+}
+
+.bio-words > p:nth-child(5) {
+  grid-column: 6 / 6;
+  grid-row: 2 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206, 237, 197);
+}
+
+.bio-words > p:nth-child(6) {
+  grid-column: 4 / 4;
+  grid-row: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+
