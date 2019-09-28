@@ -1,53 +1,141 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/index-style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
-    <title>Macaria Dove</title>
-  </head>
-  <body>
-        <nav class="nav">
-                 <ul class ="nav-options">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="about.html">About Me</a></li>
-                   <li><a href="portfolio.html">Portfolio</a></li>
-                   <li><a href="hobby-blog.html">Blog</a></li>
-                 </ul>
-        </nav>
-<main class="main-container">
-     <section class="introduction">
-        <h1 id="hello">Hello!</h1>
-        <h1 id="name"> I'm Macaria Dove</h1>
-        <p id="pronoun">{She/Her}</p>
-        <p id="title"> Full-Stack Developer </p>
 
-</section>
-<section class="learn=more">
-    <!-- down arrow with hover and clickable to open navigation" -->
-</section>
+<head>
+  <meta charset="utf-8">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/index-style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Macaria Dove</title>
+</head>
+<script>
+  function myFunction1(panelid, buttonid) {
+    var panels = ["aboutpanel", "portfoliopanel", "blogpanel"]
+    var buttons = ["about", "portfolio", "blog"]
+    var x = document.getElementById(panelid);
+    var y = document.getElementById(buttonid);
+    if (x.style.display === "none" || x.style.display === "") {
+      x.style.display = "block";
+      x.style.outline = "none";
+      y.classList.add('clicked-accordion');
+    } else {
+      x.style.display = "none";
+      y.classList.remove('clicked-accordion');
+    }
 
-<section class="accordion-menu">
-        <button class="accordion" id="about">About & Contact</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+    panels.forEach(function (id) {
+      if (id != panelid) {
+        document.getElementById(id).style.display = "none";
+        document.getElementById(id).classList.remove('clicked-accordion');
+      }
+    })
 
-<button class="accordion" id="portfolio">Portfolio</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+    buttons.forEach(function (id) {
+      if (id != buttonid) {
+        document.getElementById(id).classList.remove('clicked-accordion');
+      }
+    })
+  }
 
-<button class="accordion" id="Blog"> Blog</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div> 
-</section>
-</main>
+  function myFunction(panelid, buttonid) {
+    var panels = ["hotelpanel", "nimpanel", "ridesharepanel", "grocerystorepanel"]
+    var buttons = ["hotel", "nim", "ride-share", "grocery-store"]
+    var x = document.getElementById(panelid);
+    var y = document.getElementById(buttonid);
+    if (x.style.display === "none" || x.style.display === "") {
+      x.style.display = "block";
+      x.style.outline = "none";
+      y.classList.add('clicked-accordion');
+    } else {
+      x.style.display = "none";
+      y.classList.remove('clicked-accordion');
+    }
+
+    panels.forEach(function (id) {
+      if (id != panelid) {
+        document.getElementById(id).style.display = "none";
+        document.getElementById(id).classList.remove('clicked-accordion');
+      }
+    })
+
+    buttons.forEach(function (id) {
+      if (id != buttonid) {
+        document.getElementById(id).classList.remove('clicked-accordion');
+      }
+    })
+  }
+</script>
+
+<body>
+  <nav class="nav">
+    <ul class="nav-options">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="hobby-blog.html">Blog</a></li>
+    </ul>
+  </nav>
+  <main class="main-container">
+    <section class="introduction">
+      <h1 id="hello">Hello!</h1>
+      <h1 id="name"> I'm Macaria Dove</h1>
+      <p id="pronoun">{She/Her}</p>
+      <p id="title"> Full-Stack Developer </p>
+
+    </section>
+
+    <section class="accordion-menu">
+      <button class="accordion" id="about" onclick="myFunction1('aboutpanel', 'about')">About & Contact</button>
+      <div class="panel" id="aboutpanel">
+        <p>Lorem ipsum...</p>
+        <iframe src="about_iframe.html" frameborder="0"></iframe>
+      </div>
+
+      <button class="accordion" id="portfolio" onclick="myFunction1('portfoliopanel', 'portfolio')">Portfolio</button>
+      <div class="panel" id="portfoliopanel">
+        <h1>Github Projects</h1>
+        <section class="accordion-menu">
+          <button class="accordion" id="hotel" onclick="myFunction('hotelpanel', 'hotel')">Hotel</button>
+          <section class="panel" id="hotelpanel">
+            <p>In Hotel, I build a booking system for a twenty-room hotel. It was great practice in focusing on
+              object-oriented design.</p>
+            <a href="https://github.com/mdove92/hotel"><img id="github" src="images/github.png" alt="Github Icon"></a>
+          </section>
+
+          <button class="accordion" id="nim" onclick="myFunction('nimpanel', 'nim')">Nim</button>
+          <section class="panel" id="nimpanel">
+            <p>Nim description and link</p>
+            <a href="https://github.com/mdove92/nim"><img id="github" src="images/github.png" alt="Github Icon"></a>
+          </section>
+
+          <button class="accordion" id="ride-share" onclick="myFunction('ridesharepanel', 'ride-share')"> Ride
+            Share</button>
+          <section class="panel" id="ridesharepanel">
+            <p>Ride Share description and link</p>
+            <a href="https://github.com/mdove92/ride-share"><img id="github" src="images/github.png"
+                alt="Github Icon"></a>
+          </section>
+
+          <button class="accordion" id="grocery-store" onclick="myFunction('grocerystorepanel', 'grocery-store')">
+            Grocery Store</button>
+          <section class="panel" id="grocerystorepanel">
+            <p>Grocery Store description and link</p>
+            <a href="https://github.com/mdove92/grocery-store"><img id="github" src="images/github.png"
+                alt="Github Icon"></a>
+          </section>
+        </section>
+      </div>
+
+      <button class="accordion" id="blog" onclick="myFunction1('blogpanel', 'blog')"> Blog</button>
+      <div class="panel" id="blogpanel">
+        <p>Lorem ipsum...</p>
+      </div>
+    </section>
+  </main>
 </body>
 <footer>
-  <p>&#169; 2019 - Macaria Dove</p>   
-</footer> 
+  <p>&#169; 2019 - Macaria Dove</p>
+</footer>
+
 </html>

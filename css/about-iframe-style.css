@@ -1,39 +1,46 @@
+html {
+    /*font-family: "Mac's Font"; */
+    border: unset;
+}
+
 h1 {
     border-bottom: #c18c5d 2px solid
 }
+
 .description {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 10em;
     padding-right: 10em;
     border-bottom: solid 2px #c18c5d;
-  
+    padding-bottom: 1em;
 }
-.about-text{
+
+.about-text {
     text-align: right;
-    top:50%
+    top: 50%
 }
+
+section.profile-pic {
+    padding-left: 3em;
+}
+
 .profile-pic img {
     width: 30%;
     height: auto;
     border-radius: 80px;
-    border: solid #c18c5d 2px
-    justify-items: left
+    border: solid #c18c5d 2px;
+    float: left;
 }
-.contacts{
+
+.contacts {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 2em;
 }
-.contacts img{
+
+.contacts img {
     width: 30%;
     height: auto;
-    
-}
-
-
-iframe {
-    height: 49vh;
-    width: 96vw;
 }

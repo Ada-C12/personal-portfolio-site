@@ -1,6 +1,12 @@
-.accordion {
+html {
+    /*font-family: "Mac's Font"; */
+    border: unset;
+  }
+  
+  .accordion {
     background-color: #e7ad99;
     color: #495867;
+    cursor: ;
     padding: 18px;
     width: 100%;
     text-align: left;
@@ -8,23 +14,28 @@
     outline: none;
     transition: 0.4s;
   }
+  
   .accordion:onclick+.panel {
-      display: block
+    display: block
   }
+  
   .accordion-menu {
-    border: solid 2px #c18c5d;
+    border-bottom: solid 2px #c18c5d;
+    border-top: solid 2px #c18c5d;
   }
+  
   .active, .accordion:hover {
     background-color: #ce796b;
   }
+  
   .panel {
     padding: 0 18px;
     background-color: #e7ad99;
     display: none;
     overflow: hidden;
-  }      
-
-  #hotel::after, #nim::after, #ride-share::after, #grocery-store::after{
+  }
+  
+  #hotel::after {
     content: '\0025cb';
     right: 1em;
     position: relative;
@@ -33,11 +44,11 @@
     float: right;
   }
   
-  #hotel:hover::after, #nim:hover::after, #ride-share:hover::after, #grocery-store:hover::after {
+  #hotel:hover::after{
     content: '\0025cf'
   }
   
-  #hotel.clicked-accordion::after, #nim.clicked-accordion::after, #ride-share.clicked-accordion::after, #grocery-store.clicked-accordion::after{
+  #hotel.clicked-accordion::after{
     content: '\0025cf';
     right: 1em;
     position: relative;
@@ -46,73 +57,73 @@
     float: right;
   }
   
- /* {
+  #nim::after {
     content: '\0025cb';
     right: 1em;
     position: relative;
     font-size: 2em;
     bottom: .25em;
     float: right;
-  } */
+  }
   
-   /* {
+  #nim:hover::after{
     content: '\0025cf'
-  } */
+  }
   
-  /* #nim.clicked-accordion::after {
+  #nim.clicked-accordion::after{
     content: '\0025cf';
     right: 1em;
     position: relative;
     font-size: 2em;
     bottom: .25em;
     float: right;
-  } */
+  }
   
-  /* #ride-share::after {
+  #ride-share::after {
     content: '\0025cb';
     right: 1em;
     position: relative;
     font-size: 2em;
     bottom: .25em;
     float: right;
-  } */
+  }
   
-  /* #ride-share:hover::after {
+  #ride-share:hover::after{
     content: '\0025cf'
-  } */
+  }
   
-  /* #ride-share.clicked-accordion::after {
+  #ride-share.clicked-accordion::after{
     content: '\0025cf';
     right: 1em;
     position: relative;
     font-size: 2em;
     bottom: .25em;
     float: right;
-  } */
+  }
   
-  /* #grocery-store::after {
+  #grocery-store::after {
     content: '\0025cb';
     right: 1em;
     position: relative;
     font-size: 2em;
     bottom: .25em;
     float: right;
-  } */
+  }
   
-  /* #grocery-store:hover::after {
+  #grocery-store:hover::after{
     content: '\0025cf'
-  } */
+  }
   
-  /* #grocery-store.clicked-accordion::after {
+  #grocery-store.clicked-accordion::after{
     content: '\0025cf';
     right: 1em;
     position: relative;
     font-size: 2em;
     bottom: .25em;
     float: right;
-  } */
+  }
   
   iframe {
-    height: 46vh;
-    width: 94vw;
+    height: 44vh;
+    width: 96vw;
   }

@@ -4,14 +4,10 @@
 .introduction h2 {
 margin-right: 10em;
 }
-.introduction h1 {
-}
-.introduction p {
-}
+
 .accordion {
     background-color: #e7ad99;
     color: #495867;
-    cursor: ;
     padding: 18px;
     width: 100%;
     text-align: left;
@@ -32,3 +28,86 @@ margin-right: 10em;
     display: none;
     overflow: hidden;
   }      
+
+  iframe {
+    width: 85vw;
+    height: 46vh;
+  }
+  
+  #about::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 1.5em;
+    bottom: .25em;
+    float: right;
+    font-weight: bold;
+  }
+  
+  #about:hover::after {
+    content: '\003009';
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  
+  #about.clicked-accordion::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 2em;
+    bottom: .25em;
+    float: right;
+    transform: rotate(90deg);
+  }
+  
+  #portfolio::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 1.5em;
+    bottom: .25em;
+    float: right;
+    font-weight: bold;
+  }
+  
+  #portfolio:hover::after {
+    content: '\003009';
+    display: inline-block;
+
+    transform: rotate(90deg);
+  }
+  
+  #portfolio.clicked-accordion::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 2em;
+    bottom: .25em;
+    float: right;
+    transform: rotate(90deg);
+  }
+  
+  #blog::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 1.5em;
+    bottom: .25em;
+    float: right;
+    font-weight: bold;
+  }
+  
+  #blog:hover::after {
+    content: '\003009';
+    transform: rotate(90deg);
+  }
+  
+  #blog.clicked-accordion::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 2em;
+    bottom: .25em;
+    float: right;
+    transform: rotate(90deg);
+  }
