@@ -9,6 +9,9 @@
     outline: none;
     transition: 0.4s;
   }
+  .accordion:onclick + .panel {
+      display: block
+  }
   .accordion-menu {
     border-bottom: solid 2px #c18c5d;
     border-top: solid 2px #c18c5d;

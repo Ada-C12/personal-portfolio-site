@@ -8,6 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <title>Macaria's Portfolio</title>
   </head>
+  <!-- Had to write in JS to get my buttons to stay clicked script courtest of w3schools-->
+  <script>
+    function myFunction(panelid) {
+      var x = document.getElementById(panelid);
+      if(x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display="none";
+      }
+    }
+  </script>
   <body>
         <nav class="nav">
                  <ul class ="nav-options">
@@ -19,25 +30,27 @@
         </nav>
         <h1>Github Projects</h1>
         <section class="accordion-menu">
-                <button class="accordion" id="Hotel">Hotel</button>
-        <div class="panel">
-          <p>Hotel Description with link</p>
-        </div>
+                <button class="accordion" id="hotel" onclick="myFunction('hotelpanel')">Hotel</button>
+        <section class="panel" id="hotelpanel">
+          <p>In Hotel, I build a booking system for a twenty-room hotel. It was great practice in focusing on object-oriented design.</p>
+         <div> <a href="https://github.com/mdove92/hotel"><img id="github" src="images/github.png" alt="Github Icon">
+         </div>  
+        </section>
         
-        <button class="accordion" id="ride-share">Nim</button>
-        <div class="panel">
+        <button class="accordion" id="nim" onclick="myFunction('nimpanel')">Nim</button>
+        <section class="panel" id="nimpanel">
           <p>Nim description and link</p>
-        </div>
+        </section>
         
-        <button class="accordion" id="ride-share"> RideShare</button>
-        <div class="panel">
+        <button class="accordion" id="ride-share" onclick="myFunction('ridesharepanel')"> Ride Share</button>
+        <section class="panel" id="ridesharepanel">
           <p>Ride Share description and link</p>
-        </div> 
+        </section> 
 
-        <button class="accordion" id="ride-share"> Grocery Store</button>
-        <div class="panel">
+        <button class="accordion" id="ride-share" onclick="myFunction('grocerystorepanel')"> Grocery Store</button>
+        <section class="panel" id="grocerystorepanel">
           <p>Grocery Store description and link</p>
-        </div> 
+        </section> 
         </section>
 </body>
     <footer>
