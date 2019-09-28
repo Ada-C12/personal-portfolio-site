@@ -1,0 +1,59 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: slategray
+}
+
+header p {
+  margin: 0;
+  padding-top: 2em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  color: slategray;
+  background-color: white;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat (3fr);
+    grid-template-areas: 
+    /* ". profile ." */
+    "about about about"
+    "portfolio portfolio portfolio"
+    "blog blog blog";
+    
+}
+
+.about {
+  grid-area: about;
+  color: white;
+  background-color: slategray;
+}
+
+.portfolio {
+  grid-area: portfolio;
+  color: white;
+  background-color: slategray;
+}
+
+.blog {
+  grid-area: blog;
+  color: white;
+  background-color: slategray;
+}
+
+.portrait {
+  grid-areas: portrait;
+  background-color: goldenrod;
+}
+
+
+/* font-family: 'Bangers', cursive;
+font-family: 'Julius Sans One', sans-serif; */
