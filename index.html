@@ -8,64 +8,65 @@
   <link href="css/index-style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>Macaria Dove</title>
+  <script>
+    function myFunction1(panelid, buttonid) {
+      var panels = ["aboutpanel", "portfoliopanel", "blogpanel"]
+      var buttons = ["about", "portfolio", "blog"]
+      var x = document.getElementById(panelid);
+      var y = document.getElementById(buttonid);
+      if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        x.style.outline = "none";
+        y.classList.add('clicked-accordion');
+      } else {
+        x.style.display = "none";
+        y.classList.remove('clicked-accordion');
+      }
+  
+      panels.forEach(function (id) {
+        if (id != panelid) {
+          document.getElementById(id).style.display = "none";
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+  
+      buttons.forEach(function (id) {
+        if (id != buttonid) {
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+    }
+  
+    function myFunction(panelid, buttonid) {
+      var panels = ["hotelpanel", "nimpanel", "ridesharepanel", "grocerystorepanel"]
+      var buttons = ["hotel", "nim", "ride-share", "grocery-store"]
+      var x = document.getElementById(panelid);
+      var y = document.getElementById(buttonid);
+      if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        x.style.outline = "none";
+        y.classList.add('clicked-accordion');
+      } else {
+        x.style.display = "none";
+        y.classList.remove('clicked-accordion');
+      }
+  
+      panels.forEach(function (id) {
+        if (id != panelid) {
+          document.getElementById(id).style.display = "none";
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+  
+      buttons.forEach(function (id) {
+        if (id != buttonid) {
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+    }
+  </script>
 </head>
-<script>
-  function myFunction1(panelid, buttonid) {
-    var panels = ["aboutpanel", "portfoliopanel", "blogpanel"]
-    var buttons = ["about", "portfolio", "blog"]
-    var x = document.getElementById(panelid);
-    var y = document.getElementById(buttonid);
-    if (x.style.display === "none" || x.style.display === "") {
-      x.style.display = "block";
-      x.style.outline = "none";
-      y.classList.add('clicked-accordion');
-    } else {
-      x.style.display = "none";
-      y.classList.remove('clicked-accordion');
-    }
 
-    panels.forEach(function (id) {
-      if (id != panelid) {
-        document.getElementById(id).style.display = "none";
-        document.getElementById(id).classList.remove('clicked-accordion');
-      }
-    })
-
-    buttons.forEach(function (id) {
-      if (id != buttonid) {
-        document.getElementById(id).classList.remove('clicked-accordion');
-      }
-    })
-  }
-
-  function myFunction(panelid, buttonid) {
-    var panels = ["hotelpanel", "nimpanel", "ridesharepanel", "grocerystorepanel"]
-    var buttons = ["hotel", "nim", "ride-share", "grocery-store"]
-    var x = document.getElementById(panelid);
-    var y = document.getElementById(buttonid);
-    if (x.style.display === "none" || x.style.display === "") {
-      x.style.display = "block";
-      x.style.outline = "none";
-      y.classList.add('clicked-accordion');
-    } else {
-      x.style.display = "none";
-      y.classList.remove('clicked-accordion');
-    }
-
-    panels.forEach(function (id) {
-      if (id != panelid) {
-        document.getElementById(id).style.display = "none";
-        document.getElementById(id).classList.remove('clicked-accordion');
-      }
-    })
-
-    buttons.forEach(function (id) {
-      if (id != buttonid) {
-        document.getElementById(id).classList.remove('clicked-accordion');
-      }
-    })
-  }
-</script>
 
 <body>
   <nav class="nav">
@@ -88,7 +89,7 @@
     <section class="accordion-menu">
       <button class="accordion" id="about" onclick="myFunction1('aboutpanel', 'about')">About & Contact</button>
       <div class="panel" id="aboutpanel">
-        <iframe src="about_iframe.html" frameborder="0"></iframe>
+        <iframe src="about_iframe.html"></iframe>
       </div>
 
       <button class="accordion" id="portfolio" onclick="myFunction1('portfoliopanel', 'portfolio')">Portfolio</button>
@@ -99,20 +100,20 @@
           <section class="panel" id="hotelpanel">
             <p>In Hotel, I build a booking system for a twenty-room hotel. It was great practice in focusing on
               object-oriented design.</p>
-            <a href="https://github.com/mdove92/hotel"><img id="github" src="images/github.png" alt="Github Icon"></a>
+            <a href="https://github.com/mdove92/hotel"><img class="github" src="images/github.png" alt="Github Icon"></a>
           </section>
 
           <button class="accordion" id="nim" onclick="myFunction('nimpanel', 'nim')">Nim</button>
           <section class="panel" id="nimpanel">
             <p>Nim is a strategy game in which a player pulls a number of sticks from a heap. Try it for yourself!</p>
-            <a href="https://github.com/mdove92/nim"><img id="github" src="images/github.png" alt="Github Icon"></a>
+            <a href="https://github.com/mdove92/nim"><img class="github" src="images/github.png" alt="Github Icon"></a>
           </section>
 
           <button class="accordion" id="ride-share" onclick="myFunction('ridesharepanel', 'ride-share')"> Ride
             Share</button>
           <section class="panel" id="ridesharepanel">
             <p>Ride Share is a pair project that Erika Maust and I worked on together </p>
-            <a href="https://github.com/mdove92/ride-share"><img id="github" src="images/github.png"
+            <a href="https://github.com/mdove92/ride-share"><img class="github" src="images/github.png"
                 alt="Github Icon"></a>
           </section>
 
@@ -120,7 +121,7 @@
             Grocery Store</button>
           <section class="panel" id="grocerystorepanel">
             <p>Grocery Store description and link</p>
-            <a href="https://github.com/mdove92/grocery-store"><img id="github" src="images/github.png"
+            <a href="https://github.com/mdove92/grocery-store"><img class="github" src="images/github.png"
                 alt="Github Icon"></a>
           </section>
         </section>
@@ -129,13 +130,14 @@
       <button class="accordion" id="blog" onclick="myFunction1('blogpanel', 'blog')"> Blog</button>
       <div class="panel" id="blogpanel">
         <p>See my Mushroom Diary right here!</p>
-        <a href="hobby-blog.html"><img id="menu-mushroom" src="images/shroom11.jpg" tag="mushroom"></a>
+        <a href="hobby-blog.html"><img id="menu-mushroom" src="images/shroom11.jpg" alt="mushroom"></a>
       </div>
     </section>
   </main>
+  <footer>
+    <p>&#169; 2019 - Macaria Dove</p>
+  </footer>
 </body>
-<footer>
-  <p>&#169; 2019 - Macaria Dove</p>
-</footer>
+
 
 </html>

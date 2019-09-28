@@ -7,18 +7,19 @@
     <link href="css/portfolio-style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <title>Macaria's Portfolio</title>
-  </head>
-  <!-- Had to write in JS to get my buttons to stay clicked script courtest of w3schools-->
-  <script>
-    function myFunction(panelid) {
-      var x = document.getElementById(panelid);
-      if(x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display="none";
+    <!-- Had to write in JS to get my buttons to stay clicked script courtest of w3schools-->
+    <script>
+      function myFunction(panelid) {
+        var x = document.getElementById(panelid);
+        if(x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display="none";
+        }
       }
-    }
-  </script>
+    </script>
+  </head>
+  
   <body>
         <nav class="nav">
                  <ul class ="nav-options">
@@ -33,7 +34,7 @@
                 <button class="accordion" id="hotel" onclick="myFunction('hotelpanel')">Hotel</button>
         <section class="panel" id="hotelpanel">
           <p>In Hotel, I build a booking system for a twenty-room hotel. It was great practice in focusing on object-oriented design.</p>
-         <div> <a href="https://github.com/mdove92/hotel"><img id="github" src="images/github.png" alt="Github Icon">
+         <div> <a href="https://github.com/mdove92/hotel"><img id="github" src="images/github.png" alt="Github Icon"></a>
          </div>  
         </section>
         
@@ -47,7 +48,7 @@
           <p>Ride Share description and link</p>
         </section> 
 
-        <button class="accordion" id="ride-share" onclick="myFunction('grocerystorepanel')"> Grocery Store</button>
+        <button class="accordion" id="grocery-store" onclick="myFunction('grocerystorepanel')"> Grocery Store</button>
         <section class="panel" id="grocerystorepanel">
           <p>Grocery Store description and link</p>
         </section> 
