@@ -186,6 +186,10 @@ input[type=checkbox]:checked ~ div {
   grid-column-end: 2;
 }
 
+.content > div {
+  padding-top: 3rem;
+}
+
 .content > img {
   float: left;
   margin-right: 2rem;
@@ -286,6 +290,10 @@ article aside > div {
 
     display: flex;
     flex-direction: column;
+  }
+
+  .content > div {
+    padding-top: 0;
   }
 
   .content > img {
