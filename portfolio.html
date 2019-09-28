@@ -7,16 +7,35 @@
     <link href="css/portfolio-style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <title>Macaria's Portfolio</title>
-    <!-- Had to write in JS to get my buttons to stay clicked script courtest of w3schools-->
+    <!-- Had to write in JS to get my buttons to stay clicked script courtesy of w3schools-->
     <script>
-      function myFunction(panelid) {
-        var x = document.getElementById(panelid);
-        if(x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display="none";
-        }
+      function myFunction(panelid, buttonid) {
+    var panels = ["hotelpanel", "nimpanel", "ridesharepanel", "grocerystorepanel"]
+    var buttons = ["hotel", "nim", "ride-share", "grocery-store"]
+    var x = document.getElementById(panelid);
+    var y = document.getElementById(buttonid);
+    if (x.style.display === "none" || x.style.display === "") {
+      x.style.display = "block";
+      x.style.outline = "none";
+      y.classList.add('clicked-accordion');
+    } else {
+      x.style.display = "none";
+      y.classList.remove('clicked-accordion');
+    }
+
+    panels.forEach(function (id) {
+      if (id != panelid) {
+        document.getElementById(id).style.display = "none";
+        document.getElementById(id).classList.remove('clicked-accordion');
       }
+    })
+
+    buttons.forEach(function (id) {
+      if (id != buttonid) {
+        document.getElementById(id).classList.remove('clicked-accordion');
+      }
+    })
+  }
     </script>
   </head>
   
@@ -47,7 +66,7 @@
           <button class="accordion" id="ride-share" onclick="myFunction('ridesharepanel', 'ride-share')"> Ride
             Share</button>
           <section class="panel" id="ridesharepanel">
-            <p>Ride Share is a pair project that Erika Maust and I worked on together </p>
+            <p>Ride Share is a pair project that Erika Maust and I worked on together. It explores accessing nested data structures in Ruby.  </p>
             <a href="https://github.com/emaust/oo-ride-share"><img class="github" src="images/ride-share.png"
                 alt="Github Icon"></a>
           </section>
@@ -55,16 +74,14 @@
           <button class="accordion" id="grocery-store" onclick="myFunction('grocerystorepanel', 'grocery-store')">
             Grocery Store</button>
           <section class="panel" id="grocerystorepanel">
-            <p>Grocery Store description and link</p>
+            <p>Grocery Store keeps track of orders folks make with library code.</p>
             <a href="https://github.com/mdove92/grocery-store"><img class="github" src="images/grocery-store.png"
                 alt="Github Icon"></a>
           </section>
         </section>
-      </div>
+    
         <footer>
           <p>&#169; 2019 - Macaria Dove</p>   
       </footer> 
 </body>
-  
 </html>
-        
