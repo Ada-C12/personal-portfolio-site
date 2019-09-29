@@ -12,7 +12,7 @@
 nav ul {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 0rem;
   position: fixed;
 } 
