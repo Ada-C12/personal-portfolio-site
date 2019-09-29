@@ -1,2 +1,8 @@
 /* <!--font-family: 'Josefin Sans', sans-serif; -->
 <!--font-family: 'Abril Fatface', cursive;--> */
+
+
+img {
+  max-height: 150px;
+  max-width: 150px;
+}
