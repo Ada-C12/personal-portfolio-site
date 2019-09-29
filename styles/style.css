@@ -27,6 +27,10 @@ section {
     align-content: center;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 #intro {
     height: 100vh;
     grid-template-columns: 3fr 5fr;
@@ -52,4 +56,17 @@ section {
 #intro section img {
     width: 200px;
     height: 200px;
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+}
+
+#skills ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
 }
