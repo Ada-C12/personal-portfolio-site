@@ -67,6 +67,17 @@ main section {
   border-radius: 8px;
 }
 
-.hobbies {
+footer {
+  display:flex;
+  justify-content: flex-end;
+}
 
+footer ul {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+footer ul li {
+  padding:1.1rem;
 }
