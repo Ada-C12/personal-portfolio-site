@@ -19,6 +19,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 12rem 3rem auto;
   padding: 3rem;
+  text-align: left;
 }
 
 .heading-container p:first-of-type {

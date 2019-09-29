@@ -1,8 +1,17 @@
-
 body {
   background-color: #f7f7f7;
   font-family: 'Josefin Sans', sans-serif;
   margin: 1vw;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto auto auto 2.5rem;
+  align-items: center;
+}
+
+.heading-container {
+  text-align: center;
 }
 
 h1 {
