@@ -70,3 +70,13 @@ h2 {
     align-items: center;
     line-height: 50px;
 }
+
+#projects ul li {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#projects ul li:hover {
+    /* do something fun here */
+    background-color: whitesmoke;
+}
