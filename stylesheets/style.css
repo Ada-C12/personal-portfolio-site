@@ -8,6 +8,29 @@
   background-position: center;
 }
 
+.about-img {
+  background: url("../images/about-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+}
+
+.portfolio-img {
+  background: url("../images/portfolio-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 110%;
+}
+
+.hobby-img {
+  background: url("../images/hobby-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+
 .header {
   padding: 60px;
   text-align: center;
