@@ -1,12 +1,13 @@
 
 body {
   background-color: #f7f7f7;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 1vw;
 }
 
 h1 {
   font-size: 4rem;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .heading-container, footer {
@@ -16,7 +17,7 @@ h1 {
 
 .heading-container p {
   font-size: 2rem;
-  font-family: 'Vibes', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .menu {
@@ -36,7 +37,6 @@ h1 {
 }
 
 footer {
-  grid-row-start: 4;
   border: #f7f7f7 1px;
 }
 
