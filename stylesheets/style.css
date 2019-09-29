@@ -1,0 +1,73 @@
+
+ /* #f05348 red */
+ /* #ebd9ce beige*/
+ /* #1c2c4d navy */
+
+*{
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0rem;
+  position: fixed;
+} 
+
+li:before {
+  content: "⦿";
+  }
+
+li {
+  list-style-type: none;
+  text-align: center;
+  color: #f57b42;
+  width: 10rem;
+}
+
+li:hover, a:hover{
+color: navy
+}
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background:  #ebd9ce;
+}
+
+h1 {
+  font-size: 3.5rem;
+  border-radius: 25%;
+  border-style: dotted;
+  border-width: .3rem;
+  border-color: #1c2c4d;
+  color: #f05348 ;
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  width: 30rem;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+}
+
+
+footer ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;s
+  color:#f57b42;
+  padding: 0rem;
+  padding-bottom: 20rem;
+}
+
+
+a {
+  color: #f57b42;
+  font-style: normal;
+}

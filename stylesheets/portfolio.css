@@ -1,0 +1,31 @@
+
+h3, h2{
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+}
+.container {
+  color: #f05348 ;
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  width: 30rem;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+}
+
+.overview, .projects {
+  border-radius: 25%;
+  border-style: dotted;
+  border-width: .3rem;
+  border-color: #1c2c4d;
+  color: #f05348 ;
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  width: 30rem;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+
+}
