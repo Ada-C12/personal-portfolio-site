@@ -1,45 +1,22 @@
-/* .heading-container * {
-  border: solid black 2px;
-}  */
+
 body {
   background-color: #f7f7f7;
   font-family: 'Abril Fatface', cursive;
   margin: 1vw;
 }
 
-.main-container {
-  display: grid;
-  grid-template-rows: 2rem 50rem 5rem 2.5rem;
-  align-items: center;
-}
-
 h1 {
   font-size: 4rem;
-  grid-column: 2;
 }
 
 .heading-container, footer {
   background-color: #004c4c;
-  color: whitesmoke;
-}
-
-.heading-container {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  color: #f7f7f7;
 }
 
 .heading-container p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'Vibes', cursive;
-  grid-column: 2;
-  margin: 0;
-}
-
-.heading-container img {
-  max-height: 30rem;
-  border-radius: 30px;
 }
 
 .menu {
