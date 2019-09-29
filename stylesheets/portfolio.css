@@ -18,20 +18,21 @@
   padding: 2px 20px;
   margin: 10px 0;
   border-radius: 20px;
-  background-color: var(--third-color);
+  background-color: var(--second-color);
+  color: var(--third-color);
 }
 
 .portfolio-container p {
   font-size: 1.1em;
-  letter-spacing: .1em;
-  padding: 0 25px;
+  letter-spacing: .05em;
+  /* padding: 0 25px; */
 }
 
-.portfolio-container div:nth-child(even) {
-  background-color: var(--second-color);
-}
-
-.portfolio-container div:nth-child(even) h3, .portfolio-container div:nth-child(even) p {
+.portfolio-container a {
   color: var(--third-color);
+}
+
+.portfolio-container a:hover {
+  color: var(--main-color);
 }
 
