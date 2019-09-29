@@ -5,6 +5,21 @@ html {
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,255,241,1) 50%, rgba(139,255,208,1) 100%);
 }
 
+html ul {
+  list-style:none;
+}
+
+html a:link, html a:visited {
+  color:black;
+  text-decoration: none;
+}
+
+html a:hover, html a:active {
+  color:white;
+  background-color:black;
+  text-decoration:underline;
+}
+
 header {
   display:flex;
   justify-content: space-between;
@@ -18,20 +33,9 @@ header > h1 {
 header > h1 > a {
   padding: 1rem;
 }
-header > h1 > a:link, header > h1 > a:visited, nav ul a:link, nav ul a:visited {
-  color:black;
-  text-decoration: none;
-}
-
-header > h1 > a:hover, header > h1 > a:active, nav ul a:hover, nav ul a:active {
-  color:white;
-  background-color:black;
-  text-decoration:underline;
-}
 
 nav ul{
   display:inline-flex;
-  list-style: none;
   justify-content: space-between;
 }
 
@@ -47,8 +51,14 @@ main {
   padding-right:25%;
 }
 
+main section {
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
 .pictures {
   justify-content: center;
+  padding-top:0%;
 }
 
 .pictures img {
@@ -57,3 +67,6 @@ main {
   border-radius: 8px;
 }
 
+.hobbies {
+
+}
