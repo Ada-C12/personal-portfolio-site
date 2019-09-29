@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(255,255, 255, 0.5);
+}
+
+.home-img {
+  background: url("../images/big-sur-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+}
+
+.about-img {
+  background: url("../images/about-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+}
+
+.portfolio-img {
+  background: url("../images/portfolio-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 110%;
+}
+
+.hobby-img {
+  background: url("../images/hobby-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.top-bar-section ul li > a { font-weight:bold }﻿
+
+.flex-container {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.row {
+flex-direction: row;
+}
+
+.column {
+flex-direction: column;
+}
+
+.main-container{
+  display:grid;
+  grid-template-rows: 4vh 15vh 10vh;
+}
+
+.details-container{
+  display: grid;
+  grid-template-colums: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+}
+
+.skills-section {
+grid-row-end: 2;
+}
+
+.about-section{
+  grid-row-end: 2;
+  }
+
+  .contact-section{
+    grid-row-end: 2;
+    }
+
+
+  /* navbar styling */
+
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
