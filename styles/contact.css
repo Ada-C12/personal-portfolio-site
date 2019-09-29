@@ -21,7 +21,7 @@ html a:hover, html a:active {
 }
 
 main > ul a:hover, main > ul a:active {
-  color:red;
+  color:white;
   background:black;
 }
 
