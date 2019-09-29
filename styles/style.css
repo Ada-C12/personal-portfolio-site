@@ -1,0 +1,61 @@
+body {
+  background-color: #f7f7f7;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 1vw;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto auto auto 2.5rem;
+  align-items: center;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Abril Fatface', cursive;
+  color: #421C52;
+}
+
+.heading-container, footer {
+  background-color: #004c4c;
+  color: #f7f7f7;
+}
+
+.heading-container p {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu {
+  grid-row-start: 1;
+  font-size: 1.5rem;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: #421C52;
+}
+
+a:hover {
+  color: #004c4c;
+}
+
+footer {
+  border: #f7f7f7 1px;
+}
+
+footer p {
+  padding-left: 10px;
+}
+
