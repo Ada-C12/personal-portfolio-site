@@ -1,0 +1,200 @@
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 500%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  margin: 0 auto;
+  color: midnightblue;
+}
+
+.landing {
+  padding-left: 10%;
+  text-align: left;
+}
+
+
+#center{
+  text-align: center;
+}
+
+h2 {
+  font-size: xx-large;
+  font-family: 'Courgette', cursive;
+  color: midnightblue;
+}
+
+main {
+  margin-top: 10%; 
+}
+
+.menu {
+  font-family: 'Courgette', cursive;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  background-color: darkgray;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: midnightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+.menu a:hover {
+  background: #ddd;
+  color: midnightblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: space-evenly;
+}
+
+.container li {
+  text-align: right;
+  margin: 0;
+  padding-top: 20%;
+  list-style: none;
+  font-size: x-large;
+  color: darkgray;
+}
+
+.container img {
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 0;
+  width: 200px;
+  height: 150px;
+}
+
+/* Add a card effect for articles */
+.cardl{
+  background-color: darkgray;
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 20px;
+  width: 75%;
+}
+
+.cardr{
+  background-color: lightpink;
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 15%;
+  align-self: right;
+}
+
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+article a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+  font-family: 'Courgette', cursive;
+}
+
+footer {
+  padding-top: 15%;
+}
+
+#contact {
+  padding: 5%;
+}
+
+#contact img {
+  width: 200px;
+  height: 250px;
+}
+
+#contact * li {
+  list-style: none;
+  font-size: larger;
+
+}
+
+#about {
+  padding: 5%;
+}
+.portfolio {
+  margin: 0;
+}
+
+.portfolio ul {
+  padding: 0;
+  width: 100%;
+}
+
+.portfolio li {
+  display: inline;
+  padding: 10px;
+}
+
+.portfolio a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 15%;
+  margin-right: 0.625%;
+  margin-top; 5%;
+  text-align: center;
+  line-height: 3;
+  color: midnightblue;
+}
+
+a img {
+  width: 150px;
+  height: 150px;
+}
+
+.portfolio li:last-child a {
+  margin-right: 0;
+}
+
+.portfolio a:link, a:visited, a:focus {
+  background: white;
+}
+
+.portfolio a:hover {     
+  background: black;
+  color: white;
+}
+
+.portfolio a:active {
+  background: darkgray;
+  color: midnightblue;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.banner img {
+  width: 300px;
+  height: 200px;
+}
