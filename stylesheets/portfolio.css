@@ -10,7 +10,7 @@
 }
 
 .portfolio-container h2 {
-  font-size: 1.8em;
+  font-size: 1.3em;
   color: var(--third-color);
 }
 
@@ -23,9 +23,9 @@
 }
 
 .portfolio-container p {
-  font-size: 1.1em;
-  letter-spacing: .05em;
-  /* padding: 0 25px; */
+  font-size: 1em;
+  letter-spacing: .02em;
+  color: rgb(117, 116, 116);
 }
 
 .portfolio-container a {

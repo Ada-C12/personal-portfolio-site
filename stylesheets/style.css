@@ -7,13 +7,15 @@
 body {
   background-color: var(--main-color);
   text-align: center;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+
   color: var(--second-color);
   margin: 0px;
   padding: 0px;
   margin-top: 100px;
   height: 100%;
   width: 100%;
+
 }
 
 h1 {
@@ -25,11 +27,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 150px;
+  padding: 0 150px 20px 150px;
 }
 
 .nav-container, .footer-container {
-
   width: 100%;
   position: fixed;
   border: none none solid none;
@@ -49,16 +50,25 @@ ul {
   grid-template-columns: 40% 20% 13% 17% 10%;
   list-style: none;
   margin: 10px;
-  padding: 0;
+  padding: 0 4px;
 }
 
 a {
   text-decoration: none;
+  color: var(--third-color);
+}
+
+p a:hover {
+  background-color: var(--third-color);
+  padding: 0 2px;
+  border-radius: 5px;
+  color: var(--second-color);
 }
 
 nav ul li, footer ul li {
   font-weight: bold;
-  font-size: 1.35rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
 }
 
 nav ul li:not(.title) {
@@ -87,13 +97,13 @@ nav ul li:first-child {
 }
 
 .about-container h2, .visual-container h2 {
-  font-size: 1.8em;
+  font-size: 1.3em;
   color: var(--third-color);
 }
 
 .about-container p {
-  font-size: 1.1em;
-  letter-spacing: .1em;
+  font-size: 1em;
+  letter-spacing: .04em;
   padding: 0 25px;
 }
 
