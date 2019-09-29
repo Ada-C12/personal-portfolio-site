@@ -75,10 +75,9 @@ main {
 }
 
 .container img {
-  padding-left: 10%;
   padding-top: 10%;
   padding-bottom: 0;
-  width: 200px;
+  width: 150px;
   height: 150px;
 }
 
