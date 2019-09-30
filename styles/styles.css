@@ -1,0 +1,113 @@
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 60px 150px 3fr 80px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  
+  
+  
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 88%;
+  padding-inline-start: 0%;
+  background-color: white;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-inline-start: 5%;
+  padding-inline-end: 5%; 
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container a:hover {
+  color: rgb(228, 22, 22);
+}
+
+#home {
+  width: 40%;
+  font-size: 2rem;
+}
+
+
+#about {
+  width: 5%;
+  padding-inline-start: 5%;
+  
+}
+
+#hobbies {
+  width: 5%;
+  padding-inline-start: 5%;
+  
+}
+
+#portfolio {
+  padding-inline-start: 5%; 
+}
+
+#portfolio a {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin: 0%;
+  font-size: 4rem;
+}
+
+.contact {
+  padding-top: 2%;
+  display: flex;
+  align-self: auto;
+}
+
+.contact ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: slategray;
+}
+
+footer {
+  text-align: left;
+  font-size: .5rem;
+  align-self: center;
+}

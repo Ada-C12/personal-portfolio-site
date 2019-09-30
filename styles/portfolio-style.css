@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  grid-template-rows: 60px 150px 50vh 80px;
+}
+
+
+#portfolio {
+  color: rgb(228, 22, 22);
+}
+
+.portfolio {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: .5fr .5fr;
+  align-self: center;
+  text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.portfolio h2 {
+  transition-duration: 0.4s;
+  padding: 10px 25px;
+  border: solid;
+  border-color:  rgb(228, 22, 22);
+  width: 55%;
+  text-align: center;
+  margin-right: 11%;
+  margin-left: 11%;
+ 
+}
+
+.portfolio h2:hover {
+  background-color: rgb(228, 22, 22);
+  color: white;
+}
+
+.portfolio h2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 3vw;
+  
+}
