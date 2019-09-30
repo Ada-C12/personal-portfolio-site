@@ -22,3 +22,55 @@
   margin-right: 10%;
 }
 
+.moreaboutblog-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.moreaboutblog-container img {
+  width: 100%;
+  border: double;
+  border-radius: 20%;
+}
+
+.moreaboutblog-container h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 90%;
+  text-align: center;
+}
+
+#buynothing {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#zero_waste{
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#ele_nao {
+  max-width: 90%;
+  justify-self: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#clean_eating {
+  margin-top: 15%;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+#photography {
+  margin-top: 15%;
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
