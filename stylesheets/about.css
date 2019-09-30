@@ -1,11 +1,8 @@
-* {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background: lightgray;
+footer {
+  color: turquoise;
 }
-h1 {
-  color: turquoise; 
-}
-p {
- color: orange;
- text-align: justify;
+
+#camandaria {
+  max-height: 400px;
+  max-width: 400px;
 }
