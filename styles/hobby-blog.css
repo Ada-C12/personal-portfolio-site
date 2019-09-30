@@ -46,7 +46,7 @@ figure {
 
 .figures img {
   padding-bottom: .5em;
-  margin-right: 0;
+  margin: 0;
 }
 
 .figures img:nth-child(2) {
