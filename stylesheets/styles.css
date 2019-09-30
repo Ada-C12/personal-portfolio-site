@@ -1,0 +1,33 @@
+.grid  {
+  display: grid;
+}
+
+.flexbox {
+  display: flex;
+}
+
+body ul {
+  list-style: none;
+  padding: 0;
+}
+
+#nav {
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: lightgray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav a:hover {
+  color: white;
+}
