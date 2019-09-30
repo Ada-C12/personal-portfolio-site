@@ -1,11 +1,3 @@
-* {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background: lightgray;
-}
-h1 {
-  color: turquoise; 
-}
-p {
- color: orange;
- text-align: justify;
+footer {
+  color: red;
 }
