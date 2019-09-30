@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  width: 200vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px auto 100px;
+  grid-gap: 0px;  
+}
+
+.navigationHeader{
+grid-column: 1/-1;
+background-color: white;
+list-style: none;
+}
+
+.aboutMe {
+  grid-column: 1/-1;
+  background-color: rgb(99, 29, 179); 
+  color: white;
+}
+
+.footer {
+  grid-column: 1/-1;
+  background-color: white;
+}
+
+.footer nav{
+  font-family: 'Arvo', serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.aboutMe h1{
+  margin-left: 2.5em;
+  font-size: 2.5em;
+}
+.aboutMe p{
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1.5em;
+}
