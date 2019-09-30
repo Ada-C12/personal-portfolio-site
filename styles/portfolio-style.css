@@ -1,0 +1,15 @@
+.even, .even * {
+  text-align: left;
+}
+sub {
+  text-align: center;
+}
+
+.odd, .odd * {
+  text-align: right;
+}
+
+p {
+  margin-top: 0px;
+  padding-bottom: 25px;
+}
