@@ -1,0 +1,24 @@
+.main-container-hobby{
+  display: grid;
+  grid-template-rows: 10vh 30vh 30vh 30vh 40vh 10vh;
+}
+
+article{
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+}
+
+div{
+  background-color:beige;
+}
