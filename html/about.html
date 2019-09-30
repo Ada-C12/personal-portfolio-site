@@ -5,40 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sara Baig - Full Stack Web Developer</title>
+    <link rel="stylesheet" href="../stylesheets/normalize.css" />
     <link href="../stylesheets/styles.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="./about.html">About Me</a></li>
+        <li>
+          <a id="brand" href="/"
+            ><i class="fab fa-pied-piper fa-2x"></i>About Me</a
+          >
+        </li>
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="./about.html">About Me</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
         <li><a href="./resume.html">Resume</a></li>
         <li><a href="./hobby-blog.html">Hobby-blog</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <!-- <li><a href="./contact.html">Contact</a></li> -->
       </ul>
     </nav>
     <main>
-    <section id="banner"></section>
-    <section id="intro">
-      <img id="profile-img" src="../images/download.png" alt="picture" />
-      <div id="name">
-        <h1>Sara Shah Baig</h1>
-        <p id="description">
-          Full Stack Web developer. I am currently enrolled at the Ada Developers Academy program as a full-time student. I will be graduating in August ’20.
-        </p>
-      </div>
-      <ul class="icons social">  
-          <li class="github"><a href="" title=""><i class="fab fa-github fa-2x"></i> GitHub</a></li>
-          <li class="linkedin"><a href="" title=""><i class="fab fa-linkedin fa-2x"></i> LinkedIn</li>
-      </ul>
-    </section>
-  </main>
-    <footer>Copyright <i class="far fa-copyright"></i> 2019 Sara Shah Baig. All Right
-      Reserved</footer>
+      <section id="banner"></section>
+      <section id="about">
+        <article class="card">
+          <h1>About Me</h1>
+          <p>
+            I started learning how to code just over a year ago when I took free
+            online classes, such as from the CodeAcademy and Free Code Camp,
+            mainly learning HTML, CSS, JavaScript and some SQL. Following that,
+            I took a web development class at my college that gave me a solid
+            foundation to build upon. Late last year, I completed an
+            introductory programming class at my college that focused on Python
+            language. Additionally, I completed the Ada Developers Academy Jump
+            Start program in preparation for my Ada application.
+          </p>
+          <p>
+            The thing that I love most about programming is that it gives me the
+            opportunity to solve problems and think critically in addition to
+            how it allows me to build things that serve a purpose. I am very
+            interested in developing projects that others can interact with, and
+            programming allows me to do just that.
+          </p>
+          <p>
+            Currently, I am a student at Ada Developers Academy where I am
+            training to become a Full Stack Developer. I feel very lucky to have
+            been given such a wonderful opportunity to learn and work with such
+            wonderful people.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      Copyright <i class="far fa-copyright"></i> 2019 Sara Shah Baig. All Right
+      Reserved
+    </footer>
   </body>
 </html>
