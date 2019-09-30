@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container{
+  display: grid;
+  grid-template-rows: 10vh 30vh 30vh 30vh 10vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: lightgreen;
+  border: 2px solid whitesmoke;
+  font-family: 'Rock Salt', cursive;
+}
+.header-container{
+  display: flex;
+  width: 1300px;
+  justify-content: space-around;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid whitesmoke;
+  font-family: 'Handlee', cursive;
+  background: pink;
+}
+
+article {
+  font-family: 'Handlee', cursive;
+  border: 2px solid whitesmoke;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightgreen;
+  border: 2px solid whitesmoke;
+}
+
+a:hover {
+ color: orangered
+}
+
+a {
+  text-decoration: none;
+}
