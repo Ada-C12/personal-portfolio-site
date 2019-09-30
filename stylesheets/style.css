@@ -1,20 +1,18 @@
 * {
-  margin-left: 5px;
-  margin-right: 5px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   background-color: beige;
   color: slategray;
 }
+
 p {
  color: orange;
  text-align: center;
+ font-family: 'Mystery Quest', cursive;
+ line-height: 3em;
+ font-size: 1.5em;
 }
 
-p {
-  font-family: 'Mystery Quest', cursive;
-}
-
-nav {
+header {
   width: 100%;
   margin: 0 auto;
   position: fixed;
@@ -24,14 +22,14 @@ nav {
   color: white;
 }
 
-nav * {
+header * {
   background-color: mediumpurple; 
   color: white;
 }
 
-nav ul {
+header ul {
   display: grid;
-  grid-template: 60px / 5fr 1fr 1fr 1fr;
+  grid-template: 12px / 5fr 1fr 1fr 1fr;
   list-style: none;
   font-weight: bold;
 }
@@ -61,17 +59,12 @@ nav ul {
   text-align: center;
 } 
 
-div {
-  line-height: 3em;
-  font-size: 1.5em;
-}
-
 #link {
   text-decoration: none;
   font-style: italic;
 }
 
 #logo {
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 20px;
+  max-width: 20px;
 }
