@@ -1,0 +1,32 @@
+header {
+  font-family: 'Permanent Marker', cursive;
+}
+
+ul{
+  list-style-type: none
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  font-weight: bold;
+  text-align: center
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  font: 16px Helvetica, Sans-Serif; 
+  position: fixed;
+  left: 33%; 
+  text-align: left;
+  padding: 0 20px;
+  margin: 30px 0 30px 0;
+  width: 550px;
+}
+
+.container h4 {
+  color: blueviolet
+}
