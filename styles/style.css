@@ -38,9 +38,9 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   overflow: hidden;
   background-color: darkgray;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 }
 
 .menu a {
@@ -81,7 +81,7 @@ main {
   height: 150px;
 }
 
-/* Add a card effect for articles */
+
 .cardl{
   background-color: darkgray;
   color: aliceblue;
