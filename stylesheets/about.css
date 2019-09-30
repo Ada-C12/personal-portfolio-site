@@ -2,7 +2,11 @@ footer {
   color: turquoise;
 }
 
-#camandaria {
-  max-height: 400px;
-  max-width: 400px;
+#linkedin {
+  max-height: 30px;
+  max-width: 30px;
+}
+
+#teampic {
+  text-align: center
 }
