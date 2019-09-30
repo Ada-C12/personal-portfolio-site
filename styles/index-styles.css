@@ -9,7 +9,6 @@ body {
 }
 
 li {
-
   display: inline;
   padding: 10px
 }
@@ -23,5 +22,4 @@ ul {
 
 h1 {
   font-size: 2.5em;
-
 }
