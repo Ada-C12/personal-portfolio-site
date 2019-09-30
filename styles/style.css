@@ -115,6 +115,10 @@ footer {
     justify-content: flex-end;
 }
 
+#about-me p {
+    width: 60vw;
+}
+
 #skills ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
