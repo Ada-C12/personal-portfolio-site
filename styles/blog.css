@@ -9,7 +9,7 @@
 }
 
 .hobbies img {
-  width: 100%;
+  width: 110%;
   grid-column-start: 2;
   grid-row-start: 1;
 }
@@ -17,7 +17,7 @@
 .hobbies p {
   font-size: 90%;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 20%;
   margin-left: 20%;
   margin-right: 10%;
 }
@@ -32,9 +32,10 @@
 }
 
 .moreaboutblog-container img {
-  width: 100%;
+  width: 70%;
   border: double;
   border-radius: 20%;
+  margin-left: 10%;
 }
 
 .moreaboutblog-container h3 {
