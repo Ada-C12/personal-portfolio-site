@@ -4,10 +4,6 @@
   --third-color: rgb(49, 49, 126);
 }
 
-.photo-container {
-  width: 500px;
-}
-
 img {
   object-fit: cover;
   width: 300px;

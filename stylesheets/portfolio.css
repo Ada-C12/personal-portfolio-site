@@ -14,6 +14,10 @@
   color: var(--third-color);
 }
 
+.portfolio-container h3{
+  font-size: 1.1em;
+}
+
 .project {
   padding: 2px 20px;
   margin: 10px 0;
