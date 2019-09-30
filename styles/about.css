@@ -1,0 +1,44 @@
+#road {
+  max-width: 200px;
+  border-radius: 100%;
+  grid-row: 1 / span 2;
+}
+
+#army {
+  max-height: 150px;
+  grid-row: 1 / span 4;
+}
+
+#brewbies {
+  max-width: 200px;
+  border-radius: 50%;
+  grid-row: 1 / span 2;
+}
+
+article {
+  padding: 1rem;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+section {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h2 + p, p + p {
+  margin: 0px;
+  grid-column-start: 1;
+}
+
+img {
+  grid-column-start: 2;
+  justify-self: center;
+  align-self: center;
+}
+
