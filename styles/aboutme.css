@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   margin-left: 20%;
   margin-right: 15%;
   margin-bottom: 10%;
@@ -42,14 +42,3 @@
   grid-column-start: 2;
   grid-row-start: 1;
 }
-
-/* .skills3 img {
-  grid-column-start: 3;
-  grid-row-start: 1;
-  margin-top: 10%;
-  width: 60%;
-  align-self: center;
-  border: double;
-  border-radius: 20%;
-  grid-column-start: 3; 
-} */
