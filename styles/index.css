@@ -1,0 +1,18 @@
+.portfolio{
+  background-color:pink;
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+}
+
+.about{
+  background-color: turquoise;
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+}
+
+.journal{
+  background-color: beige;
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+  color: white;
+}

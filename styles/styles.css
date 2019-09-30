@@ -9,25 +9,6 @@
   grid-template-rows: 10vh 30vh 30vh 30vh 10vh;
 }
 
-.portfolio{
-  background-color:pink;
-  font-family: 'Monoton', cursive;
-  font-size: 40px;
-}
-
-.about{
-  background-color: turquoise;
-  font-family: 'Monoton', cursive;
-  font-size: 40px;
-}
-
-.journal{
-  background-color: beige;
-  font-family: 'Monoton', cursive;
-  font-size: 40px;
-  color: white;
-}
-
 header {
   display: flex;
   align-items: center;
