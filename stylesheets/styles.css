@@ -17,7 +17,7 @@ body ul {
   justify-content: space-around;
   font-size: 1.5em;
   font-weight: bold;
-  background-color: lightgray;
+  background-color: #483F56;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 0px;
@@ -25,9 +25,9 @@ body ul {
 
 #nav a {
   text-decoration: none;
-  color: black;
+  color: #C29CB3;
 }
 
 #nav a:hover {
-  color: white;
+  color: #F0F3F0;
 }
