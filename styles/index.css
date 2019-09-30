@@ -1,0 +1,67 @@
+
+.container {
+  height: 100vh;
+  width: 200vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px auto 100px;
+  grid-gap: 0px;  
+}
+
+.navigationHeader{
+grid-column: 1/-1;
+background-color: white;
+list-style: none;
+}
+
+.mainPage {
+  grid-column: 1/-1;
+  background-color: rgb(99, 29, 179); 
+}
+
+.footer {
+  grid-column: 1/-1;
+  background-color: white;
+}
+
+.footer nav{
+  font-family: 'Arvo', serif;
+  color: black;
+  font-size: 25px;
+}
+
+/* changing style of content in mainPage */
+/* .mainPage {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  text-align: center;
+  margin-block: 50px;
+ } */
+
+ .mainPage h1{
+ font-family: 'Amatic SC', cursive;
+ font-size: 6em;
+ text-decoration: white;
+ color: white;
+ text-align: center;
+ text-emphasis: bold;
+}
+.mainPage h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+ }
+
+ .mainPage blockquote{
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+ }
+ .mainPage h4{
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+ } 
