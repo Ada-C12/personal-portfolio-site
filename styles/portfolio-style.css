@@ -2,9 +2,6 @@
   text-align: left;
   background-color: rgb(163, 183, 203);
 }
-sub {
-  text-align: center;
-}
 
 .odd, .odd * {
   text-align: right;
@@ -19,3 +16,8 @@ p {
 .portfolio {
   margin-bottom: 0px;
 }
+
+.body-section {
+  padding-bottom: 100px;
+}
+

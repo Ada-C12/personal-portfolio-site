@@ -6,11 +6,7 @@
 body {
     position: relative;
     min-height: 100vh;
-}
-
-.body-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+    background-color: #ebebeb;
 }
 
 #banner {
@@ -19,7 +15,7 @@ body {
 
 h1 {
   background:#add8e6;
-  color: rgb(70, 7, 20);
+  color: rgb(114, 12, 33);
   padding-top: 25px;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -31,8 +27,7 @@ h1 {
 #nav-flexbox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: top;
+  justify-content: center;
 }
 
 #nav-flexbox * {
@@ -42,14 +37,15 @@ h1 {
 
 h2, h2 *, h3, h3 * {
   font-family: 'Merriweather', serif;
-  color:rgb(70, 7, 20);
+  color:rgb(114, 12, 33);
   font-size: 32px; 
   text-align: center;
 }
 
 a {
-  color:rgb(70, 7, 20);
+  color:rgb(114, 12, 33);
   text-decoration: none;
+  font-weight: 800;
 }
 
 a:hover {
@@ -65,18 +61,26 @@ footer {
 
 footer, footer * {
   background-color: #add8e6;  
-  color:rgb(70, 7, 20);
+  color:rgb(114, 12, 33);
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: top;
 }
 
-footer a {
+footer a, nav a {
   padding: 20px;
 }
 
-footer a:hover {
+img {
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+footer a:hover, nav a:hover {
   background-color:rgb(70, 7, 20);
 }
 
