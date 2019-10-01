@@ -1,0 +1,23 @@
+.even, .even * {
+  text-align: left;
+  background-color: rgb(163, 183, 203);
+}
+
+.odd, .odd * {
+  text-align: right;
+  background-color: rgb(208, 221, 233);
+}
+
+p {
+  margin-top: 0px;
+  padding-bottom: 25px;
+}
+
+.portfolio {
+  margin-bottom: 0px;
+}
+
+.body-section {
+  padding-bottom: 100px;
+}
+
