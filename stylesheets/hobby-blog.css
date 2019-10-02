@@ -1,16 +1,14 @@
-* {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background: lightgray;
-}
-h1 {
-  color: turquoise; 
-}
-p {
- color: orange;
- text-align: justify;
+li {
+  list-style-type: none;
 }
 
 img {
   max-height: 400px;
-  max-width: 400px;
+  max-width: 500px;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
