@@ -4,67 +4,27 @@
   color: slategray;
 }
 
-p {
- color: orange;
- text-align: center;
- font-family: 'Mystery Quest', cursive;
- line-height: 3em;
- font-size: 1.5em;
-}
-
-header {
-  width: 100%;
-  margin: 0 auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: mediumpurple;
-  color: white;
-}
-
-header * {
-  background-color: mediumpurple; 
-  color: white;
-}
-
-header ul {
-  display: grid;
-  grid-template: 12px / 5fr 1fr 1fr 1fr;
-  list-style: none;
-  font-weight: bold;
-}
-
-.home{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  font-size: 4em;
-  vertical-align: top;
-  text-decoration: none;
-}
-
-.about {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  text-align: center;
-} 
-
-.portfolio {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  text-align: center;
-} 
-
-.blog {
-  grid-column-start: 4;
-  text-align: center;
-} 
-
-#link {
-  text-decoration: none;
-  font-style: italic;
-}
-
 #logo {
   max-height: 20px;
   max-width: 20px;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr;
+  list-style-type: none;
+}
+
+header, header * {
+  width: 100%;
+  margin: 0 auto;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  background-color:  mediumpurple;
+  color: white;
+}
+
+footer {
+  align
 }

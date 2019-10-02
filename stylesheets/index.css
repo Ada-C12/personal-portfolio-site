@@ -3,5 +3,6 @@ footer {
 }
 
 section {
-  text-align: center
+  text-align: center;
+  font-size: 2em;
 }
