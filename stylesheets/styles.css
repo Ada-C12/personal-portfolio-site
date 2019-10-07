@@ -61,6 +61,27 @@ body img {
   padding-bottom: 10px;
 }
 
+#projects a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#projects a:hover {
+  color: #C29CB3;
+}
+
+#projects li {
+  background-color: #F0F3F0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  color: black;
+}
+
 footer {
   position: relative;
   bottom: 0;
