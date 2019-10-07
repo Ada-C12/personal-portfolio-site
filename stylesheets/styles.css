@@ -2,10 +2,6 @@
   display: grid;
 }
 
-.flexbox {
-  display: flex;
-}
-
 body ul {
   list-style: none;
   padding: 0;
@@ -43,7 +39,7 @@ body h1{
   padding-left: 30px;
 }
 
-body img {
+body div img {
   width: 45%;
   height: auto;
   border-radius: 10px;
@@ -80,6 +76,20 @@ body img {
   margin-top: 10px;
   font-size: 1em;
   color: black;
+}
+
+#hobby section {
+  font-size: 1.5em;
+  margin-top: 200px;
+}
+
+#hobby img {
+  max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  float: left;
+  padding: 15px;
 }
 
 footer {
