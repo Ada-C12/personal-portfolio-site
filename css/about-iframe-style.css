@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Mac's Font";
+    src: url("Test-Mac-Font22.ttf");
+}
 html {
-    /*font-family: "Mac's Font"; */
+    font-family: "Mac's Font";
     border: unset;
 }
 
@@ -41,6 +45,13 @@ section.profile-pic {
 }
 
 .contacts img {
-    width: 30%;
+    width: 100%;
     height: auto;
+}
+
+.contact-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2em;
 }

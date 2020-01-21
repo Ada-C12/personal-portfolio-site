@@ -116,3 +116,8 @@
     height: 46vh;
     width: 94vw;
   }
+
+  iframe.aboutIframe {
+    height: 125vh;
+    width: 94vw;
+  }
