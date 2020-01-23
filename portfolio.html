@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sabrina's Portfolio Site</title>
+
+  <!-- fonts -->
+  <!-- display font -->
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+  <!-- text font -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,400i&display=swap" rel="stylesheet">
+
+  <!-- css stylesheets -->
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/portfolio.css">
+</head>
+
+<body>
+
+  <!-- nav -->
+  <header>
+    <!-- anchor point -->
+    <a id="top"></a>
+
+    <nav>
+      <a href="index.html">/home</a>
+      <a href="about.html">/about</a>
+      <a href="portfolio.html">/portfolio</a>
+      <a href="code-journal.html">/code-journal</a>
+    </nav>
+  </header>
+
+  <!-- splash w/ name, subtitle of some sort -->
+  <main>
+    <div class="splash">
+      <h1>ADA Projects</h1>
+      <!-- image source: https://www.pexels.com/photo/sakura-tree-2033997/ -->
+      <!-- <img src="assets/images/background-beautiful-beauty-2033997.jpg" alt="cherry blossom tree"> -->
+    </div>
+
+    <div class="projects-container">
+
+      <article>
+        <h2>bEtsy</h2>
+        <input type="checkbox" id="toggle_13">
+        <label for="toggle_13">
+          betsy
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                bEtsy was a large team project where our team built an e-commerce website called 
+                <a href="https://ada-orchids.herokuapp.com/">Plantsy</a> over the course of two weeks.
+              </p>
+              <p>
+                The website allows users to browse all products, or see products by category or by merchant. 
+                Users can add products to their cart, checkout, and leave a review.
+              </p>
+              <p>
+                Merchants for the site can log in using Github as an OAth provider.
+              </p>
+              <p>
+                Once logged in, merchants can see a dashboard page where they can view and edit their products, 
+                add a new product, add a new category, and see a list of orders and their confirmation status.
+              </p>
+              <p>
+                They can mark the products in an order as shipped, 
+                and the order will automatically be marked as shipped. 
+                Merchants can also see their total earnings on this page.
+              </p>
+              <p>
+                I mainly worked on the merchant dashboard view, the shopping-by-merchant view, 
+                and the OAth authentication feature, 
+                but I also built the homepage, the header and footer elements, and the 'about us' page.
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/betsy">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>test-driven development</div>
+              <div>object-oriented design</div>
+              <div>Rails</div>
+              <div>Ruby</div>
+              <div>erb</div>
+              <div>Bootstrap</div>
+              <div>git</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>Video Store API</h2>
+        <input type="checkbox" id="toggle_12">
+        <label for="toggle_12">
+          video-store-api
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                This was a pair project to build a RESTful API with Rails that could be used by a video store 
+                to manage their inventory, rentals, and list of customers.
+              </p>
+              <p>
+                We built an entity-relationship diagram to design the models for our database
+                and worked with Trello as a kanban board to organize the project. We also used Postman smoke tests 
+                to supplement our unit tests.
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/CEsGutierrez/video-store-api">github</a>
+            <div class="uses">
+              <div>Rails</div>
+              <div>Ruby</div>
+              <div>JSON</div>
+              <div>git</div>
+              <div>ERD</div>
+              <div>test-driven development</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>Media Ranker</h2>
+        <input type="checkbox" id="toggle_11">
+        <label for="toggle_11">
+          media-ranker
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                The main goal of this project was to replicate an existing 
+                <a href="http://media-ranker-2-0.herokuapp.com/">example site</a>'s funcationality,
+                with optional enhancements to this site.
+              </p>
+              <p>
+                Based on the example, I created <a href="https://sabrina-c12-media-ranker.herokuapp.com/">this</a> website. 
+                Like the original, this website allows a guest to login, creating a new account for each new username, 
+                and upvote pieces of media (guests cannot upvote without logging in).
+              </p>
+              <p>
+                There is a main page, listing the pieces of media in each category (album, movies, book) 
+                that have the most votes, and a spotlight section for the piece of media with the most votes overall.
+              </p>
+              <p>
+                There is a list of all the pieces of media, as well as individual pages describing each entry. 
+                The site also has a list of all the users and an individual page for each showing what that user has voted on.
+              </p>
+              <p>
+                As enhancements, I prevented a user from editing or deleting a piece of media without being logged in. 
+                I also allowed logged-in users to delete their own accounts. 
+                Furthermore, on an invidual user's page, their list of votes includes information on the category of the piece of 
+                media they voted for. I changed this to a link that takes the user to an anchorpoint on the media index page for that category.
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/media-ranker">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>replicating an existing site</div>
+              <div>test-driven development</div>
+              <div>object-oriented design</div>
+              <div>Rails</div>
+              <div>Ruby</div>
+              <div>erb</div>
+              <div>Bootstrap</div>
+              <div>git</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>Rails Rideshare</h2>
+        <input type="checkbox" id="toggle_10">
+        <label for="toggle_10">
+          rails-rideshare
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                An update to oo-ride-share, this was a two-person team programming project
+                where my teammade and I built a site to see, add, and edit passengers and drivers
+                in an Uber/Lyft-style ride-sharing app.
+              </p>
+              <p>
+                Rails Rideshare is up on <a href="https://sa-c12-rails-rideshare.herokuapp.com/">Heroku</a>!
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/ride-share-rails">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>wireframes</div>
+              <div>test-driven development</div>
+              <div>object-oriented design</div>
+              <div>team programming</div>
+              <div>Rails</div>
+              <div>Ruby</div>
+              <div>erb</div>
+              <div>git</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>Rails Zoo</h2>
+        <input type="checkbox" id="toggle_9">
+        <label for="toggle_9">
+          rails-zoo
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                My second Rails project, Rails Zoo was a designed to reinforce the concepts introduced in Tasklist.
+              </p>
+              <p>
+                The website keeps track of animals in a zoo.
+              </p>
+              <p>
+                Rails Zoo is up on <a href="https://sabrina-c12-rails-zoo.herokuapp.com/">Heroku</a>!
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/rails-zoo">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>test-driven development</div>
+              <div>object-oriented design</div>
+              <div>Rails</div>
+              <div>Ruby</div>
+              <div>erb</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>tasklist</h2>
+        <input type="checkbox" id="toggle_8">
+        <label for="toggle_8">
+          tasklist
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                My first Rails project, tasklist is a web app for making and completing tasks.
+              </p>
+              <p>
+                The website keeps track of the tasks in a database and the user can enter tasks,
+                mark them complete and incomplete (an action which automatically assigns them a date),
+                and can input and see details on each task.
+              </p>
+              <p>
+                Tasklist is up on <a href="https://sabrina-c12-tasklist.herokuapp.com">Heroku</a>!
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/task-list">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>wireframe</div>
+              <div>test-driven development</div>
+              <div>object-oriented design</div>
+              <div>Rails</div>
+              <div>Ruby</div>
+              <div>erb</div>
+              <div>git</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>portfolio site</h2>
+        <input type="checkbox" id="toggle_7">
+        <label for="toggle_7">
+          portfolio site
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                This project was to build my own personal portfolio static site.
+              </p>
+              <p>
+                As per requirements, it has a front page,
+                a page that includes a little bit about me,
+                a page with details on all my projects at ADA (aka, this very page),
+                and a page that simulates a list of blog posts.
+              </p>
+              <p>
+                I wrote the HTML, designed the site, and wrote the CSS.
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/personal-portfolio-site">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>git</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>startrly</h2>
+        <input type="checkbox" id="toggle_6">
+        <label for="toggle_6">
+          startrly
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                This project was a website for a fictional startup called "Startlry". I was given an HTML document and a set of wireframes, one for the website's desktop view and one for its mobile view.
+              </p>
+              <p>
+                I implemented the CSS necessary to structure the HTML to match the wireframes. I also designed and implemented visuals
+                not specified by the wireframe, such as colors, fonts, and backgrounds.
+              </p>
+            </div>
+          </div>
+
+          <aside>
+            <a href="https://github.com/Galaxylaughing/startrly">github</a>
+            <div class="uses">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>wireframes</div>
+              <div>git</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>slack cli</h2>
+        <input type="checkbox" id="toggle_5">
+        <label for="toggle_5">
+          slack cli
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+      
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                In this pair programming project, we built a program that will communicate with the Slack API.
+              </p>
+              <p>
+                The program utilizes a command-line interface to get input from a user. It can get information about channels and Slack users and it allows the user to post new messages as 'Slackbot'.
+              </p>
+              <p>
+                This program also allows the user to customize the name and icon of 'Slackbot'. These attributes are saved in a JSON file and loaded into the program as it starts.
+              </p>
+            </div>
+          </div>
+      
+          <aside>
+            <a href="https://github.com/dtingg/slack-cli">github</a>
+            <div class="uses">
+              <div>ruby</div>
+              <div>git</div>
+              <div>web api</div>
+              <div>JSON</div>
+              <div>command-line interface</div>
+              <div>object-oriented design</div>
+              <div>pair programming</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>hotel</h2>
+        <input type="checkbox" id="toggle_4">
+        <label for="toggle_4">
+          hotel
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+      
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                'Hotel' was an individual project where I designed and built the back-end of a hotel booking system from scratch.
+              </p>
+              <p>
+                A user of the system can make reservations, check room availability, and create and reserve room blocks.
+              </p>
+            </div>
+          </div>
+      
+          <aside>
+            <a href="https://github.com/Galaxylaughing/hotel">github</a>
+            <div class="uses">
+              <div>ruby</div>
+              <div>git</div>
+              <div>object-oriented design</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>oo-ride-share</h2>
+        <input type="checkbox" id="toggle_3">
+        <label for="toggle_3">
+          oo-ride-share
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+      
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                This was a pair programming project where we built a ride-share program using object-oriented design.
+              </p>
+              <p>
+                The project involved converting data stored in CSV into objects and creating methods to interact with this data and request trips.
+              </p>
+            </div>
+          </div>
+      
+          <aside>
+            <a href="https://github.com/Galaxylaughing/oo-ride-share">github</a>
+            <div class="uses">
+              <div>ruby</div>
+              <div>git</div>
+              <div>csv</div>
+              <div>object-oriented design</div>
+              <div>pair programming</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>grocery store</h2>
+        <input type="checkbox" id="toggle_2">
+        <label for="toggle_2">
+          grocery store
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+      
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                'Grocery store' is a back-end program designed to keep track of data from a grocery store, including data about customers and their orders.
+              </p>
+            </div>
+          </div>
+      
+          <aside>
+            <a href="https://github.com/Galaxylaughing/grocery-store">github</a>
+            <div class="uses">
+              <div>ruby</div>
+              <div>git</div>
+              <div>csv</div>
+              <div>object-oriented design</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+      <article>
+        <h2>solar system</h2>
+        <input type="checkbox" id="toggle_1">
+        <label for="toggle_1">
+          solar system
+          <img src="assets/images/x-shape.svg" alt="x shape">
+        </label>
+      
+        <div class="body-container">
+          <div class="content">
+            <img src="assets/images/code-editor.svg" alt="placeholder image of a code editor icon">
+            <div>
+              <p>
+                This project is a command-line interface for interacting with data regarding solar systems.
+              </p>
+              <p>
+                The user of the program can view information about the solar system and view details about specific planets. The user can also add additional planets and find the distance between two planets.
+              </p>
+              <p>
+                Furthermore, I extended this system on a git branch to allow the user to see, switch between, and interact with multiple solar systems.
+              </p>
+            </div>
+          </div>
+      
+          <aside>
+            <a href="https://github.com/Galaxylaughing/solar-system">github</a>
+            <div class="uses">
+              <div>ruby</div>
+              <div>git</div>
+              <div>command-line interface</div>
+              <div>object-oriented design</div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>© 2019 sabrina lowney</p>
+    <aside>
+      <div>(all the wonderful emojis used on this site came from <a href="https://openmoji.org/">OpenMoji</a>)</div>
+    </aside>
+    <!-- anchor call -->
+    <a class="anchor" href="#top"><img src="assets/images/up-arrow-with-tail.svg" alt="up arrow"></a>
+  </footer>
+
+</body>
+
+</html>
