@@ -3,6 +3,10 @@ html {
     border: unset;
 }
 
+.about{
+    height: 165vh;
+  }
+
 h1 {
     border-bottom: #c18c5d 2px solid
 }
