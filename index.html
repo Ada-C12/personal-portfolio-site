@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/index-style.css" rel="stylesheet">
+  <link href="css/portfolio-style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Macaria Dove</title>
+  <script>
+    function myFunction1(panelid, buttonid) {
+      var panels = ["aboutpanel", "portfoliopanel", "blogpanel"]
+      var buttons = ["about", "portfolio", "blog"]
+      var x = document.getElementById(panelid);
+      var y = document.getElementById(buttonid);
+      if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        x.style.outline = "none";
+        y.classList.add('clicked-accordion');
+      } else {
+        x.style.display = "none";
+        y.classList.remove('clicked-accordion');
+      }
+  
+      panels.forEach(function (id) {
+        if (id != panelid) {
+          document.getElementById(id).style.display = "none";
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+  
+      buttons.forEach(function (id) {
+        if (id != buttonid) {
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+    }
+  
+    function myFunction(panelid, buttonid) {
+      var panels = ["hotelpanel", "nimpanel", "ridesharepanel", "grocerystorepanel"]
+      var buttons = ["hotel", "nim", "ride-share", "grocery-store"]
+      var x = document.getElementById(panelid);
+      var y = document.getElementById(buttonid);
+      if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        x.style.outline = "none";
+        y.classList.add('clicked-accordion');
+      } else {
+        x.style.display = "none";
+        y.classList.remove('clicked-accordion');
+      }
+  
+      panels.forEach(function (id) {
+        if (id != panelid) {
+          document.getElementById(id).style.display = "none";
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+  
+      buttons.forEach(function (id) {
+        if (id != buttonid) {
+          document.getElementById(id).classList.remove('clicked-accordion');
+        }
+      })
+    }
+  </script>
+</head>
+
+
+<body>
+  <nav class="nav">
+    <ul class="nav-options">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="hobby-blog.html">Blog</a></li>
+    </ul>
+  </nav>
+  <main class="main-container">
+    <section class="introduction">
+      <h1 id="hello">Hello!</h1>
+      <h1 id="name"> I'm Macaria Dove</h1>
+      <p id="pronoun">{She/Her}</p>
+      <p id="title"> Full-Stack Developer </p>
+
+    </section>
+
+    <section class="accordion-menu">
+      <button class="accordion" id="about" onclick="myFunction1('aboutpanel', 'about')">About & Contact</button>
+      <div class="panel" id="aboutpanel">
+        <iframe class="about" src="about_iframe.html"></iframe>
+      </div>
+
+      <button class="accordion" id="portfolio" onclick="myFunction1('portfoliopanel', 'portfolio')">Portfolio</button>
+      <div class="panel" id="portfoliopanel">
+        <h1>Github Projects</h1>
+        <section class="accordion-menu">
+          <button class="accordion" id="hotel" onclick="myFunction('hotelpanel', 'hotel')">Hotel</button>
+          <section class="panel" id="hotelpanel">
+            <p>In Hotel, I build a booking system for a twenty-room hotel. It was great practice in focusing on
+              object-oriented design.</p>
+            <a href="https://github.com/mdove92/hotel"><img class="github" src="images/hotel.png" alt="Github Icon"></a>
+          </section>
+
+          <button class="accordion" id="nim" onclick="myFunction('nimpanel', 'nim')">Nim</button>
+          <section class="panel" id="nimpanel">
+            <p>Nim is a strategy game in which a player pulls a number of sticks from a heap. Try it for yourself!</p>
+            <a href="https://github.com/mdove92/nim"><img class="github" src="images/nim.png" alt="Github Icon"></a>
+          </section>
+
+          <button class="accordion" id="ride-share" onclick="myFunction('ridesharepanel', 'ride-share')"> Ride
+            Share</button>
+          <section class="panel" id="ridesharepanel">
+            <p>Ride Share is a pair project that Erika Maust and I worked on together. It explores accessing nested data structures in Ruby. </p>
+            <a href="https://github.com/emaust/oo-ride-share"><img class="github" src="images/ride-share.png"
+                alt="Github Icon"></a>
+          </section>
+
+          <button class="accordion" id="grocery-store" onclick="myFunction('grocerystorepanel', 'grocery-store')">
+            Grocery Store</button>
+          <section class="panel" id="grocerystorepanel">
+            <p>Grocery Store keeps track of orders folks make with library code.</p>
+            <a href="https://github.com/mdove92/grocery-store"><img class="github" src="images/grocery-store.png"
+                alt="Github Icon"></a>
+          </section>
+        </section>
+      </div>
+
+      <button class="accordion" id="blog" onclick="myFunction1('blogpanel', 'blog')"> Blog</button>
+      <div class="panel" id="blogpanel">
+        <p>See my Mushroom Diary by clicking below!</p>
+        <a href="hobby-blog.html"><img id="menu-mushroom" src="images/shroom11.jpg" alt="mushroom"></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&#169; 2019 - Macaria Dove</p>
+  </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,119 @@
+.introduction{
+
+}
+.introduction h2 {
+margin-right: 10em;
+}
+
+.accordion {
+    background-color: #e7ad99;
+    color: #495867;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .accordion-menu {
+    border-bottom: solid 2px #c18c5d;
+    border-top: solid 2px #c18c5d;
+  }
+  .active, .accordion:hover {
+    background-color: #ce796b;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: #e7ad99;
+    display: none;
+    overflow: hidden;
+  }  
+  
+  #menu-mushroom {
+    height:200px;
+    width: auto;
+    border: solid #c18c5d 2px;
+  }
+
+  iframe {
+    width: 85vw;
+    height: 46vh;
+  }
+  
+  #about::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 1.5em;
+    bottom: .25em;
+    float: right;
+    font-weight: bold;
+  }
+  
+  #about:hover::after {
+    content: '\003009';
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  
+  #about.clicked-accordion::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 2em;
+    bottom: .25em;
+    float: right;
+    transform: rotate(90deg);
+  }
+  
+  #portfolio::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 1.5em;
+    bottom: .25em;
+    float: right;
+    font-weight: bold;
+  }
+  
+  #portfolio:hover::after {
+    content: '\003009';
+    display: inline-block;
+
+    transform: rotate(90deg);
+  }
+  
+  #portfolio.clicked-accordion::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 2em;
+    bottom: .25em;
+    float: right;
+    transform: rotate(90deg);
+  }
+  
+  #blog::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 1.5em;
+    bottom: .25em;
+    float: right;
+    font-weight: bold;
+  }
+  
+  #blog:hover::after {
+    content: '\003009';
+    transform: rotate(90deg);
+  }
+  
+  #blog.clicked-accordion::after {
+    content: '\003009';
+    right: 1em;
+    position: relative;
+    font-size: 2em;
+    bottom: .25em;
+    float: right;
+    transform: rotate(90deg);
+  }

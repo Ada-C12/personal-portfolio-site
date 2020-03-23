@@ -1,0 +1,31 @@
+html {
+    border-color: #495867;
+    border-width: 1em;
+    border-style: double;
+}
+body {
+    background-color: #ecc8af;
+    color: #495867;
+    text-align: center
+   
+  }
+  li {
+    list-style-type: none;   
+  }
+  .nav {
+      border-bottom: solid 2px #c18c5d
+  }
+  .nav-options {
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    }  
+    .nav-options li a{ 
+        color: #ce796b;
+        text-decoration: none;
+    }
+    .nav-options li a:hover {
+        color: #495867;
+    }
+    
