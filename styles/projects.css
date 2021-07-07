@@ -1,0 +1,67 @@
+.moreaboutprojects-container {
+  display: grid;
+  grid-template-columns: 30% 5% 30%;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* border: 2px solid #431c5d; */
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-evenly;
+}
+
+/* .moreaboutprojects-container > * {
+  border: 2px solid #431c5d;
+} */
+
+.moreaboutprojects-container a {
+  font-weight :bold;
+  font-size: 130%;
+}
+
+p {
+  font-size: 90%;
+  text-align: center;
+}
+
+#code_image img {
+  /* margin-top: 5%; */
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 120%;
+  border: double;
+  border-radius: 20%;
+}
+
+#grocery {
+  margin-right: 5%;
+  margin-top: 10%;
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+#rideshare {
+  margin-top: 5%;
+  margin-right: 5%;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#hotel {
+  margin-right: 5%;
+  margin-top: 5%;
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#slackcli {
+  margin-left: 10%;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#webpage {
+  margin-left: 10%;
+  margin-top: 15%;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}

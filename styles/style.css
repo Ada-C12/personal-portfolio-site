@@ -1,0 +1,117 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  font-size: 120%;
+  text-decoration: line-through;
+}
+
+/* .main-container > *, .details-container > * {
+  border: 2px solid #431c5d;
+} */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.intro p {
+  text-align: center;
+}
+
+.intro a {
+  border: 2px solid grey;
+  border-radius: 10px;
+  color: #363535;
+}
+
+.nav {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background: white;
+  top: 0;
+  z-index: 999;
+  display: block;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+}
+
+h3 {
+  text-align: left;
+  padding-right: 10%;
+}
+
+.intro-section {
+  margin-top: 2%;
+  grid-column-start: 2;
+  grid-row-end: 1;
+  margin-right: 5%;
+}
+
+#image1 img {
+  width: 60%;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  border: double;
+  border-radius: 20%;
+  margin-left: 25%;
+}
+
+.contact-section h2 {
+text-align: left;
+margin-left: 5%;
+}
+
+.contact-section ul {
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: right;
+  list-style: none;
+}
+
+footer {
+  font-size: 50%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
